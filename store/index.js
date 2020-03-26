@@ -1,5 +1,7 @@
-const state = {
-  dummyData: 'The Dummy Data'
+const state = () => {
+  return {
+    dummyData: 'The Dummy Data'
+  }
 }
 
 const getters = {

@@ -1,5 +1,7 @@
-export const state = {
-  sidebar: true
+export const state = () => {
+  return {
+    sidebar: true
+  }
 }
 
 export const getters = {
