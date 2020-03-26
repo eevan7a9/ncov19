@@ -1,11 +1,9 @@
-<template>
-  <div class="d-flex flex-column vh-100">
-    <TopNavbar />
-    <div class="content-wrapper flex-grow-1 bg-success">
-      <LeftSidebar class="left-sidebar m-0 p-0" />
-      <nuxt class="main-view" />
-    </div>
-  </div>
+<template lang="pug">
+  div(class="d-flex flex-column vh-100")
+    TopNavbar
+    div(class="content-wrapper flex-grow-1 bg-success")
+      LeftSidebar(class="left-sidebar m-0 p-0")
+      nuxt.main-view
 </template>
 
 <script>
@@ -45,6 +43,6 @@ body {
 }
 .content-wrapper {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: auto 1fr;
 }
 </style>

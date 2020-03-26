@@ -1,9 +1,9 @@
-<template>
-  <div class="bg-dark text-light">
-    <h1 class="m-0">Hello World</h1>
-    <p>{{ leftSidebar }}</p>
-    <button @click="toggleLeftSidebar">toggle Navbar</button>
-  </div>
+<template lang="pug">
+  div( class="left-sidebar-wrapepr bg-dark text-light" v-bind:class="leftSidebar ? 'show' : ''")
+    h1.m-0 Hello World
+    p {{leftSidebar}}
+    button( @click="toggleLeftSidebar") toggle Navbar
+
 </template>
 
 <script>
@@ -16,4 +16,12 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.left-sidebar-wrapepr {
+  width: 50px;
+  &.show {
+    width: 300px;
+    transition: 0.4s;
+  }
+}
+</style>
