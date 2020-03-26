@@ -2,7 +2,7 @@
   div( class="left-sidebar-wrapepr  bg-dark text-light d-flex flex-column h-100"
   v-bind:class="leftSidebar ? 'show' : ''")
     div.d-flex.justify-content-end.align-items-center.text-light
-      h6.m-0
+      h6#toggleSidebar.m-0
         BIconArrowBarLeft(class="m-2 mr-3 font-weight-bold" font-scale="2"
           @click="toggleLeftSidebar"
           v-if="leftSidebar"
@@ -13,7 +13,7 @@
         )
     div.topnav-left-sidebar.bg-danger.m-0(v-show="leftSidebar")
       h5.text-capitalize.text-center.py-3 Countries
-    div#content-left-sidebar.py-2.pl-2
+    div#content-left-sidebar.py-2.pl-2(v-show="leftSidebar")
       CountriesList
 </template>
 
@@ -41,6 +41,12 @@ export default {
   transition: ease-in-out 0.3s;
   &.show {
     width: 300px;
+  }
+  #toggleSidebar {
+    cursor: pointer;
+    &:hover {
+      background: #222;
+    }
   }
 }
 #content-left-sidebar {
