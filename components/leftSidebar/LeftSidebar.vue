@@ -1,5 +1,6 @@
 <template lang="pug">
-  div( class="left-sidebar-wrapepr bg-dark text-light" v-bind:class="leftSidebar ? 'show' : ''")
+  div( class="left-sidebar-wrapepr  bg-dark text-light d-flex flex-column h-100"
+  v-bind:class="leftSidebar ? 'show' : ''")
     div.d-flex.justify-content-end.align-items-center.text-light
       h6.m-0
         BIconArrowBarLeft(class="m-2 mr-3 font-weight-bold" font-scale="2"
@@ -11,18 +12,21 @@
           v-if="!leftSidebar"
         )
     div.topnav-left-sidebar.bg-danger.m-0(v-show="leftSidebar")
-      h5 header
-
+      h5.text-capitalize.text-center.py-3 Countries
+    div#content-left-sidebar.py-2.pl-2
+      CountriesList
 </template>
 
 <script>
 import { BIcon, BIconArrowBarLeft, BIconBoxArrowInRight } from 'bootstrap-vue'
 import { mapGetters, mapActions } from 'vuex'
+import CountriesList from '@/components/countries/CountriesList'
 export default {
   components: {
     BIcon,
     BIconArrowBarLeft,
-    BIconBoxArrowInRight
+    BIconBoxArrowInRight,
+    CountriesList
   },
   computed: mapGetters('leftSidebar', ['leftSidebar']),
   methods: {
@@ -38,5 +42,12 @@ export default {
   &.show {
     width: 300px;
   }
+}
+#content-left-sidebar {
+  position: relative;
+  height: 0;
+  flex-grow: 1;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 </style>
