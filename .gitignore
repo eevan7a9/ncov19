@@ -88,3 +88,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Assets/ dummy-data
+assets/dummy-data.json
