@@ -1,5 +1,5 @@
 <template lang="pug">
-  div.pr-1
+  div.pr-1.sticky-top
     input#searchCountry.w-100(
       type="text" v-model.trim="country" @keyup="filtering" placeholder="search..."
       )
