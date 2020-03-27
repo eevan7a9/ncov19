@@ -13,7 +13,7 @@
         )
     div.topnav-left-sidebar.bg-danger.m-0(v-show="leftSidebar")
       h5.text-capitalize.text-center.py-3 Countries
-    div#content-left-sidebar.py-2.pl-2(v-show="leftSidebar")
+    div#content-left-sidebar.py-2.pl-2(v-show="leftSidebar" v-dragscroll)
       CountriesList
 </template>
 
