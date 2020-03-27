@@ -1,6 +1,8 @@
 <template lang="pug">
-  div#countryItem
-    label.w-100.p-2.m-0 {{country.Country}}
+  div#countryItem(@click="countryCase(country.Slug)")
+    label.w-100.p-2.m-0(
+      :class="{'bg-danger font-weight-bold' : country.Slug == $route.params.country}").
+      {{country.Country}}
 </template>
 
 <script>
@@ -15,6 +17,11 @@ export default {
           Country: ''
         }
       }
+    }
+  },
+  methods: {
+    countryCase(country) {
+      this.$router.push({ name: 'Cases-country', params: { country } })
     }
   }
 }
