@@ -1,20 +1,21 @@
 const state = () => {
   return {
-    dummyData: 'The Dummy Data'
+    summaryCases: []
   }
 }
 
 const getters = {
-  myDummyData: (state) => state.dummyData
+  getSummaryCases: (state) => state.summaryCases
 }
 
 const actions = {
-  changeDummyData: ({ commit }, data) => {
-    commit('setDummyData', data)
+  fetchSummaryCases: ({ commit }, data) => {
+    commit('SET_SUMMARY_CASES', data.Countries)
+    return data
   }
 }
 const mutations = {
-  setDummyData: (state, data) => (state.dummyData = data)
+  SET_SUMMARY_CASES: (state, data) => (state.summaryCases = data)
 }
 
 export default {
