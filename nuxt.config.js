@@ -27,7 +27,10 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ src: '@/plugins/vue-dragscroll.js', ssr: false }],
+  plugins: [
+    { src: '@/plugins/vue-dragscroll.js', ssr: false },
+    { src: '~plugins/leaflet.js', ssr: false }
+  ],
   /*
    ** Nuxt.js dev-modules
    */
