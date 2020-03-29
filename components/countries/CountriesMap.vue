@@ -23,7 +23,6 @@
 </template>
 
 <script>
-import countriesData from 'assets/dummy-data.json'
 import { mapGetters, mapActions } from 'vuex'
 export default {
   name: 'CountriesMap',
@@ -31,7 +30,7 @@ export default {
     return {
       map: {
         zoom: 4,
-        center: [55.9464418, 8.1277591]
+        center: [39, 35]
       },
       tile: {
         url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
@@ -48,7 +47,7 @@ export default {
   },
   computed: mapGetters('countries', ['getCountriesCases']),
   mounted() {
-    this.getCountriesInfo(countriesData.Countries)
+    this.getCountriesInfo()
   },
   created() {},
   methods: {
