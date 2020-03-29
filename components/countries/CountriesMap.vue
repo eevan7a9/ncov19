@@ -9,7 +9,15 @@
           :lat-lng="marker.latLang"  :color="circle.color"
           :fillColor="circle.fillColor" :fillOpacity="circle.fillOpacity"
           :radius="marker.radius"
+           @add="$nextTick(()=> checkCountryIsTopFive($event.target, marker))"
         )
+          l-popup(:options="{closeOnClick: false,autoClose: false}")
+            p.m-0.p-0 Total Confirmed :
+              strong.text-primary {{marker.TotalConfirmed}}
+            p.m-0.p-0 Total Deaths :
+              strong.text-danger {{marker.TotalDeaths}}
+            p.m-0.p-0 Total Recovered :
+              strong.text-success {{marker.TotalRecovered}}
 </template>
 
 <script>
@@ -32,7 +40,7 @@ export default {
         radius: 5,
         color: 'red',
         fillColor: '#f03',
-        fillOpacity: 0.5
+        fillOpacity: 0.3
       }
     }
   },
@@ -43,7 +51,14 @@ export default {
   created() {},
   methods: {
     ...mapActions('countries', ['getCountriesInfo']),
-    getCircleMarkers() {}
+    checkCountryIsTopFive(target, marker) {
+      const inTopFive = this.getCountriesCases
+        .slice(0, 4)
+        .some((top) => top.Country === marker.Country)
+      if (inTopFive) {
+        target.openPopup()
+      }
+    }
   }
 }
 </script>
