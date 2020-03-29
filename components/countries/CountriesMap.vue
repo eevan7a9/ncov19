@@ -4,14 +4,16 @@
       l-map(:zoom="map.zoom" :center="map.center")
         l-tile-layer(:url="tile.url" :attribution="tile.attribution")
         //- l-marker(v-for="(marker, index) in getCountriesCases" :key="index" :lat-lng="marker.latLang")
-        l-circle-marker(
+        l-circle(
           v-for="(marker, index) in getCountriesCases" :key="index"
           :lat-lng="marker.latLang"  :color="circle.color"
           :fillColor="circle.fillColor" :fillOpacity="circle.fillOpacity"
-          :radius="marker.radius"
+          :radius="marker.radius * 2"
            @add="$nextTick(()=> checkCountryIsTopFive($event.target, marker))"
         )
           l-popup(:options="{closeOnClick: false,autoClose: false}")
+            p.m-0.p-0.text-center.text-uppercase
+              strong {{marker.Country}}
             p.m-0.p-0 Total Confirmed :
               strong.text-primary {{marker.TotalConfirmed}}
             p.m-0.p-0 Total Deaths :

@@ -35,23 +35,23 @@ export const actions = {
           country.latLang = foundCountry.latlng
           // we set radius to help visualize
           if (country.TotalConfirmed > 100000) {
-            country.radius = 75
+            country.radius = 400000
           } else if (country.TotalConfirmed > 80000) {
-            country.radius = 60
+            country.radius = 300000
           } else if (country.TotalConfirmed > 50000) {
-            country.radius = 50
+            country.radius = 200000
           } else if (country.TotalConfirmed > 25000) {
-            country.radius = 40
+            country.radius = 100000
           } else if (country.TotalConfirmed > 10000) {
-            country.radius = 30
+            country.radius = 80000
           } else if (country.TotalConfirmed > 5000) {
-            country.radius = 20
+            country.radius = 60000
           } else if (country.TotalConfirmed > 1000) {
-            country.radius = 10
+            country.radius = 35000
           } else if (country.TotalConfirmed > 500) {
-            country.radius = 5
+            country.radius = 20000
           } else {
-            country.radius = 2
+            country.radius = 10000
           }
           return country
         }
