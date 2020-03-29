@@ -1,7 +1,7 @@
 <template lang="pug">
   div(class="d-flex flex-column vh-100")
     TopNavbar
-    div(class="content-wrapper flex-grow-1 bg-success")
+    div(class="content-wrapper flex-grow-1")
       LeftSidebar(class="left-sidebar m-0 p-0")
       nuxt.main-view
 </template>

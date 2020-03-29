@@ -7,13 +7,17 @@
         h1 Col -2
       div.col-4.bg-primary
         h1 Col -3
-    div.bg-warning.flex-grow-1
-      h1 main cont
+    div.flex-grow-1
+      CountriesMap
 </template>
 
 <script>
+import CountriesMap from '@/components/countries/CountriesMap'
 export default {
-  layout: 'dashboard'
+  layout: 'dashboard',
+  components: {
+    CountriesMap
+  }
 }
 </script>
 
