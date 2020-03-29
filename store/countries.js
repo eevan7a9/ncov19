@@ -22,7 +22,7 @@ export const actions = {
         country.Country.toLowerCase().includes(word.toLowerCase())
       )
     }
-    commit('setCountries', countries)
+    commit('SET_COUNTRIES', countries)
   },
   getCountriesInfo: ({ commit }, countriesCases) => {
     let countries = countriesCases.map((country) => {
@@ -61,11 +61,11 @@ export const actions = {
       .sort((a, b) => b.TotalConfirmed - a.TotalConfirmed)
       .filter((country) => country !== undefined)
     // console.log(countries)
-    commit('setCasesSummary', countries)
+    commit('SET_COUNTRIES_CASES', countries)
   }
 }
 
 export const mutations = {
-  setCountries: (state, countries) => (state.countriesList = countries),
-  setCasesSummary: (state, countries) => (state.countriesCases = countries)
+  SET_COUNTRIES: (state, countries) => (state.countriesList = countries),
+  SET_COUNTRIES_CASES: (state, countries) => (state.countriesCases = countries)
 }

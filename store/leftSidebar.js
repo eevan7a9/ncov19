@@ -9,9 +9,9 @@ export const getters = {
 }
 
 export const actions = {
-  toggleLeftSidebar: ({ commit }) => commit('setLeftSidebar')
+  toggleLeftSidebar: ({ commit }) => commit('SET_LEFT_SIDEBAR')
 }
 
 export const mutations = {
-  setLeftSidebar: (state) => (state.sidebar = !state.sidebar)
+  SET_LEFT_SIDEBAR: (state) => (state.sidebar = !state.sidebar)
 }
