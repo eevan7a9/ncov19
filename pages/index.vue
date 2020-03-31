@@ -3,8 +3,8 @@
     div#topPanels.row.m-0.bg-dark
       div.all-cases.col-4.p-0.h-100
         AllCases
-      div.col-4.bg-info
-        h1 Col -2
+      div.top-cases.col-4.p-0.h-100
+        TopCases
       div.col-4.bg-success
         h1 Col -3
     button.slider-button.btn.btn-dark.d-flex.justify-content-center.align-items-center
@@ -20,13 +20,15 @@ import { BIcon, BIconTriangleFill } from 'bootstrap-vue'
 import countriesData from 'assets/dummy-data.json' // for local development
 import CountriesMap from '@/components/countries/CountriesMap'
 import AllCases from '@/components/summary/AllCases'
+import TopCases from '@/components/summary/TopCases'
 export default {
   layout: 'dashboard',
   components: {
     BIcon,
     BIconTriangleFill,
     CountriesMap,
-    AllCases
+    AllCases,
+    TopCases
   },
   data() {
     return {
