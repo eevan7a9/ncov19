@@ -1,16 +1,16 @@
 <template lang="pug">
   div#allCases.d-flex.justify-content-center.align-items-center
     div.chart-container.img-fluid(v-if="data")
-      AllDoughnut.all-doughnut(:chart-data="data" :options="options")
+      DoughnutChart.all-doughnut(:chart-data="data" :options="options")
 </template>
 
 <script>
 import { mapGetters } from 'vuex'
-import AllDoughnut from '@/components/charts/AllDoughnut'
+import DoughnutChart from '@/components/charts/DoughnutChart'
 export default {
   name: 'AllCases',
   components: {
-    AllDoughnut
+    DoughnutChart
   },
   data() {
     return {
