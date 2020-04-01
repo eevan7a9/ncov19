@@ -2,7 +2,9 @@
   <div>
     <b-navbar toggleable="lg" type="dark" variant="danger">
       <div class="container">
-        <b-navbar-brand href="#">Ncov19</b-navbar-brand>
+        <b-navbar-brand href="/" class="font-weight-bold"
+          >Ncov19</b-navbar-brand
+        >
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
