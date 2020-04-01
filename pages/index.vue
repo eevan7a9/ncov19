@@ -17,9 +17,8 @@
 </template>
 
 <script>
-import { mapActions, mapGetters } from 'vuex'
+import { mapActions } from 'vuex'
 import { BIcon, BIconTriangleFill } from 'bootstrap-vue'
-import countriesData from 'assets/dummy-data.json' // for local development
 import CountriesMap from '@/components/countries/CountriesMap'
 import AllCases from '@/components/summary/AllCases'
 import TopCases from '@/components/summary/TopCases'
@@ -41,9 +40,8 @@ export default {
       showTopPanel: true
     }
   },
-  computed: mapGetters(['getSummaryCases']),
-  async created() {
-    await this.fetchSummaryCases(countriesData)
+  async mounted() {
+    this.casesSummary = await this.fetchSummaryCases()
     this.initDom = true
   },
   methods: {

@@ -9,9 +9,10 @@ const getters = {
 }
 
 const actions = {
-  fetchSummaryCases: ({ commit }, data) => {
-    commit('SET_SUMMARY_CASES', data.Countries)
-    return data
+  async fetchSummaryCases({ commit }) {
+    const result = await this.$axios.get('https://api.covid19api.com/summary')
+    commit('SET_SUMMARY_CASES', result.data.Countries)
+    return result.data.Countries
   }
 }
 const mutations = {
