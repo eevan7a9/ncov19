@@ -30,7 +30,7 @@ export default {
     return {
       map: {
         zoom: 4,
-        center: [39, 35]
+        center: [47.31322, -1.319482]
       },
       tile: {
         url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
@@ -48,6 +48,9 @@ export default {
   computed: mapGetters('countries', ['getCountriesCases']),
   mounted() {
     this.getCountriesInfo()
+    this.$nextTick(() => {
+      this.map.center = [47.31322, -1.319482]
+    })
   },
   created() {},
   methods: {
