@@ -5,8 +5,8 @@
         AllCases
       div.top-cases.col-4.p-0.h-100
         TopCases
-      div.col-4.bg-success
-        h1 Col -3
+      div.global-numbers.col-4.p-0.h-100
+        GlobalNumbers
     button.slider-button.btn.btn-dark.d-flex.justify-content-center.align-items-center
       small
          BIconTriangleFill
@@ -21,6 +21,7 @@ import countriesData from 'assets/dummy-data.json' // for local development
 import CountriesMap from '@/components/countries/CountriesMap'
 import AllCases from '@/components/summary/AllCases'
 import TopCases from '@/components/summary/TopCases'
+import GlobalNumbers from '@/components/summary/GlobalNumbers'
 export default {
   layout: 'dashboard',
   components: {
@@ -28,7 +29,8 @@ export default {
     BIconTriangleFill,
     CountriesMap,
     AllCases,
-    TopCases
+    TopCases,
+    GlobalNumbers
   },
   data() {
     return {
