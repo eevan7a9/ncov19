@@ -18,7 +18,13 @@ export default {
       options: {
         responsive: true,
         maintainAspectRatio: false,
+        title: {
+          display: true,
+          text: '',
+          fontColor: 'aliceblue'
+        },
         legend: {
+          position: 'top',
           labels: {
             fontColor: 'aliceblue',
             fontSize: 10
@@ -27,19 +33,24 @@ export default {
       }
     }
   },
-  computed: mapGetters(['getSummaryCases']),
+  computed: mapGetters(['getSummaryCases', 'getTotalNumbers']),
   mounted() {
-    this.fillData()
+    this.fillData({
+      active: this.getTotalNumbers.active,
+      death: this.getTotalNumbers.death,
+      treated: this.getTotalNumbers.treated
+    })
+    this.options.title.text = `Total Number of confirmed cases: ${this.getTotalNumbers.cases}`
   },
   methods: {
-    fillData() {
+    fillData({ active, death, treated }) {
       this.data = {
-        labels: ['Died', 'Cases', 'Treated'],
+        labels: ['Active', 'Death', 'Treated'],
         datasets: [
           {
             label: 'Data One',
-            backgroundColor: ['#dc3545', '#17a2b8', '#28a745'],
-            data: [5982, 92472, 12285]
+            backgroundColor: ['#ffc107', '#dc3545', '#28a745'],
+            data: [active, death, treated]
           }
         ]
       }
