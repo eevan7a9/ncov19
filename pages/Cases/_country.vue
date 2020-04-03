@@ -11,17 +11,19 @@
       small
          BIconTriangleFill(:flip-v="!showTopPanel")
     div.flex-grow-1
-      h1   {{country}}
+      CountryTimeline
 
 </template>
 
 <script>
 import { BIcon, BIconTriangleFill } from 'bootstrap-vue'
+import CountryTimeline from '@/components/countries/CountryTimeline'
 export default {
   layout: 'dashboard',
   components: {
     BIcon,
-    BIconTriangleFill
+    BIconTriangleFill,
+    CountryTimeline
   },
   data() {
     return {
