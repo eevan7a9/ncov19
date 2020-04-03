@@ -21,6 +21,13 @@ export const actions = {
       countries = countries.filter((country) =>
         country.Country.toLowerCase().includes(word.toLowerCase())
       )
+      // we remove duplicates
+      countries = countries.filter(
+        (thing, index, self) =>
+          self.findIndex(
+            (t) => t.Country === thing.Country && t.Slug === thing.Slug
+          ) === index
+      )
     }
     commit('SET_COUNTRIES', countries)
   },
