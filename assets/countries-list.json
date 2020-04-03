@@ -2,6 +2,33 @@
   "countries": [
     { "Country": "", "Slug": "", "Provinces": [""] },
     {
+      "Country": "US",
+      "Slug": "us",
+      "Provinces": []
+    },
+    {
+      "Country": "Philippines",
+      "Slug": "philippines",
+      "Provinces": [""]
+    },
+    {
+      "Country": "China",
+      "Slug": "china",
+      "Provinces": []
+    },
+    {
+      "Country": "United Kingdom",
+      "Slug": "united-kingdom",
+      "Provinces": []
+    },
+    { "Country": "Italy", "Slug": "italy", "Provinces": [""] },
+    { "Country": "Spain", "Slug": "spain", "Provinces": [""] },
+    {
+      "Country": "France",
+      "Slug": "france",
+      "Provinces": []
+    },
+    {
       "Country": " Azerbaijan",
       "Slug": "-azerbaijan",
       "Provinces": [""]
