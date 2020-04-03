@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex'
+import { mapActions, mapMutations } from 'vuex'
 import { BIcon, BIconTriangleFill } from 'bootstrap-vue'
 import CountriesMap from '@/components/countries/CountriesMap'
 import AllCases from '@/components/summary/AllCases'
@@ -35,17 +35,43 @@ export default {
   },
   data() {
     return {
-      casesSummary: [],
       initDom: false,
       showTopPanel: true
     }
   },
-  async mounted() {
-    this.casesSummary = await this.fetchSummaryCases()
-    this.initDom = true
+  mounted() {
+    const storedData = JSON.parse(localStorage.getItem('covid19'))
+    if (storedData) {
+      const storedSeconds =
+        (new Date().getTime() - storedData.StoredTime) / 1000
+      if (storedSeconds > 3600) {
+        // console.log('fetch fresh')
+        // every 1hr we fetch new data
+        this.getApiData()
+      } else {
+        // console.log('fetch stored')
+        this.SET_SUMMARY_CASES(storedData.Countries)
+        this.initDom = true
+      }
+    } else {
+      this.getApiData()
+    }
   },
   methods: {
-    ...mapActions(['fetchSummaryCases'])
+    ...mapActions(['fetchSummaryCases']),
+    ...mapMutations(['SET_SUMMARY_CASES']),
+    async getApiData() {
+      const countries = await this.fetchSummaryCases()
+      this.initDom = true
+      // we set to localstorage
+      localStorage.setItem(
+        'covid19',
+        JSON.stringify({
+          Countries: countries,
+          StoredTime: new Date().getTime()
+        })
+      )
+    }
   }
 }
 </script>
