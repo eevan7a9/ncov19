@@ -46,18 +46,36 @@ export default {
   },
   computed: mapGetters(['getSummaryCases']),
   mounted() {
-    this.fillData()
+    const countries = this.getSummaryCases
+      .map((country) => {
+        if (country.Country) {
+          return {
+            Country: country.Country,
+            TotalConfirmed: country.TotalConfirmed
+          }
+        }
+      })
+      .sort((a, b) => b.TotalConfirmed - a.TotalConfirmed)
+    this.fillData(countries.slice(0, 3))
   },
   methods: {
-    fillData() {
+    fillData(countries = []) {
       this.data = {
-        labels: ['January', 'February', 'march'],
+        labels: [
+          countries[0].Country,
+          countries[1].Country,
+          countries[2].Country
+        ],
         fontColor: 'red',
         datasets: [
           {
             label: 'Top Cases',
             backgroundColor: ['#a50212', '#ff5503', '#ef9a00'],
-            data: [40, 30, 20]
+            data: [
+              countries[0].TotalConfirmed,
+              countries[1].TotalConfirmed,
+              countries[2].TotalConfirmed
+            ]
           }
         ]
       }
