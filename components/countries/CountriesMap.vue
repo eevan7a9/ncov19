@@ -47,14 +47,14 @@ export default {
   },
   computed: mapGetters('countries', ['getCountriesCases']),
   mounted() {
-    this.getCountriesInfo()
+    this.setCountriesInfo()
     this.$nextTick(() => {
       this.map.center = [47.31322, -1.319482]
     })
   },
   created() {},
   methods: {
-    ...mapActions('countries', ['getCountriesInfo']),
+    ...mapActions('countries', ['setCountriesInfo']),
     checkCountryIsTopFive(target, marker) {
       const inTopFive = this.getCountriesCases
         .slice(0, 4)

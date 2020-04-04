@@ -31,7 +31,7 @@ export const actions = {
     }
     commit('SET_COUNTRIES', countries)
   },
-  getCountriesInfo: ({ commit, rootState }) => {
+  setCountriesInfo: ({ commit, rootState }) => {
     if (rootState.summaryCases) {
       let countries = rootState.summaryCases.map((country) => {
         const countryName = country.Country.trim().toLowerCase()
