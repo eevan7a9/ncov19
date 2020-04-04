@@ -11,7 +11,7 @@
       small
          BIconTriangleFill(:flip-v="!showTopPanel")
     div.flex-grow-1
-      CountryTimeline
+      CountryTimeline(:country="country")
 
 </template>
 
