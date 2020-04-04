@@ -4,13 +4,15 @@ import countriesInfo from '@/assets/countries-info.json' // lat-long, country-co
 export const state = () => {
   return {
     countriesList: JSON.parse(JSON.stringify(countriesList.countries)),
-    countriesCases: []
+    countriesCases: [], // case summary of all countries
+    countryDetailedCases: [] // country with detailed cases
   }
 }
 
 export const getters = {
   countries: (state) => state.countriesList,
-  getCountriesCases: (state) => state.countriesCases
+  getCountriesCases: (state) => state.countriesCases,
+  getCountryDetailedCases: (state) => state.countryDetailedCases
 }
 
 export const actions = {
@@ -69,10 +71,23 @@ export const actions = {
       // console.log(countries)
       commit('SET_COUNTRIES_CASES', countries)
     }
+  },
+  async fetchCountryDetailedCases({ commit }, { countrySlug, status }) {
+    try {
+      const result = await this.$axios.get(
+        `https://api.covid19api.com/total/dayone/country/${countrySlug}/status/${status}`
+      )
+      commit('SET_COUNTRY_DETAILS', result.data)
+      return result.data
+    } catch (error) {
+      alert(error)
+    }
   }
 }
 
 export const mutations = {
   SET_COUNTRIES: (state, countries) => (state.countriesList = countries),
-  SET_COUNTRIES_CASES: (state, countries) => (state.countriesCases = countries)
+  SET_COUNTRIES_CASES: (state, countries) => (state.countriesCases = countries),
+  SET_COUNTRY_DETAILS: (state, country) =>
+    (state.countryDetailedCases = country)
 }
