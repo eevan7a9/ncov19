@@ -36,12 +36,13 @@ export const actions = {
   setCountriesInfo: ({ commit, rootState }) => {
     if (rootState.summaryCases) {
       let countries = rootState.summaryCases.map((country) => {
-        const countryName = country.Country.trim().toLowerCase()
-        if (countryName) {
+        if (country.Country) {
+          // we try to find the country in countriesInfo
           const foundCountry = countriesInfo.countries.find(
-            (data) => data.name.trim().toLowerCase() === countryName
+            (data) => data.country_code === country.CountryCode
           )
           if (foundCountry) {
+            // if country if found assign the country latLang
             country.latLang = foundCountry.latlng
             // we set radius to help visualize
             if (country.TotalConfirmed > 100000) {
