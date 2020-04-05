@@ -35,7 +35,7 @@ export default {
     }
   },
   mounted() {
-    const storedCases = JSON.parse(localStorage.getItem('DetailedCases'))
+    const storedCases = JSON.parse(localStorage.getItem(`${this.country}`))
 
     if (storedCases) {
       const storedSeconds =
@@ -68,7 +68,7 @@ export default {
       const cases = await this.fetchCountryDetailedCases(this.country)
       // we store the data to localstorage
       localStorage.setItem(
-        'DetailedCases',
+        `${this.country}`,
         JSON.stringify({
           // cases of the country
           Cases: cases,
