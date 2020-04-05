@@ -3,7 +3,9 @@ import countriesInfo from '@/assets/countries-info.json' // lat-long, country-co
 
 export const state = () => {
   return {
-    countriesList: JSON.parse(JSON.stringify(countriesList.countries)),
+    countriesList: JSON.parse(
+      JSON.stringify(countriesList.countries)
+    ).sort((a, b) => a.Country.localeCompare(b.Country)),
     countriesCases: [], // case summary of all countries
     countryDetailedCases: [] // country with detailed cases
   }
@@ -17,7 +19,10 @@ export const getters = {
 
 export const actions = {
   filterCountries: ({ commit }, word) => {
-    let countries = JSON.parse(JSON.stringify(countriesList.countries))
+    // sort alphabeticaly
+    let countries = JSON.parse(
+      JSON.stringify(countriesList.countries)
+    ).sort((a, b) => a.Country.localeCompare(b.Country))
 
     if (word) {
       countries = countries.filter((country) =>
