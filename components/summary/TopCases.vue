@@ -36,7 +36,10 @@ export default {
             {
               ticks: {
                 fontColor: 'aliceblue',
-                fontSize: 14
+                fontSize: 14,
+                callback: (value) => {
+                  return value.substr(0, 10)
+                }
               }
             }
           ]
