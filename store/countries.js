@@ -72,13 +72,13 @@ export const actions = {
       commit('SET_COUNTRIES_CASES', countries)
     }
   },
-  async fetchCountryDetailedCases({ commit }, { countrySlug, status }) {
+  async fetchCountryDetailedCases({ commit }, countrySlug) {
     try {
-      const result = await this.$axios.get(
-        `https://api.covid19api.com/total/dayone/country/${countrySlug}/status/${status}`
+      const cases = await this.$axios.get(
+        `https://api.covid19api.com/total/dayone/country/${countrySlug}/status/deaths`
       )
-      commit('SET_COUNTRY_DETAILS', result.data)
-      return result.data
+      commit('SET_COUNTRY_DETAILS', cases.data)
+      return cases.data
     } catch (error) {
       alert(error)
     }
