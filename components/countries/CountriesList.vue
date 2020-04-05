@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import countriesList from '@/assets/countries-list.json'
+import { mapGetters } from 'vuex'
 import CountriesSearch from '@/components/countries/CountriesSearch'
 import CountryItem from '@/components/countries/CountryItem'
 
@@ -16,16 +16,8 @@ export default {
     CountriesSearch,
     CountryItem
   },
-  data() {
-    return {
-      countries: []
-    }
-  },
-
-  created() {
-    this.countries = countriesList.countries.sort((a, b) =>
-      a.Country.localeCompare(b.Country)
-    )
+  computed: {
+    ...mapGetters('countries', ['countries'])
   }
 }
 </script>
