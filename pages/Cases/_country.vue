@@ -11,7 +11,10 @@
       small
          BIconTriangleFill(:flip-v="!showTopPanel")
     div.flex-grow-1
-      CountryTimeline
+      div.d-flex.justify-content-center.align-items-center.h-100
+        b-spinner(style="width: 3rem; height: 3rem;" variant="danger" v-show="fetchingData")
+
+      CountryTimeline(v-show="!fetchingData")
 
 </template>
 
@@ -28,6 +31,7 @@ export default {
   },
   data() {
     return {
+      fetchingData: false,
       initDom: true,
       showTopPanel: true,
       country: this.$route.params.country
@@ -64,18 +68,24 @@ export default {
     ...mapMutations('countries', ['SET_COUNTRY_DETAILS']),
 
     async getDetailedCases() {
-      const cases = await this.fetchCountryDetailedCases(this.country)
-      // we store the data to localstorage
-      localStorage.setItem(
-        `${this.country}`,
-        JSON.stringify({
-          // cases of the country
-          Cases: cases,
-          Slug: this.country,
-          // holds time item was stored
-          StoredTime: new Date().getTime()
-        })
-      )
+      try {
+        this.fetchingData = true
+        // console.log('fetching...')
+        const cases = await this.fetchCountryDetailedCases(this.country)
+        // console.log('done...')
+        this.fetchingData = false
+        // we store the data to localstorage
+        localStorage.setItem(
+          `${this.country}`,
+          JSON.stringify({
+            // cases of the country
+            Cases: cases,
+            Slug: this.country,
+            // holds time item was stored
+            StoredTime: new Date().getTime()
+          })
+        )
+      } catch (error) {}
     }
   }
 }
