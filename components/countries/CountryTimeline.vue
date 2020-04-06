@@ -1,7 +1,6 @@
 <template lang="pug">
   div#countryTimeline.h-100
-    //- p {{getCountryDetailedCases}}
-    div.chart-container(v-if="datacollection")
+    div.chart-container
       LineChart.country-timeline(:chart-data="datacollection" :options="options")
 </template>
 
@@ -15,7 +14,7 @@ export default {
   },
   data() {
     return {
-      datacollection: null,
+      datacollection: {},
       options: {
         responsive: true,
         maintainAspectRatio: false,
@@ -31,42 +30,31 @@ export default {
   computed: {
     ...mapGetters('countries', ['getCountryDetailedCases'])
   },
-  mounted() {
-    this.$nextTick(() => {
+  watch: {
+    getCountryDetailedCases(newValue, oldValue) {
+      this.fillData()
+    }
+  },
+  methods: {
+    fillData() {
       const data = {
-        labels: [],
+        dates: [],
         confirmed: [],
         deaths: [],
         recovered: []
       }
       this.getCountryDetailedCases.forEach(function(cases) {
         const date = new Date(cases.time)
-        data.labels.unshift(
+        data.dates.unshift(
           `${date
             .getFullYear()
             .toString()
             .substr(-2)}-${date.getMonth()}-${date.getDate()}`
         )
-
         data.confirmed.unshift(cases.cases.total)
         data.deaths.unshift(cases.deaths.total)
         data.recovered.unshift(cases.cases.recovered)
       })
-      this.fillData({
-        dates: data.labels,
-        confirmed: data.confirmed,
-        deaths: data.deaths,
-        recovered: data.recovered
-      })
-      // this.fillData({
-      //   dates: [],
-      //   confirmed: [],
-      //   deaths: []
-      // })
-    })
-  },
-  methods: {
-    fillData({ dates, confirmed, deaths, recovered }) {
       this.datacollection = {
         datasets: [
           {
@@ -74,25 +62,25 @@ export default {
             backgroundColor: '',
             borderColor: '#3f7bff',
             fill: false,
-            data: confirmed
+            data: data.confirmed
           },
           {
             label: 'Deaths',
             backgroundColor: '',
             borderColor: '#dc3545',
             fill: false,
-            data: deaths
+            data: data.deaths
           },
           {
             label: 'Recovered',
             backgroundColor: '',
             borderColor: '#28a745',
             fill: false,
-            data: recovered
+            data: data.recovered
           }
         ],
         // These labels appear in the legend and in the tooltips when hovering different arcs
-        labels: dates
+        labels: data.dates
       }
     }
   }
