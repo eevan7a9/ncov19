@@ -45,15 +45,17 @@ export default {
       }
       this.getCountryDetailedCases.forEach(function(cases) {
         const date = new Date(cases.time)
-        data.dates.unshift(
-          `${date
-            .getFullYear()
-            .toString()
-            .substr(-2)}-${date.getMonth()}-${date.getDate()}`
-        )
-        data.confirmed.unshift(cases.cases.total)
-        data.deaths.unshift(cases.deaths.total)
-        data.recovered.unshift(cases.cases.recovered)
+        const ymd = `${date
+          .getFullYear()
+          .toString()
+          .substr(-2)}-${date.getMonth() + 1}-${date.getDate()}`
+        const alreadyExists = data.dates.find((d) => d === ymd)
+        if (!alreadyExists) {
+          data.dates.unshift(ymd)
+          data.confirmed.unshift(cases.cases.total)
+          data.deaths.unshift(cases.deaths.total)
+          data.recovered.unshift(cases.cases.recovered)
+        }
       })
       this.datacollection = {
         datasets: [
