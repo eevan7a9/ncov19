@@ -1,5 +1,6 @@
 import countriesAffected from '@/assets/countries-affected.json'
 import countriesInfo from '@/assets/countries-info.json' // lat-long, country-code etc.
+import rapidApi from '@/assets/rapidapi.js'
 
 export const state = () => {
   return {
@@ -75,13 +76,19 @@ export const actions = {
       commit('SET_COUNTRIES_CASES', countries)
     }
   },
-  async fetchCountryDetailedCases({ commit }, countrySlug) {
+  async fetchCountryDetailedCases({ commit }, country) {
     try {
       const cases = await this.$axios.get(
-        `https://api.covid19api.com/total/dayone/country/${countrySlug}/status/deaths`
+        `https://covid-193.p.rapidapi.com/history?country=${country}`,
+        {
+          headers: {
+            'x-rapidapi-host': rapidApi.host,
+            'x-rapidapi-key': rapidApi.key
+          }
+        }
       )
-      commit('SET_COUNTRY_DETAILS', cases.data)
-      return cases.data
+      commit('SET_COUNTRY_DETAILS', cases.data.response)
+      return cases.data.response
     } catch (error) {
       alert(error)
     }
