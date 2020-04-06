@@ -20,9 +20,9 @@
 import { mapActions, mapMutations } from 'vuex'
 import { BIcon, BIconTriangleFill } from 'bootstrap-vue'
 import CountriesMap from '@/components/countries/CountriesMap'
-import AllCases from '@/components/summary/AllCases'
-import TopCases from '@/components/summary/TopCases'
-import GlobalNumbers from '@/components/summary/GlobalNumbers'
+import AllCases from '@/components/casesVisualized/AllCases'
+import TopCases from '@/components/casesVisualized/TopCases'
+import GlobalNumbers from '@/components/casesVisualized/GlobalNumbers'
 export default {
   layout: 'dashboard',
   components: {
