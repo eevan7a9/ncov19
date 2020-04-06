@@ -1,6 +1,6 @@
 <template lang="pug">
   div#countryTimeline.h-100
-    p {{getCountryDetailedCases}}
+    //- p {{getCountryDetailedCases}}
     div.chart-container(v-if="datacollection")
       LineChart.country-timeline(:chart-data="datacollection" :options="options")
 </template>
@@ -32,39 +32,67 @@ export default {
     ...mapGetters('countries', ['getCountryDetailedCases'])
   },
   mounted() {
-    this.fillData()
+    this.$nextTick(() => {
+      const data = {
+        labels: [],
+        confirmed: [],
+        deaths: [],
+        recovered: []
+      }
+      this.getCountryDetailedCases.forEach(function(cases) {
+        const date = new Date(cases.time)
+        data.labels.unshift(
+          `${date
+            .getFullYear()
+            .toString()
+            .substr(-2)}-${date.getMonth()}-${date.getDate()}`
+        )
+
+        data.confirmed.unshift(cases.cases.total)
+        data.deaths.unshift(cases.deaths.total)
+        data.recovered.unshift(cases.cases.recovered)
+      })
+      this.fillData({
+        dates: data.labels,
+        confirmed: data.confirmed,
+        deaths: data.deaths,
+        recovered: data.recovered
+      })
+      // this.fillData({
+      //   dates: [],
+      //   confirmed: [],
+      //   deaths: []
+      // })
+    })
   },
   methods: {
-    fillData() {
+    fillData({ dates, confirmed, deaths, recovered }) {
       this.datacollection = {
         datasets: [
           {
-            label: 'data One',
+            label: 'Confirmed',
             backgroundColor: '',
-            borderColor: 'red',
+            borderColor: '#3f7bff',
             fill: false,
-            data: [5, 15, 30, 35, 30, 38, 40, 38, 42]
+            data: confirmed
           },
           {
-            label: 'data two',
+            label: 'Deaths',
             backgroundColor: '',
-            borderColor: 'green',
+            borderColor: '#dc3545',
             fill: false,
-            data: [10, 40, 60, 70, 40, 30, 30, 35, 28]
+            data: deaths
+          },
+          {
+            label: 'Recovered',
+            backgroundColor: '',
+            borderColor: '#28a745',
+            fill: false,
+            data: recovered
           }
         ],
         // These labels appear in the legend and in the tooltips when hovering different arcs
-        labels: [
-          'jan',
-          'march',
-          'Feb',
-          'aprl',
-          'may',
-          'june',
-          'july',
-          'aug',
-          'sept'
-        ]
+        labels: dates
       }
     }
   }
