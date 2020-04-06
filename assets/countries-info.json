@@ -4,13 +4,15 @@
       "timezones": ["America/Aruba"],
       "latlng": [12.5, -69.96666666],
       "name": "Aruba",
+      "name_2nd": "Aruba",
       "country_code": "AW",
       "capital": "Oranjestad"
     },
     {
       "timezones": ["Asia/Kabul"],
       "latlng": [33, 65],
-      "name": "Afghanistan",
+      "name": "afghanistan",
+      "name_2nd": "afghanistan",
       "country_code": "AF",
       "capital": "Kabul"
     },
@@ -18,6 +20,7 @@
       "timezones": ["Africa/Luanda"],
       "latlng": [-12.5, 18.5],
       "name": "Angola",
+      "name_2nd": "Angola",
       "country_code": "AO",
       "capital": "Luanda"
     },
@@ -25,6 +28,7 @@
       "timezones": ["America/Anguilla"],
       "latlng": [18.25, -63.16666666],
       "name": "Anguilla",
+      "name_2nd": "Anguilla",
       "country_code": "AI",
       "capital": "The Valley"
     },
@@ -39,6 +43,7 @@
       "timezones": ["Europe/Tirane"],
       "latlng": [41, 20],
       "name": "Albania",
+      "name_2nd": "Albania",
       "country_code": "AL",
       "capital": "Tirana"
     },
@@ -46,6 +51,7 @@
       "timezones": ["Europe/Andorra"],
       "latlng": [42.5, 1.5],
       "name": "Andorra",
+      "name_2nd": "Andorra",
       "country_code": "AD",
       "capital": "Andorra la Vella"
     },
@@ -53,6 +59,7 @@
       "timezones": ["Asia/Dubai"],
       "latlng": [24, 54],
       "name": "United Arab Emirates",
+      "name_2nd": "UAE",
       "country_code": "AE",
       "capital": "Abu Dhabi"
     },
@@ -73,6 +80,7 @@
       ],
       "latlng": [-34, -64],
       "name": "Argentina",
+      "name_2nd": "Argentina",
       "country_code": "AR",
       "capital": "Buenos Aires"
     },
@@ -80,6 +88,7 @@
       "timezones": ["Asia/Yerevan"],
       "latlng": [40, 45],
       "name": "Armenia",
+      "name_2nd": "Armenia",
       "country_code": "AM",
       "capital": "Yerevan"
     },
@@ -119,6 +128,7 @@
       "timezones": ["America/Antigua"],
       "latlng": [17.05, -61.8],
       "name": "Antigua and Barbuda",
+      "name_2nd": "Antigua-and-Barbuda",
       "country_code": "AG",
       "capital": "Saint John's"
     },
@@ -140,6 +150,7 @@
       ],
       "latlng": [-27, 133],
       "name": "Australia",
+      "name_2nd": "Australia",
       "country_code": "AU",
       "capital": "Canberra"
     },
@@ -154,6 +165,7 @@
       "timezones": ["Asia/Baku"],
       "latlng": [40.5, 47.5],
       "name": "Azerbaijan",
+      "name_2nd": "Azerbaijan",
       "country_code": "AZ",
       "capital": "Baku"
     },
@@ -182,6 +194,7 @@
       "timezones": ["Africa/Ouagadougou"],
       "latlng": [13, -2],
       "name": "Burkina Faso",
+      "name_2nd": "Burkina-Faso",
       "country_code": "BF",
       "capital": "Ouagadougou"
     },
@@ -189,6 +202,7 @@
       "timezones": ["Asia/Dhaka"],
       "latlng": [24, 90],
       "name": "Bangladesh",
+      "name_2nd": "Bangladesh",
       "country_code": "BD",
       "capital": "Dhaka"
     },
@@ -203,6 +217,7 @@
       "timezones": ["Asia/Bahrain"],
       "latlng": [26, 50.55],
       "name": "Bahrain",
+      "name_2nd": "Bahrain",
       "country_code": "BH",
       "capital": "Manama"
     },
@@ -210,6 +225,7 @@
       "timezones": ["America/Nassau"],
       "latlng": [24.25, -76],
       "name": "Bahamas",
+      "name_2nd": "Bahamas",
       "country_code": "BS",
       "capital": "Nassau"
     },
@@ -217,6 +233,7 @@
       "timezones": ["Europe/Sarajevo"],
       "latlng": [44, 18],
       "name": "Bosnia and Herzegovina",
+      "name_2nd": "Bosnia-and-Herzegovina",
       "country_code": "BA",
       "capital": "Sarajevo"
     },
@@ -224,6 +241,7 @@
       "timezones": ["America/St_Barthelemy"],
       "latlng": [18.5, -63.41666666],
       "name": "Saint Barth\u00e9lemy",
+      "name_2nd": "St.-Barth",
       "country_code": "BL",
       "capital": "Gustavia"
     },
@@ -290,6 +308,7 @@
       "timezones": ["Asia/Brunei"],
       "latlng": [4.5, 114.66666666],
       "name": "Brunei",
+      "name_2nd": "Brunei-",
       "country_code": "BN",
       "capital": "Bandar Seri Begawan"
     },
@@ -389,6 +408,7 @@
       "timezones": ["Africa/Abidjan"],
       "latlng": [8, -5],
       "name": "Ivory Coast",
+      "name_2nd": "Ivory-Coast",
       "country_code": "CI",
       "capital": "Yamoussoukro"
     },
@@ -445,6 +465,7 @@
       "timezones": ["America/Costa_Rica"],
       "latlng": [10, -84],
       "name": "Costa Rica",
+      "name_2nd": "Costa-Rica",
       "country_code": "CR",
       "capital": "San Jos\u00e9"
     },
@@ -473,6 +494,7 @@
       "timezones": ["America/Cayman"],
       "latlng": [19.5, -80.5],
       "name": "Cayman Islands",
+      "name_2nd": "Cayman-Islands",
       "country_code": "KY",
       "capital": "George Town"
     },
@@ -522,6 +544,7 @@
       "timezones": ["America/Santo_Domingo"],
       "latlng": [19, -70.66666666],
       "name": "Dominican Republic",
+      "name_2nd": "Dominican-Republic",
       "country_code": "DO",
       "capital": "Santo Domingo"
     },
@@ -529,6 +552,7 @@
       "timezones": ["Africa/Algiers"],
       "latlng": [28, 3],
       "name": "Algeria",
+      "name_2nd": "Algeria",
       "country_code": "DZ",
       "capital": "Algiers"
     },
@@ -557,6 +581,7 @@
       "timezones": ["Africa/El_Aaiun"],
       "latlng": [24.5, -13],
       "name": "Western Sahara",
+      "name_2nd": "Western-Sahara",
       "country_code": "EH",
       "capital": "El Aai\u00fan"
     },
@@ -599,6 +624,7 @@
       "timezones": ["Atlantic/Stanley"],
       "latlng": [-51.75, -59],
       "name": "Falkland Islands",
+      "name_2nd": "Falkland-Islands",
       "country_code": "FK",
       "capital": "Stanley"
     },
@@ -634,6 +660,7 @@
       "timezones": ["Europe/London"],
       "latlng": [54, -2],
       "name": "United Kingdom",
+      "name_2nd": "UK",
       "country_code": "GB",
       "capital": "London"
     },
@@ -697,6 +724,7 @@
       "timezones": ["Africa/Malabo"],
       "latlng": [2, 10],
       "name": "Equatorial Guinea",
+      "name_2nd": "Equatorial-Guinea",
       "country_code": "GQ",
       "capital": "Malabo"
     },
@@ -737,6 +765,7 @@
       "timezones": ["America/Cayenne"],
       "latlng": [4, -53],
       "name": "French Guiana",
+      "name_2nd": "French-Guiana",
       "country_code": "GF",
       "capital": "Cayenne"
     },
@@ -758,6 +787,7 @@
       "timezones": ["Asia/Hong_Kong"],
       "latlng": [22.267, 114.188],
       "name": "Hong Kong",
+      "name_2nd": "Hong-Kong",
       "country_code": "HK",
       "capital": "City of Victoria"
     },
@@ -805,6 +835,7 @@
       "timezones": ["Europe/Isle_of_Man"],
       "latlng": [54.25, -4.5],
       "name": "Isle of Man",
+      "name_2nd": "Isle-of-Man",
       "country_code": "IM",
       "capital": "Douglas"
     },
@@ -941,6 +972,7 @@
       "timezones": ["America/St_Kitts"],
       "latlng": [17.33333333, -62.75],
       "name": "Saint Kitts and Nevis",
+      "name_2nd": "Saint-Kitts-and-Nevis",
       "country_code": "KN",
       "capital": "Basseterre"
     },
@@ -948,6 +980,7 @@
       "timezones": ["Asia/Seoul"],
       "latlng": [37, 127.5],
       "name": "South Korea",
+      "name_2nd": "S.-Korea",
       "country_code": "KR",
       "capital": "Seoul"
     },
@@ -997,6 +1030,7 @@
       "timezones": ["America/St_Lucia"],
       "latlng": [13.88333333, -60.96666666],
       "name": "Saint Lucia",
+      "name_2nd": "Saint-Lucia",
       "country_code": "LC",
       "capital": "Castries"
     },
@@ -1011,6 +1045,7 @@
       "timezones": ["Asia/Colombo"],
       "latlng": [7, 81],
       "name": "Sri Lanka",
+      "name_2nd": "Sri-Lanka",
       "country_code": "LK",
       "capital": "Colombo"
     },
@@ -1053,6 +1088,7 @@
       "timezones": ["America/Marigot"],
       "latlng": [18.08333333, -63.95],
       "name": "Saint Martin",
+      "name_2nd": "Saint-Martin",
       "country_code": "MF",
       "capital": "Marigot"
     },
@@ -1233,6 +1269,7 @@
       "timezones": ["Pacific/Noumea"],
       "latlng": [-21.5, 165.5],
       "name": "New Caledonia",
+      "name_2nd": "New-Caledonia",
       "country_code": "NC",
       "capital": "Noum\u00e9a"
     },
@@ -1303,6 +1340,7 @@
       "timezones": ["Pacific/Auckland", "Pacific/Chatham"],
       "latlng": [-41, 174],
       "name": "New Zealand",
+      "name_2nd": "New-Zealand",
       "country_code": "NZ",
       "capital": "Wellington"
     },
@@ -1359,6 +1397,7 @@
       "timezones": ["Pacific/Port_Moresby", "Pacific/Bougainville"],
       "latlng": [-6, 147],
       "name": "Papua New Guinea",
+      "name_2nd": "Papua-New-Guinea",
       "country_code": "PG",
       "capital": "Port Moresby"
     },
@@ -1373,6 +1412,7 @@
       "timezones": ["America/Puerto_Rico"],
       "latlng": [18.25, -66.5],
       "name": "Puerto Rico",
+      "name_2nd": "Puerto-Rico",
       "country_code": "PR",
       "capital": "San Juan"
     },
@@ -1408,6 +1448,7 @@
       "timezones": ["Pacific/Tahiti", "Pacific/Marquesas", "Pacific/Gambier"],
       "latlng": [-15, -140],
       "name": "French Polynesia",
+      "name_2nd": "French-Polynesia",
       "country_code": "PF",
       "capital": "Papeet\u0113"
     },
@@ -1477,6 +1518,7 @@
       "timezones": ["Asia/Riyadh"],
       "latlng": [25, 45],
       "name": "Saudi Arabia",
+      "name_2nd": "Saudi-Arabia",
       "country_code": "SA",
       "capital": "Riyadh"
     },
@@ -1526,6 +1568,7 @@
       "timezones": ["Africa/Freetown"],
       "latlng": [8.5, -11.5],
       "name": "Sierra Leone",
+      "name_2nd": "Sierra-Leone",
       "country_code": "SL",
       "capital": "Freetown"
     },
@@ -1533,6 +1576,7 @@
       "timezones": ["America/El_Salvador"],
       "latlng": [13.83333333, -88.91666666],
       "name": "El Salvador",
+      "name_2nd": "El-Salvador",
       "country_code": "SV",
       "capital": "San Salvador"
     },
@@ -1540,6 +1584,7 @@
       "timezones": ["Europe/San_Marino"],
       "latlng": [43.76666666, 12.41666666],
       "name": "San Marino",
+      "name_2nd": "San-Marino",
       "country_code": "SM",
       "capital": "City of San Marino"
     },
@@ -1554,6 +1599,7 @@
       "timezones": ["America/Miquelon"],
       "latlng": [46.83333333, -56.33333333],
       "name": "Saint Pierre and Miquelon",
+      "name_2nd": "Saint-Pierre-Miquelon",
       "country_code": "PM",
       "capital": "Saint-Pierre"
     },
@@ -1568,6 +1614,7 @@
       "timezones": ["Africa/Juba"],
       "latlng": [7, 30],
       "name": "South Sudan",
+      "South-Sudan": "South-Sudan",
       "country_code": "SS",
       "capital": "Juba"
     },
@@ -1617,6 +1664,7 @@
       "timezones": ["America/Lower_Princes"],
       "latlng": [18.033333, -63.05],
       "name": "Sint Maarten",
+      "name_2nd": "Sint-Maarten",
       "country_code": "SX",
       "capital": "Philipsburg"
     },
@@ -1638,6 +1686,7 @@
       "timezones": ["America/Grand_Turk"],
       "latlng": [21.75, -71.58333333],
       "name": "Turks and Caicos Islands",
+      "name_2nd": "Turks-and-Caicos",
       "country_code": "TC",
       "capital": "Cockburn Town"
     },
@@ -1687,6 +1736,7 @@
       "timezones": ["Asia/Dili"],
       "latlng": [-8.83333333, 125.91666666],
       "name": "Timor-Leste",
+      "name_2nd": "Timor-Leste",
       "country_code": "TL",
       "capital": "Dili"
     },
@@ -1701,6 +1751,7 @@
       "timezones": ["America/Port_of_Spain"],
       "latlng": [11, -61],
       "name": "Trinidad and Tobago",
+      "name_2nd": "Trinidad-and-Tobago",
       "country_code": "TT",
       "capital": "Port of Spain"
     },
@@ -1801,6 +1852,7 @@
       ],
       "latlng": [38, -97],
       "name": "US",
+      "name_2nd": "USA",
       "country_code": "US",
       "capital": "Washington D.C."
     },
@@ -1815,6 +1867,7 @@
       "timezones": ["Europe/Vatican"],
       "latlng": [41.9, 12.45],
       "name": "Vatican City",
+      "name_2nd": "Vatican-City",
       "country_code": "VA",
       "capital": "Vatican City"
     },
@@ -1822,6 +1875,7 @@
       "timezones": ["America/St_Vincent"],
       "latlng": [13.25, -61.2],
       "name": "Saint Vincent and the Grenadines",
+      "name_2nd": "St.-Vincent-Grenadines",
       "country_code": "VC",
       "capital": "Kingstown"
     },
@@ -1836,6 +1890,7 @@
       "timezones": ["America/Tortola"],
       "latlng": [18.431383, -64.62305],
       "name": "British Virgin Islands",
+      "name_2nd": "British-Virgin-Islands",
       "country_code": "VG",
       "capital": "Road Town"
     },
@@ -1843,6 +1898,7 @@
       "timezones": ["America/St_Thomas"],
       "latlng": [18.35, -64.933333],
       "name": "United States Virgin Islands",
+      "name_2nd": "U.S.-Virgin-Islands",
       "country_code": "VI",
       "capital": "Charlotte Amalie"
     },
@@ -1885,6 +1941,7 @@
       "timezones": ["Africa/Johannesburg"],
       "latlng": [-29, 24],
       "name": "South Africa",
+      "name_2nd": "South-Africa",
       "country_code": "ZA",
       "capital": "Pretoria"
     },
