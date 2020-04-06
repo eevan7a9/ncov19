@@ -24,6 +24,7 @@ import { mapActions, mapMutations } from 'vuex'
 import CountryTimeline from '@/components/countries/CountryTimeline'
 export default {
   layout: 'dashboard',
+  middleware: 'summaryCases',
   components: {
     BIcon,
     BIconTriangleFill,
