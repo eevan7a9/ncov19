@@ -30,8 +30,7 @@ export default {
     return {
       initDom: true,
       showTopPanel: true,
-      country: this.$route.params.country,
-      cases: []
+      country: this.$route.params.country
     }
   },
   mounted() {
