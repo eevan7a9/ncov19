@@ -1,0 +1,14 @@
+/**
+ *  go here Api the provider:
+ *  https://rapidapi.com/api-sports/api/covid-193/details
+ *
+ *  subscribed and insert {x-rapidapi-host, x-rapidapi-key}
+ *
+ * */
+
+const rapidApi = {
+  host: 'covid-193.p.rapidapi.com', // x-rapidapi-host
+  key: 'your-key' // x-rapidapi-key
+}
+
+export default rapidApi
