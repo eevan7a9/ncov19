@@ -15,11 +15,15 @@
             p.m-0.p-0.text-center.text-uppercase
               strong {{marker.Country}}
             p.m-0.p-0 Total Confirmed :
-              strong.text-primary {{marker.TotalConfirmed}}
+              strong.text-info {{marker.TotalConfirmed}}
             p.m-0.p-0 Total Deaths :
               strong.text-danger {{marker.TotalDeaths}}
             p.m-0.p-0 Total Recovered :
               strong.text-success {{marker.TotalRecovered}}
+            p.text-center.text-uppercase.m-0.mt-1.p-0
+              router-link(:to="{ name: 'Cases-country', params: { country:marker.name }}").font-weight-bolder.text-primary
+                u More Details
+
 </template>
 
 <script>
