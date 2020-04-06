@@ -1,18 +1,18 @@
-import countriesList from '@/assets/countries-list.json'
+import countriesAffected from '@/assets/countries-affected.json'
 import countriesInfo from '@/assets/countries-info.json' // lat-long, country-code etc.
 
 export const state = () => {
   return {
-    countriesList: JSON.parse(
-      JSON.stringify(countriesList.countries)
-    ).sort((a, b) => a.Country.localeCompare(b.Country)),
+    countriesAffected: JSON.parse(
+      JSON.stringify(countriesAffected.countries)
+    ).sort((a, b) => a.localeCompare(b)),
     countriesCases: [], // case summary of all countries
     countryDetailedCases: [] // country with detailed cases
   }
 }
 
 export const getters = {
-  countries: (state) => state.countriesList,
+  countries: (state) => state.countriesAffected,
   getCountriesCases: (state) => state.countriesCases,
   getCountryDetailedCases: (state) => state.countryDetailedCases
 }
@@ -21,19 +21,16 @@ export const actions = {
   filterCountries: ({ commit }, word) => {
     // sort alphabeticaly
     let countries = JSON.parse(
-      JSON.stringify(countriesList.countries)
-    ).sort((a, b) => a.Country.localeCompare(b.Country))
+      JSON.stringify(countriesAffected.countries)
+    ).sort((a, b) => a.localeCompare(b))
 
     if (word) {
       countries = countries.filter((country) =>
-        country.Country.toLowerCase().includes(word.toLowerCase())
+        country.toLowerCase().includes(word.toLowerCase())
       )
       // we remove duplicates
       countries = countries.filter(
-        (thing, index, self) =>
-          self.findIndex(
-            (t) => t.Country === thing.Country && t.Slug === thing.Slug
-          ) === index
+        (thing, index, self) => self.findIndex((t) => t === thing) === index
       )
     }
     commit('SET_COUNTRIES', countries)
@@ -92,7 +89,7 @@ export const actions = {
 }
 
 export const mutations = {
-  SET_COUNTRIES: (state, countries) => (state.countriesList = countries),
+  SET_COUNTRIES: (state, countries) => (state.countriesAffected = countries),
   SET_COUNTRIES_CASES: (state, countries) => (state.countriesCases = countries),
   SET_COUNTRY_DETAILS: (state, country) =>
     (state.countryDetailedCases = country)

@@ -1,8 +1,8 @@
 <template lang="pug">
-  div#countryItem(@click="countryCase(country.Slug)")
+  div#countryItem(@click="countryCase(country)")
     label.w-100.p-2.m-0(
-      :class="{'bg-danger font-weight-bold' : country.Slug == $route.params.country}").
-      {{country.Country}}
+      :class="{'bg-danger font-weight-bold' : country == $route.params.country}").
+      {{country}}
 </template>
 
 <script>
@@ -10,12 +10,10 @@ export default {
   name: 'CountryItem',
   props: {
     country: {
-      type: Object,
+      type: String,
       require: true,
       default: () => {
-        return {
-          Country: ''
-        }
+        return 'USA'
       }
     }
   },

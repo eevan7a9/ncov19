@@ -1,8 +1,8 @@
 <template lang="pug">
   div
     CountriesSearch.mb-2
-    div#countryList(v-for="country in countries" :key="country.country")
-      CountryItem(:country="country" v-if="country.Country")
+    div#countryList(v-for="country in countries" :key="country")
+      CountryItem(:country="country" v-if="country")
 </template>
 
 <script>
