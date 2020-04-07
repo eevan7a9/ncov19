@@ -2,7 +2,7 @@
   div.d-flex.flex-column(v-if="initDom")
     div#topPanels.row.m-0.bg-dark(:class="showTopPanel ? 'show': 'hide'")
       div.country-cases.col-sm-6.p-0.h-100
-
+        CountryCases(:country="country")
       div.country-numbers.col-sm-6.p-0.h-100
 
     button.slider-button.p-0.btn.btn-dark.d-flex.justify-content-center.align-items-center(
@@ -22,13 +22,15 @@
 import { BIcon, BIconTriangleFill } from 'bootstrap-vue'
 import { mapActions, mapMutations } from 'vuex'
 import CountryTimeline from '@/components/countries/CountryTimeline'
+import CountryCases from '@/components/casesVisualized/CountryCases'
 export default {
   layout: 'dashboard',
   middleware: 'summaryCases',
   components: {
     BIcon,
     BIconTriangleFill,
-    CountryTimeline
+    CountryTimeline,
+    CountryCases
   },
   data() {
     return {
