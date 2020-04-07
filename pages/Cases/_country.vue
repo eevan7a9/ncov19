@@ -1,9 +1,9 @@
 <template lang="pug">
   div.d-flex.flex-column(v-if="initDom")
     div#topPanels.row.m-0.bg-dark(:class="showTopPanel ? 'show': 'hide'")
-      div.country-cases.col-sm-6.p-0.h-100
+      div.country-cases.col-sm-4.p-0.h-100
         CountryCases(:country="country")
-      div.country-numbers.col-sm-6.p-0.h-100
+      div.country-numbers.col-sm-8.p-0.h-100
         CountryRecentCase
     button.slider-button.p-0.btn.btn-dark.d-flex.justify-content-center.align-items-center(
       @click="showTopPanel=!showTopPanel"

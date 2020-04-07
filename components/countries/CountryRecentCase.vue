@@ -1,58 +1,71 @@
 <template lang="pug">
   div.h-100.bg-light
-    b-table(striped sticky-header  hover :items="items" :fields="fields" caption-top)
+    //- p {{items}}
+    b-table(striped sticky-header head-variant="dark"  hover :items="items" :fields="fields" caption-top)
       template(v-slot:table-caption)
-        h6.m-0.p-0.pl-1.text-secondary  Recent reports of New Cases & New Deaths.
+        span.m-0.p-0.pl-1.text-secondary  Recent reports of {{countryName}} New Cases & New Deaths.
       template(v-slot:cell(new_cases)="data")
-        b(class="text-primary")  + {{ data.item.new_cases }}
+        b(class="text-primary")   {{ data.item.new_cases }}
       template(v-slot:cell(new_deaths)="data")
-        b(class="text-danger")  + {{ data.item.new_deaths }}
+        b(class="text-danger")  {{ data.item.new_deaths }}
+      template(v-slot:cell(total_tests)="data")
+        b(class="text-info")  {{ data.value }}
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
 export default {
   name: 'CountryRecentCase',
   data() {
     return {
-      // Note `isActive` is left out and will not appear in the rendered table
+      countryName: '',
       fields: [
         {
           key: 'time',
           label: 'Date Time'
         },
         'new_cases',
-        'new_deaths'
+        'new_deaths',
+        {
+          key: 'total_tests',
+          label: 'Total Tests',
+          formatter: (val) => {
+            return !val ? 'Not Available' : val
+          }
+        }
       ],
-      items: [
-        {
-          isActive: true,
-          time: 40,
-          new_cases: 231,
-          new_deaths: 5
-        },
-        { isActive: false, time: 21, new_cases: 56, new_deaths: 12 },
-        {
-          isActive: false,
-          time: 89,
-          new_cases: 31,
-          new_deaths: 12
-        },
-        { isActive: true, time: 38, new_cases: 42, new_deaths: 23 },
-        {
-          isActive: true,
-          time: 40,
-          new_cases: 14,
-          new_deaths: 5
-        },
-        { isActive: false, time: 21, new_cases: 56, new_deaths: 12 },
-        {
-          isActive: false,
-          time: 89,
-          new_cases: 31,
-          new_deaths: 12
-        },
-        { isActive: true, time: 38, new_cases: 42, new_deaths: 23 }
-      ]
+      items: []
+    }
+  },
+  computed: mapGetters('countries', ['getCountryDetailedCases']),
+  mounted() {
+    this.$nextTick(() => {
+      this.fillData()
+    })
+  },
+  methods: {
+    getCaseTime(dateTime) {
+      const date = new Date(dateTime)
+      const day = date.getDate()
+      const month = date.toLocaleString('default', { month: 'long' })
+      const time = date.toLocaleString('en-US', {
+        hour: 'numeric',
+        minute: 'numeric',
+        hour12: true
+      })
+      return `${month} ${day} ${time}`
+    },
+    fillData() {
+      const reports = this.getCountryDetailedCases.map((country) => {
+        this.countryName = country.country
+        return {
+          time: this.getCaseTime(country.time),
+          new_cases: country.cases.new,
+          new_deaths: country.deaths.new,
+          total_tests: country.tests.total
+        }
+      })
+      this.items = reports.slice(0, 15)
     }
   }
 }
