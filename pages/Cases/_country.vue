@@ -4,7 +4,7 @@
       div.country-cases.col-sm-6.p-0.h-100
         CountryCases(:country="country")
       div.country-numbers.col-sm-6.p-0.h-100
-
+        CountryRecentCase
     button.slider-button.p-0.btn.btn-dark.d-flex.justify-content-center.align-items-center(
       @click="showTopPanel=!showTopPanel"
     )
@@ -22,6 +22,7 @@
 import { BIcon, BIconTriangleFill } from 'bootstrap-vue'
 import { mapActions, mapMutations } from 'vuex'
 import CountryTimeline from '@/components/countries/CountryTimeline'
+import CountryRecentCase from '@/components/countries/CountryRecentCase'
 import CountryCases from '@/components/casesVisualized/CountryCases'
 export default {
   layout: 'dashboard',
@@ -30,6 +31,7 @@ export default {
     BIcon,
     BIconTriangleFill,
     CountryTimeline,
+    CountryRecentCase,
     CountryCases
   },
   data() {
