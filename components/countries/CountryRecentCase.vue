@@ -5,9 +5,9 @@
       template(v-slot:table-caption)
         span.m-0.p-0.pl-1.text-secondary  Recent reports of {{countryName}} New Cases & New Deaths.
       template(v-slot:cell(new_cases)="data")
-        b(class="text-primary")   {{ data.item.new_cases }}
+        b(:class="data.value ? 'text-primary' : 'text-success'")  {{ data.value }}
       template(v-slot:cell(new_deaths)="data")
-        b(class="text-danger")  {{ data.item.new_deaths }}
+        b(:class="data.value ? 'text-danger' : 'text-success'")  {{ data.value }}
       template(v-slot:cell(total_tests)="data")
         b(class="text-info")  {{ data.value }}
 </template>
@@ -24,8 +24,20 @@ export default {
           key: 'time',
           label: 'Date Time'
         },
-        'new_cases',
-        'new_deaths',
+        {
+          key: 'new_cases',
+          label: 'New Cases',
+          formatter: (val) => {
+            return !val ? 0 : val
+          }
+        },
+        {
+          key: 'new_deaths',
+          label: 'New Deaths',
+          formatter: (val) => {
+            return !val ? 0 : val
+          }
+        },
         {
           key: 'total_tests',
           label: 'Total Tests',
@@ -38,6 +50,11 @@ export default {
     }
   },
   computed: mapGetters('countries', ['getCountryDetailedCases']),
+  watch: {
+    getCountryDetailedCases() {
+      this.fillData()
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.fillData()
