@@ -48,39 +48,46 @@ export default {
     }
   },
   computed: mapGetters(['getSummaryCases']),
+  watch: {
+    getSummaryCases() {
+      this.fillData()
+    }
+  },
   mounted() {
-    const countries = this.getSummaryCases
-      .map((country) => {
-        if (country.Country) {
-          return {
-            Country: country.Country,
-            TotalConfirmed: country.TotalConfirmed
-          }
-        }
-      })
-      .sort((a, b) => b.TotalConfirmed - a.TotalConfirmed)
-    this.fillData(countries.slice(0, 3))
+    this.fillData()
   },
   methods: {
-    fillData(countries = []) {
-      this.data = {
-        labels: [
-          countries[0].Country,
-          countries[1].Country,
-          countries[2].Country
-        ],
-        fontColor: 'red',
-        datasets: [
-          {
-            label: 'Top Cases',
-            backgroundColor: ['#a50212', '#ff5503', '#ef9a00'],
-            data: [
-              countries[0].TotalConfirmed,
-              countries[1].TotalConfirmed,
-              countries[2].TotalConfirmed
-            ]
-          }
-        ]
+    fillData() {
+      if (this.getSummaryCases.length) {
+        const countries = this.getSummaryCases
+          .map((country) => {
+            if (country.Country) {
+              return {
+                Country: country.Country,
+                TotalConfirmed: country.TotalConfirmed
+              }
+            }
+          })
+          .sort((a, b) => b.TotalConfirmed - a.TotalConfirmed)
+        this.data = {
+          labels: [
+            countries[0].Country,
+            countries[1].Country,
+            countries[2].Country
+          ],
+          fontColor: 'red',
+          datasets: [
+            {
+              label: 'Top Cases',
+              backgroundColor: ['#a50212', '#ff5503', '#ef9a00'],
+              data: [
+                countries[0].TotalConfirmed,
+                countries[1].TotalConfirmed,
+                countries[2].TotalConfirmed
+              ]
+            }
+          ]
+        }
       }
     }
   }

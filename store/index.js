@@ -8,17 +8,21 @@ const state = () => {
 const getters = {
   getSummaryCases: (state) => state.summaryCases,
   getTotalNumbers: (state) => {
-    const cases = state.summaryCases
-      .map((country) => country.TotalConfirmed)
-      .reduce((a, b) => a + b)
-    const death = state.summaryCases
-      .map((country) => country.TotalDeaths)
-      .reduce((a, b) => a + b)
-    const treated = state.summaryCases
-      .map((country) => country.TotalRecovered)
-      .reduce((a, b) => a + b)
-    const active = cases - (death + treated)
-    return { cases, death, treated, active }
+    if (state.summaryCases.length) {
+      const cases = state.summaryCases
+        .map((country) => country.TotalConfirmed)
+        .reduce((a, b) => a + b)
+      const death = state.summaryCases
+        .map((country) => country.TotalDeaths)
+        .reduce((a, b) => a + b)
+      const treated = state.summaryCases
+        .map((country) => country.TotalRecovered)
+        .reduce((a, b) => a + b)
+      const active = cases - (death + treated)
+      return { content: true, cases, death, treated, active }
+    } else {
+      return { content: false, cases: [], death: [], treated: [], active: [] }
+    }
   }
 }
 

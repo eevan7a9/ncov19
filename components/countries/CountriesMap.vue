@@ -49,7 +49,18 @@ export default {
       }
     }
   },
-  computed: mapGetters('countries', ['getCountriesCases']),
+  computed: {
+    ...mapGetters(['getSummaryCases']),
+    ...mapGetters('countries', ['getCountriesCases'])
+  },
+  watch: {
+    getSummaryCases() {
+      this.setCountriesInfo()
+      this.$nextTick(() => {
+        this.map.center = [47.31322, -1.319482]
+      })
+    }
+  },
   mounted() {
     this.setCountriesInfo()
     this.$nextTick(() => {

@@ -34,16 +34,26 @@ export default {
     }
   },
   computed: mapGetters(['getSummaryCases', 'getTotalNumbers']),
+  watch: {
+    getTotalNumbers() {
+      this.fillData({
+        active: this.getTotalNumbers.active,
+        death: this.getTotalNumbers.death,
+        treated: this.getTotalNumbers.treated,
+        title: this.getTotalNumbers.cases
+      })
+    }
+  },
   mounted() {
     this.fillData({
       active: this.getTotalNumbers.active,
       death: this.getTotalNumbers.death,
-      treated: this.getTotalNumbers.treated
+      treated: this.getTotalNumbers.treated,
+      title: this.getTotalNumbers.cases
     })
-    this.options.title.text = `Total Number of confirmed cases: ${this.getTotalNumbers.cases}`
   },
   methods: {
-    fillData({ active, death, treated }) {
+    fillData({ active, death, treated, title }) {
       this.data = {
         labels: ['Active', 'Death', 'Treated'],
         datasets: [
@@ -54,6 +64,7 @@ export default {
           }
         ]
       }
+      this.options.title.text = `Total Number of confirmed cases: ${title}`
     }
   }
 }

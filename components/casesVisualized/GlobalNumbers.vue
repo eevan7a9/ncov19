@@ -1,7 +1,7 @@
 <template lang="pug">
   div.text-light.h-100.text-left.overflow-hidden
     h3.text-uppercase.text-center.mt-md-2.mt-sm-3 Global Numbers
-    div.mt-4.d-flex.flex-column.align-items-center
+    div.mt-4.d-flex.flex-column.align-items-center(v-if="getTotalNumbers.content")
       p.confirmed.text-info.my-md-2 Confirmed:
         small.m-0.ml-2.p-0.text-light.font-weight-bold {{ getTotalNumbers.cases.toLocaleString() }}
       p.active.text-warning.my-md-2 Active:
