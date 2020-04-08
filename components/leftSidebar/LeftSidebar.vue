@@ -1,5 +1,5 @@
 <template lang="pug">
-  div( class="left-sidebar-wrapepr  bg-dark text-light d-flex flex-column h-100"
+  div( class="left-sidebar-wrapepr  bg-dark text-light d-md-flex flex-column d-none h-100"
   v-bind:class="leftSidebar ? 'show' : ''")
     div.d-flex.justify-content-end.align-items-center.text-light
       h6#toggleSidebar.m-0
