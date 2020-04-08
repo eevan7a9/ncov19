@@ -1,19 +1,22 @@
 <template lang="pug">
-  div.d-flex.flex-column(v-if="initDom")
-    div#topPanels.row.m-0.bg-dark(:class="showTopPanel ? 'show': 'hide'")
-      div.all-cases.col-md-4.col-sm-6.p-0.h-100
-        AllCases
-      div.top-cases.col-md-4.col-sm-6.p-0.h-100
-        TopCases
-      div.global-numbers.col-md-4.col-0.p-0.h-100
-        GlobalNumbers
-    button.slider-button.p-0.btn.btn-dark.d-flex.justify-content-center.align-items-center(
-      @click="showTopPanel=!showTopPanel"
-    )
-      small
-         BIconTriangleFill(:flip-v="!showTopPanel")
-    div.flex-grow-1
-      CountriesMap#icon(:key="showTopPanel")
+  div.d-flex.flex-column.h-100.w-100
+    div.d-flex.justify-content-center.align-items-center.h-100.w-100(v-if="!initDom")
+      b-spinner(style="width: 3rem; height: 3rem;" variant="danger" )
+    div.d-flex.flex-column.h-100(v-else)
+      div#topPanels.row.m-0.bg-dark(:class="showTopPanel ? 'show': 'hide'")
+        div.all-cases.col-md-4.col-sm-6.p-0.h-100
+          AllCases
+        div.top-cases.col-md-4.col-sm-6.p-0.h-100
+          TopCases
+        div.global-numbers.col-md-4.col-0.p-0.h-100
+          GlobalNumbers
+      button.slider-button.p-0.btn.btn-dark.d-flex.justify-content-center.align-items-center(
+        @click="showTopPanel=!showTopPanel"
+      )
+        small
+          BIconTriangleFill(:flip-v="!showTopPanel")
+      div.flex-grow-1
+        CountriesMap#icon(:key="showTopPanel")
 </template>
 
 <script>
