@@ -14,7 +14,7 @@
       div.d-flex.justify-content-center.align-items-center.h-100
         b-spinner(style="width: 3rem; height: 3rem;" variant="danger" v-show="fetchingData")
 
-      CountryTimeline(v-show="!fetchingData")
+      CountryTimeline(:key="showTopPanel" v-if="!fetchingData")
 
 </template>
 

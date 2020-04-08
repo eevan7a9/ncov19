@@ -35,6 +35,9 @@ export default {
       this.fillData()
     }
   },
+  mounted() {
+    this.fillData()
+  },
   methods: {
     fillData() {
       const data = {
