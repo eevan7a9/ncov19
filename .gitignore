@@ -94,3 +94,6 @@ assets/dummy-data.json
 
 # Assets/ rapidapi
 assets/rapidapi.js
+
+# Testing pages
+pages/test.vue

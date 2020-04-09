@@ -12,8 +12,15 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item to="/" class="text-capitalize">home</b-nav-item>
-          <b-nav-item to="/about" class="text-capitalize">about</b-nav-item>
+          <b-nav-item to="/" class="text-capitalize font-weight-bold"
+            >home</b-nav-item
+          >
+          <b-nav-item to="/media" class="text-capitalize font-weight-bold"
+            >media</b-nav-item
+          >
+          <b-nav-item to="/about" class="text-capitalize font-weight-bold"
+            >about</b-nav-item
+          >
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
