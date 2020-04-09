@@ -1,42 +1,36 @@
-<template>
-  <div>
-    <b-alert
+<template lang="pug">
+  div
+    b-alert(
       v-model="showDismissibleAlert"
       class="mt-3"
       variant="danger"
-      dismissible
-    >
+      dismissible)
+
       <!-- eslint-disable-next-line vue/no-v-html -->
-      <div v-html="attribution"></div>
-    </b-alert>
-    <div class="media-container row justify-content-center p-3">
-      <div v-for="(media, i) in getCdcMedia" :key="i" class="col-lg-6">
-        <b-card no-body class="mb-3  overflow-hidden" style="max-width: 100%;">
-          <b-row no-gutters>
-            <b-col v-if="media.alternateImages[2]" md="6">
-              <b-card-img
-                :src="
-                  media.alternateImages[2] ? media.alternateImages[2].url : ''
-                "
-                alt="Image"
-                class="rounded-0"
-              ></b-card-img>
-            </b-col>
-            <b-col :md="media.alternateImages[2] ? 6 : 12">
-              <b-card-body>
-                <h5>
-                  <nuxt-link to="/media">{{ media.name }}</nuxt-link>
-                </h5>
-                <b-card-text>
-                  {{ media.description }}
-                </b-card-text>
-              </b-card-body>
-            </b-col>
-          </b-row>
-        </b-card>
-      </div>
-    </div>
-  </div>
+      div(v-html="attribution")
+    div.vh-100.d-flex.justify-content-center.align-items-center(v-if="!getCdcMedia.length")
+      b-spinner(
+        style="width: 3rem; height: 3rem;"
+        label="Large Spinner"
+        variant="danger")
+    div.media-container.row.justify-content-center.p-3(v-else)
+      div(v-for="(media, i) in getCdcMedia" :key="i" class="col-lg-6")
+        b-card( no-body class="mb-3  overflow-hidden" style="max-width: 100%;")
+          b-row(no-gutters)
+            b-col( v-if="media.alternateImages[2]" md="6")
+              nuxt-link(:to="{ name: 'Media-content', params: { content: media.id }}")
+                b-card-img(
+                  :src="media.alternateImages[2] ? media.alternateImages[2].url : ''"
+                  alt="Image"
+                  class="rounded-0")
+            b-col( :md="media.alternateImages[2] ? 6 : 12")
+              b-card-body
+                h5
+                  nuxt-link(:to="{ name: 'Media-content', params: { content: media.id }}")  {{ media.name }}
+                b-card-text {{ media.description }}
+                hr
+                small
+                   div(v-html="media.attribution")
 </template>
 
 <script>
@@ -64,5 +58,4 @@ export default {
   }
 }
 </script>
-
 <style lang="scss" scoped></style>
