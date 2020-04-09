@@ -6,10 +6,13 @@ export const state = function() {
 export const getters = {
   getCdcMedia: (state) => {
     const media = state.media.map((med) => ({
+      id: med.id,
       name: med.name,
+      attribution: med.attribution,
       description: med.description,
       thumbnailUrl: med.thumbnailUrl,
-      alternateImages: med.alternateImages
+      alternateImages: med.alternateImages,
+      syndicateUrl: med.syndicateUrl
     }))
     return media
   }
