@@ -15,28 +15,17 @@
         variant="danger")
     div.media-container.row.justify-content-center.p-3(v-else)
       div(v-for="(media, i) in getCdcMedia" :key="i" class="col-lg-6")
-        b-card( no-body class="mb-3  overflow-hidden" style="max-width: 100%;")
-          b-row(no-gutters)
-            b-col( v-if="media.alternateImages[2]" md="6")
-              nuxt-link(:to="{ name: 'Media-content', params: { content: media.id }}")
-                b-card-img(
-                  :src="media.alternateImages[2] ? media.alternateImages[2].url : ''"
-                  alt="Image"
-                  class="rounded-0")
-            b-col( :md="media.alternateImages[2] ? 6 : 12")
-              b-card-body
-                h5
-                  nuxt-link(:to="{ name: 'Media-content', params: { content: media.id }}")  {{ media.name }}
-                b-card-text {{ media.description }}
-                hr
-                small
-                   div(v-html="media.attribution")
+        MediaItem(:media="media")
 </template>
 
 <script>
 import { mapGetters, mapMutations } from 'vuex'
+import MediaItem from '@/components/cdc/MediaItem'
 export default {
   name: 'MediaLists',
+  components: {
+    MediaItem
+  },
   async fetch() {
     if (!this.getCdcMedia.length) {
       const result = await this.$axios.get(
