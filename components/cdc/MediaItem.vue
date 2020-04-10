@@ -4,10 +4,11 @@
       b-col( v-if="media.alternateImages[2]" md="6")
         nuxt-link(:to="{ name: 'Media-content', params: { content: media.id }}")
           b-card-img(
+            v-if="showPhoto"
             :src="media.alternateImages[2] ? media.alternateImages[2].url : ''"
             alt="Image"
             class="rounded-0")
-      b-col( :md="media.alternateImages[2] ? 6 : 12")
+      b-col( :md="media.alternateImages[2] && showPhoto ? 6 : 12")
         b-card-body
           h5
             nuxt-link(:to="{ name: 'Media-content', params: { content: media.id }}")  {{ media.name }}
@@ -24,6 +25,11 @@ export default {
       require: true,
       type: Object,
       default: () => {}
+    },
+    showPhoto: {
+      require: false,
+      type: Boolean,
+      default: () => true
     }
   }
 }
