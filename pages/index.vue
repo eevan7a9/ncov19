@@ -45,18 +45,24 @@ export default {
   mounted() {
     const storedData = JSON.parse(localStorage.getItem('covid19'))
     if (storedData) {
-      const storedSeconds =
-        (new Date().getTime() - storedData.StoredTime) / 1000
-      if (storedSeconds > 3600) {
-        // console.log('fetch fresh')
-        // every 1hr we fetch new data
-        this.getApiData()
+      if (storedData.Countries) {
+        const storedSeconds =
+          (new Date().getTime() - storedData.StoredTime) / 1000
+        if (storedSeconds > 3600) {
+          // console.log('fetch fresh')
+          // every 1hr we fetch new data
+          this.getApiData()
+        } else {
+          // console.log('fetch stored')
+          this.SET_SUMMARY_CASES(storedData.Countries)
+          this.initDom = true
+        }
       } else {
-        // console.log('fetch stored')
-        this.SET_SUMMARY_CASES(storedData.Countries)
-        this.initDom = true
+        // if Countries are empty we fetch
+        this.getApiData()
       }
     } else {
+      // if no data is stored we fetch
       this.getApiData()
     }
   },
