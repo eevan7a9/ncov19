@@ -71,10 +71,11 @@ export default {
   methods: {
     ...mapActions('countries', ['setCountriesInfo']),
     checkCountryIsTopFive(target, marker) {
-      const inTopFive = this.getCountriesCases
-        .slice(0, 4)
+      // top three highest cases will inititalize with open popup
+      const inTopThree = this.getCountriesCases
+        .slice(0, 3)
         .some((top) => top.Country === marker.Country)
-      if (inTopFive) {
+      if (inTopThree) {
         target.openPopup()
       }
     }
