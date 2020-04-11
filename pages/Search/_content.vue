@@ -1,7 +1,7 @@
 <template lang="pug">
   div.container.pt-md-5
     div#resultCountries
-      div.py-5.d-flex.justify-content-center.align-items-center(v-if="!countries.isFetched")
+      div.py-5.vh-100.d-flex.justify-content-center.align-items-center(v-if="!countries.isFetched")
         b-spinner(
           style="width: 3rem; height: 3rem;"
           label="Large Spinner"
