@@ -29,7 +29,8 @@ export default {
    */
   plugins: [
     { src: '@/plugins/vue-dragscroll.js', ssr: false },
-    { src: '~plugins/leaflet.js', ssr: false }
+    { src: '~plugins/leaflet.js', ssr: false },
+    { src: '@/plugins/aos.js', ssr: false }
   ],
   /*
    ** Nuxt.js dev-modules
