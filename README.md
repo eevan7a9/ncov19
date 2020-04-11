@@ -8,6 +8,7 @@ Coronavirus disease (COVID-19) is an infectious disease caused by a newly discov
 
 - **DATA SOURCE**
   - [**Johns Hopkins CSSE**](https://github.com/CSSEGISandData/COVID-19)
+  - [**CDC Media Library**](https://tools.cdc.gov/medialibrary/index.aspx#/results)
 - **API PROVIDERS**
 
   - [**covid19api.com**](https://covid19api.com/)
@@ -20,6 +21,9 @@ Coronavirus disease (COVID-19) is an infectious disease caused by a newly discov
 - [vue2-leaflet](https://vue2-leaflet.netlify.com/)
 - [openstreetmap](https://www.openstreetmap.org/)
 - [Bootstrap-vue](bootstrap-vue.js.org/)
+- [Axios](https://www.npmjs.com/package/axios)
+- [vue-dragscroll](https://www.npmjs.com/package/vue-dragscroll)
+- [AOS](https://michalsnik.github.io/aos/)
 
 ## Build Setup
 
