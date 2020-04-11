@@ -9,7 +9,7 @@
       div.row.justify-content-center
         div.col-10
           h2(v-if="countries.content.length") Country:
-          b-card.overflow-hidden.mb-3(v-for="(country,i) in countries.content" :key="i"
+          b-card.overflow-hidden.mb-3.item-country(v-for="(country,i) in countries.content" :key="i"
             no-body @click="countryCase(country.name_2nd ? country.name_2nd : country.name)"
             style="cursor:pointer"
             )
@@ -103,4 +103,10 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.item-country {
+  -webkit-box-shadow: 2px 5px 21px -12px rgba(26, 26, 26, 1);
+  -moz-box-shadow: 2px 5px 21px -12px rgba(26, 26, 26, 1);
+  box-shadow: 2px 5px 21px -12px rgba(26, 26, 26, 1);
+}
+</style>
