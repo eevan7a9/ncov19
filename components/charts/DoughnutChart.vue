@@ -14,6 +14,13 @@ export default {
   watch: {
     chartData() {
       this.$data._chart.update()
+    },
+    options: {
+      // eslint-disable-next-line object-shorthand
+      handler: function() {
+        this.renderChart(this.chartData, this.options)
+      },
+      deep: true
     }
   },
   mounted() {
