@@ -3,7 +3,7 @@
     div.d-flex.justify-content-center.align-items-center.h-100.w-100(v-if="!initDom")
       b-spinner(style="width: 3rem; height: 3rem;" variant="danger" )
     div.d-flex.flex-column.h-100(v-else)
-      div#topPanels.row.m-0.bg-dark(:class="showTopPanel ? 'show': 'hide'")
+      div#topPanels.row.m-0.bg-dark(:class="showTopPanel ? 'show': 'hide'"  v-dragscroll)
         div.all-cases.col-md-4.col-sm-6.p-0.h-100
           AllCases
         div.top-cases.col-md-4.col-sm-6.p-0.h-100
