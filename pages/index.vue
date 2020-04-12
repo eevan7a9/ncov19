@@ -71,15 +71,17 @@ export default {
     ...mapMutations(['SET_SUMMARY_CASES']),
     async getApiData() {
       const countries = await this.fetchSummaryCases()
-      this.initDom = true
-      // we set to localstorage
-      localStorage.setItem(
-        'covid19',
-        JSON.stringify({
-          Countries: countries,
-          StoredTime: new Date().getTime()
-        })
-      )
+      if (countries.length) {
+        this.initDom = true
+        // we set to localstorage
+        localStorage.setItem(
+          'covid19',
+          JSON.stringify({
+            Countries: countries,
+            StoredTime: new Date().getTime()
+          })
+        )
+      }
     }
   }
 }

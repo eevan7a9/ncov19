@@ -33,7 +33,9 @@ const actions = {
       commit('SET_SUMMARY_CASES', result.data.Countries)
       return result.data.Countries
     } catch (error) {
-      alert(error)
+      if (error) {
+        this.$router.push({ name: 'Error-maintenance' })
+      }
     }
   }
 }
