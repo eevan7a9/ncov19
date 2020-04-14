@@ -43,7 +43,8 @@
           li.mt-2 Images used on this project were from
             a(href="https://pixabay.com/") &nbsp;Pixabay
           li.mt-2 Illustations used on this project were from
-            a(href="https://www.manypixels.co/") &nbsp;Manypixel
+            a(href="https://www.manypixels.co/") &nbsp;Manypixel &
+            a(href="https://undraw.co/") &nbsp;Undraw
       div.col-md-6
         h1.mt-3 Tools used:
         ul
