@@ -20,6 +20,7 @@
     "leaflet": "^1.6.0",
     "nuxt": "^2.0.0",
     "vue-chartjs": "^3.5.0",
+    "vue-choropleth": "^0.3.1",
     "vue-dragscroll": "^2.0.1",
     "vue2-leaflet": "^2.5.2"
   },
