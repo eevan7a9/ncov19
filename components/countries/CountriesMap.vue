@@ -17,7 +17,7 @@
           :radius="marker.radius * 2"
           @add="$nextTick(()=&gt; checkCountryIsTopFive($event.target, marker))"
         ></l-circle>
-        <l-marker
+        <!-- <l-marker
           v-for="(marker, index) in getCountriesCases"
           :key="index"
           :lat-lng="marker.latLang"
@@ -52,31 +52,7 @@
               >
             </p>
           </l-popup>
-        </l-marker>
-        <l-choropleth-layer
-          :data="getSummaryCases"
-          title-key="country"
-          id-key="alpha3"
-          :value="value"
-          :extra-values="extraValues"
-          geojson-id-key="id"
-          :geojson="countriesGeojson"
-          :color-scale="colorScale"
-          ><template slot-scope="props"
-            ><l-info-control
-              :item="props.currentItem"
-              :unit="props.unit"
-              title="Country"
-              placeholder="Hover over a country"
-            ></l-info-control
-            ><l-reference-chart
-              title="Covid 19 Cases"
-              :color-scale="colorScale"
-              :min="props.min"
-              :max="props.max"
-              position="topright"
-            ></l-reference-chart></template
-        ></l-choropleth-layer>
+        </l-marker> -->
       </l-map>
     </client-only>
   </div>
@@ -89,17 +65,6 @@ export default {
   name: 'CountriesMap',
   data() {
     return {
-      value: {
-        key: 'TotalConfirmed',
-        metric: 'cases'
-      },
-      extraValues: [
-        {
-          key: '',
-          metric: ''
-        }
-      ],
-      colorScale: ['e7d090', 'e9ae7b', 'de7062'],
       map: {
         zoom: 4,
         center: [47.31322, -1.319482]
@@ -137,9 +102,11 @@ export default {
     this.$nextTick(() => {
       this.map.center = [47.31322, -1.319482]
     })
+
     // eslint-disable-next-line no-console
-    console.log(this.getSummaryCases)
     console.log(countriesGeojson)
+    // eslint-disable-next-line no-console
+    console.log(this.map)
   },
   created() {},
   methods: {
