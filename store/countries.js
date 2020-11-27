@@ -38,7 +38,8 @@ export const actions = {
   },
   setCountriesInfo: ({ commit, rootState }) => {
     if (rootState.summaryCases) {
-      let countries = rootState.summaryCases.map((country) => {
+      let countries = []
+      rootState.summaryCases.forEach((country) => {
         if (country.Country) {
           // we try to find the country in countriesInfo
           const foundCountry = countriesInfo.countries.find(
@@ -72,14 +73,13 @@ export const actions = {
             } else {
               country.radius = 10000
             }
-            return country
+            countries.push(country)
           }
         }
       })
       countries = countries
         .sort((a, b) => b.TotalConfirmed - a.TotalConfirmed)
         .filter((country) => country !== undefined)
-      // console.log(countries)
       commit('SET_COUNTRIES_CASES', countries)
     }
   },

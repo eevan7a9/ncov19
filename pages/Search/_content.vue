@@ -43,6 +43,18 @@ export default {
   components: {
     MediaItem
   },
+  data() {
+    return {
+      media: {
+        content: [],
+        isFetched: false
+      },
+      countries: {
+        content: [],
+        isFetched: false
+      }
+    }
+  },
   async fetch() {
     if (this.$route.params.content) {
       const content = this.$route.params.content
@@ -77,22 +89,10 @@ export default {
             content.toLowerCase().includes(country.country_code.toLowerCase())
           )
             matched.push(1)
-          if (matched.length) return country
+          return country
         })
       this.countries.content = countries
       this.countries.isFetched = true
-    }
-  },
-  data() {
-    return {
-      media: {
-        content: [],
-        isFetched: false
-      },
-      countries: {
-        content: [],
-        isFetched: false
-      }
     }
   },
   methods: {

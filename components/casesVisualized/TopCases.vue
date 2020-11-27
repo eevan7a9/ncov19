@@ -61,11 +61,9 @@ export default {
       if (this.getSummaryCases.length) {
         const countries = this.getSummaryCases
           .map((country) => {
-            if (country.Country) {
-              return {
-                Country: country.Country,
-                TotalConfirmed: country.TotalConfirmed
-              }
+            return {
+              Country: country.Country,
+              TotalConfirmed: country.TotalConfirmed
             }
           })
           .sort((a, b) => b.TotalConfirmed - a.TotalConfirmed)

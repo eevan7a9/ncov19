@@ -8,7 +8,7 @@ export default {
     options: {
       required: false,
       type: Object,
-      default: () => []
+      default: () => ({})
     }
   },
   watch: {
