@@ -1,5 +1,12 @@
 import Vue from 'vue'
-import { LMap, LTileLayer, LMarker, LCircle, LPopup, LGeoJson } from 'vue2-leaflet'
+import {
+  LMap,
+  LTileLayer,
+  LMarker,
+  LCircle,
+  LPopup,
+  LGeoJson
+} from 'vue2-leaflet'
 import 'leaflet/dist/leaflet.css'
 
 Vue.component('LMap', LMap)
