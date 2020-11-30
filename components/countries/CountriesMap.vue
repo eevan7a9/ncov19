@@ -7,6 +7,12 @@
           :url="tile.url"
           :attribution="tile.attribution"
         ></l-tile-layer>
+        <l-geo-json
+          v-if="true"
+          :geojson="countriesGeojson"
+          :options="options"
+          :options-style="styleFunction"
+        ></l-geo-json>
         <l-circle
           v-for="(marker, index) in getCountriesCases"
           :key="index"
@@ -65,6 +71,7 @@ export default {
   name: 'CountriesMap',
   data() {
     return {
+      fillColor: '#e4ce7f',
       map: {
         zoom: 4,
         center: [47.31322, -1.319482]
@@ -87,6 +94,35 @@ export default {
     ...mapGetters('countries', ['getCountriesCases']),
     countriesGeojson() {
       return countriesGeojson
+    },
+    options() {
+      return {
+        onEachFeature: this.onEachFeatureFunction
+      }
+    },
+    styleFunction() {
+      const fillColor = this.fillColor // important! need touch fillColor in computed for re-calculate when change fillColor
+      return () => {
+        return {
+          weight: 2,
+          color: '#ECEFF1',
+          opacity: 1,
+          fillColor,
+          fillOpacity: 1
+        }
+      }
+    },
+    onEachFeatureFunction() {
+      return (feature, layer) => {
+        layer.bindTooltip(
+          '<div>code:' +
+            'people' +
+            '</div><div>nom: ' +
+            'of the world' +
+            '</div>',
+          { permanent: false, sticky: true }
+        )
+      }
     }
   },
   watch: {
