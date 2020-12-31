@@ -30,7 +30,6 @@ const getters = {
 
 const actions = {
   async fetchSummaryCases({ commit }) {
-    console.log(countriesAlpha3, 'alpha3')
     try {
       const result = await this.$axios.get('https://api.covid19api.com/summary')
       const countries = result.data.Countries
