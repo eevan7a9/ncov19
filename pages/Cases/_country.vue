@@ -25,8 +25,6 @@ import CountryTimeline from '@/components/countries/CountryTimeline'
 import CountryRecentCase from '@/components/countries/CountryRecentCase'
 import CountryCases from '@/components/casesVisualized/CountryCases'
 export default {
-  layout: 'dashboard',
-  // middleware: 'summaryCases',
   components: {
     BIcon,
     BIconTriangleFill,
@@ -34,6 +32,8 @@ export default {
     CountryRecentCase,
     CountryCases
   },
+  layout: 'dashboard',
+  // middleware: 'summaryCases',
   data() {
     return {
       fetchingData: false,

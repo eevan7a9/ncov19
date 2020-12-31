@@ -16,6 +16,13 @@
 <script>
 import axios from 'axios'
 export default {
+  data() {
+    return {
+      content: null,
+      name: null,
+      description: null
+    }
+  },
   async fetch() {
     const result = await axios.get(
       `https://tools.cdc.gov/api/v2/resources/media/${this.$route.params.content}/syndicate.json`
@@ -23,13 +30,6 @@ export default {
     this.content = result.data.results.content
     this.name = result.data.results.name
     this.description = result.data.results.description
-  },
-  data() {
-    return {
-      content: null,
-      name: null,
-      description: null
-    }
   }
 }
 </script>

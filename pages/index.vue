@@ -27,7 +27,6 @@ import AllCases from '@/components/casesVisualized/AllCases'
 import TopCases from '@/components/casesVisualized/TopCases'
 import GlobalNumbers from '@/components/casesVisualized/GlobalNumbers'
 export default {
-  layout: 'dashboard',
   components: {
     BIcon,
     BIconTriangleFill,
@@ -36,6 +35,7 @@ export default {
     TopCases,
     GlobalNumbers
   },
+  layout: 'dashboard',
   data() {
     return {
       initDom: false,

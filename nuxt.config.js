@@ -60,6 +60,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
+    // friendlyErrors: false,
     extend(config, ctx) {}
   }
 }
