@@ -12,28 +12,24 @@
           :geojson="countriesGeojson"
           :options="options"
           :options-style="styleFunction"
-        >
-          <l-popup>Hello!</l-popup>
-        </l-geo-json>
-        <!-- <l-circle
+        />
+        <l-circle
           v-for="(marker, index) in getCountriesCases"
           :key="index"
           :lat-lng="marker.latLang"
           :color="circle.color"
           :fill-color="circle.fillColor"
           :fill-opacity="circle.fillOpacity"
-          :radius="marker.radius * 2"
-          @add="$nextTick(()=&gt; checkCountryIsTopFive($event.target, marker))"
-        ></l-circle> -->
-        <!-- <l-marker
-          v-for="(marker, index) in getCountriesCases"
-          :key="index"
-          :lat-lng="marker.latLang"
+          :radius="marker.radius"
+          :visible="checkCountryIsTopThree(marker)"
+          @add="$nextTick(()=&gt; setCirclePopup($event.target, marker))"
         >
           <l-popup :options="{ closeOnClick: false, autoClose: false }">
-            <p class="m-0 p-0 text-center text-uppercase">
-              <strong>{{ marker.Country }}</strong>
-            </p>
+            <h6
+              class="m-0 p-0 font-weight-bolder text-capitalize text-danger text-center"
+            >
+              top cases
+            </h6>
             <p class="m-0 p-0">
               Total Confirmed :<strong class="text-info">{{
                 marker.TotalConfirmed
@@ -56,11 +52,16 @@
                   name: 'Cases-country',
                   params: { country: marker.name }
                 }"
-                ><u>More Details</u></router-link
+                ><u>{{ marker.Country }}</u></router-link
               >
             </p>
           </l-popup>
-        </l-marker> -->
+        </l-circle>
+        <!-- <l-marker
+          v-for="(marker, index) in getCountriesCases"
+          :key="index"
+          :lat-lng="marker.latLang"
+        /> -->
       </l-map>
     </client-only>
   </div>
@@ -89,7 +90,7 @@ export default {
       circle: {
         radius: 5,
         color: 'red',
-        fillColor: '#f03',
+        fillColor: '#fd7e14',
         fillOpacity: 0.3
       }
     }
@@ -184,11 +185,14 @@ export default {
   created() {},
   methods: {
     ...mapActions('countries', ['setCountriesInfo']),
-    checkCountryIsTopFive(target, marker) {
+    checkCountryIsTopThree(marker) {
       // top three highest cases will inititalize with open popup
-      const inTopThree = this.getCountriesCases
+      return this.getCountriesCases
         .slice(0, 3)
         .some((top) => top.Country === marker.Country)
+    },
+    setCirclePopup(target, marker) {
+      const inTopThree = this.checkCountryIsTopThree(marker)
       if (inTopThree) {
         target.openPopup()
       }
