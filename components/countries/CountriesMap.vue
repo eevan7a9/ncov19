@@ -13,7 +13,7 @@
           :options="options"
           :options-style="styleFunction"
         ></l-geo-json>
-        <l-circle
+        <!-- <l-circle
           v-for="(marker, index) in getCountriesCases"
           :key="index"
           :lat-lng="marker.latLang"
@@ -22,7 +22,7 @@
           :fill-opacity="circle.fillOpacity"
           :radius="marker.radius * 2"
           @add="$nextTick(()=&gt; checkCountryIsTopFive($event.target, marker))"
-        ></l-circle>
+        ></l-circle> -->
         <!-- <l-marker
           v-for="(marker, index) in getCountriesCases"
           :key="index"
@@ -67,13 +67,14 @@
 <script>
 import countriesGeojson from 'assets/geojson/countries.json'
 import { mapGetters, mapActions } from 'vuex'
+
 export default {
   name: 'CountriesMap',
   data() {
     return {
-      fillColor: '#e4ce7f',
+      fillColor: '#f2efe9',
       map: {
-        zoom: 4,
+        zoom: 2,
         center: [47.31322, -1.319482]
       },
       tile: {
@@ -114,14 +115,32 @@ export default {
     },
     onEachFeatureFunction() {
       return (feature, layer) => {
-        layer.bindTooltip(
-          '<div>code:' +
-            'people' +
-            '</div><div>nom: ' +
-            'of the world' +
-            '</div>',
-          { permanent: false, sticky: true }
+        // console.log(feature.id)
+        const foundCountry = this.getCountriesCases.find(
+          (country) => country.alpha3 === feature.id
         )
+        if (foundCountry) {
+          // we bind tooltips when hover on
+          const highestDeath = this.getCountriesCases[0].TotalDeaths
+          const percentToHighest =
+            (foundCountry.TotalDeaths / highestDeath) * 100
+
+          layer.bindTooltip(
+            `<h6>Country: <strong>${foundCountry.name}</strong></h6>
+            <div>Total Confirmed: ${foundCountry.TotalConfirmed.toLocaleString()}</div>
+            <div>Deaths: ${foundCountry.TotalDeaths.toLocaleString()} </div>`,
+            { permanent: false, sticky: true }
+          )
+          // we set the layers styles
+          layer.setStyle({
+            color: 'red',
+            fillColor: this.shadeColor(
+              '#dc3545',
+              this.getEquivalentPercentage(percentToHighest)
+            ),
+            fillOpacity: 0.8
+          })
+        }
       }
     }
   },
@@ -140,9 +159,7 @@ export default {
     })
 
     // eslint-disable-next-line no-console
-    console.log(countriesGeojson)
-    // eslint-disable-next-line no-console
-    console.log(this.map)
+    console.log(this.getCountriesCases)
   },
   created() {},
   methods: {
@@ -155,6 +172,40 @@ export default {
       if (inTopThree) {
         target.openPopup()
       }
+    },
+    shadeColor(color, percent) {
+      let R = parseInt(color.substring(1, 3), 16)
+      let G = parseInt(color.substring(3, 5), 16)
+      let B = parseInt(color.substring(5, 7), 16)
+
+      R = parseInt((R * (100 + percent)) / 100)
+      G = parseInt((G * (100 + percent)) / 100)
+      B = parseInt((B * (100 + percent)) / 100)
+
+      R = R < 255 ? R : 255
+      G = G < 255 ? G : 255
+      B = B < 255 ? B : 255
+
+      const RR =
+        R.toString(16).length === 1 ? '0' + R.toString(16) : R.toString(16)
+      const GG =
+        G.toString(16).length === 1 ? '0' + G.toString(16) : G.toString(16)
+      const BB =
+        B.toString(16).length === 1 ? '0' + B.toString(16) : B.toString(16)
+
+      return '#' + RR + GG + BB
+    },
+    getEquivalentPercentage(percentage) {
+      const number = Math.ceil(percentage.toFixed(2))
+      if (number <= 1) return +25
+      if (number <= 10) return +15
+      if (number <= 15) return 0
+      if (number <= 25) return -15
+      if (number <= 50) return -25
+      if (number <= 65) return -30
+      if (number <= 75) return -45
+      if (number <= 85) return -60
+      if (number <= 100) return -75
     }
   }
 }
