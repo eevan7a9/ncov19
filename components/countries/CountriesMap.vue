@@ -12,26 +12,24 @@
           :geojson="countriesGeojson"
           :options="options"
           :options-style="styleFunction"
-        ></l-geo-json>
-        <!-- <l-circle
+        />
+        <l-circle
           v-for="(marker, index) in getCountriesCases"
           :key="index"
           :lat-lng="marker.latLang"
           :color="circle.color"
           :fill-color="circle.fillColor"
           :fill-opacity="circle.fillOpacity"
-          :radius="marker.radius * 2"
-          @add="$nextTick(()=&gt; checkCountryIsTopFive($event.target, marker))"
-        ></l-circle> -->
-        <!-- <l-marker
-          v-for="(marker, index) in getCountriesCases"
-          :key="index"
-          :lat-lng="marker.latLang"
+          :radius="marker.radius"
+          :visible="checkCountryIsTopThree(marker)"
+          @add="$nextTick(()=&gt; setCirclePopup($event.target, marker))"
         >
           <l-popup :options="{ closeOnClick: false, autoClose: false }">
-            <p class="m-0 p-0 text-center text-uppercase">
-              <strong>{{ marker.Country }}</strong>
-            </p>
+            <h6
+              class="m-0 p-0 font-weight-bolder text-capitalize text-danger text-center"
+            >
+              top cases
+            </h6>
             <p class="m-0 p-0">
               Total Confirmed :<strong class="text-info">{{
                 marker.TotalConfirmed
@@ -54,11 +52,16 @@
                   name: 'Cases-country',
                   params: { country: marker.name }
                 }"
-                ><u>More Details</u></router-link
+                ><u>{{ marker.Country }}</u></router-link
               >
             </p>
           </l-popup>
-        </l-marker> -->
+        </l-circle>
+        <!-- <l-marker
+          v-for="(marker, index) in getCountriesCases"
+          :key="index"
+          :lat-lng="marker.latLang"
+        /> -->
       </l-map>
     </client-only>
   </div>
@@ -66,6 +69,8 @@
 
 <script>
 import countriesGeojson from 'assets/geojson/countries.json'
+import countriesAlpha3 from 'assets/countries-alpha3'
+import countriesInfo from '@/assets/countries-info.json'
 import { mapGetters, mapActions } from 'vuex'
 
 export default {
@@ -85,7 +90,7 @@ export default {
       circle: {
         radius: 5,
         color: 'red',
-        fillColor: '#f03',
+        fillColor: '#fd7e14',
         fillOpacity: 0.3
       }
     }
@@ -126,9 +131,21 @@ export default {
             (foundCountry.TotalDeaths / highestDeath) * 100
 
           layer.bindTooltip(
-            `<h6>Country: <strong>${foundCountry.name}</strong></h6>
-            <div>Total Confirmed: ${foundCountry.TotalConfirmed.toLocaleString()}</div>
-            <div>Deaths: ${foundCountry.TotalDeaths.toLocaleString()} </div>`,
+            `
+            <h6>Country: <strong>${foundCountry.name}</strong></h6>
+            <div>
+              <strong class="text-primary">Total Confirmed: </strong>
+              ${foundCountry.TotalConfirmed.toLocaleString()}
+            </div>
+            <div>
+              <strong class="text-danger">Deaths: </strong>
+              ${foundCountry.TotalDeaths.toLocaleString()}
+            </div>
+            <div>
+              <strong class="text-success">Recovered: </strong>
+              ${foundCountry.TotalRecovered.toLocaleString()}
+            </div>
+            `,
             { permanent: false, sticky: true }
           )
           // we set the layers styles
@@ -139,6 +156,10 @@ export default {
               this.getEquivalentPercentage(percentToHighest)
             ),
             fillOpacity: 0.8
+          })
+          // layer.bindPopup('this is popup!!!')
+          layer.on({
+            click: this.geoJsonClicked
           })
         }
       }
@@ -159,16 +180,19 @@ export default {
     })
 
     // eslint-disable-next-line no-console
-    console.log(this.getCountriesCases)
+    // console.log(this.getCountriesCases)
   },
   created() {},
   methods: {
     ...mapActions('countries', ['setCountriesInfo']),
-    checkCountryIsTopFive(target, marker) {
+    checkCountryIsTopThree(marker) {
       // top three highest cases will inititalize with open popup
-      const inTopThree = this.getCountriesCases
+      return this.getCountriesCases
         .slice(0, 3)
         .some((top) => top.Country === marker.Country)
+    },
+    setCirclePopup(target, marker) {
+      const inTopThree = this.checkCountryIsTopThree(marker)
       if (inTopThree) {
         target.openPopup()
       }
@@ -206,6 +230,22 @@ export default {
       if (number <= 75) return -45
       if (number <= 85) return -60
       if (number <= 100) return -75
+    },
+    geoJsonClicked(e) {
+      const alpha3 = e.target.feature.id
+      const countryAlpha3 = countriesAlpha3.find((c) => c['alpha-3'] === alpha3)
+      if (countryAlpha3) {
+        const countryInfo = countriesInfo.countries.find(
+          (c) => c.country_code === countryAlpha3['alpha-2']
+        )
+        if (countryInfo) {
+          const country = countryInfo.name_2nd || countryInfo.name
+          this.$router.push({
+            name: 'Cases-country',
+            params: { country }
+          })
+        }
+      }
     }
   }
 }
