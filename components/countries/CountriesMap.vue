@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 <template>
-  <div id="mapContainer" class="h-100 w-100">
+  <div class="map-container">
     <client-only>
       <l-map :zoom="map.zoom" :center="map.center">
         <l-tile-layer
@@ -79,7 +79,7 @@ export default {
     return {
       fillColor: '#f2efe9',
       map: {
-        zoom: 2,
+        zoom: 3,
         center: [47.31322, -1.319482]
       },
       tile: {
@@ -251,4 +251,9 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.map-container {
+  width: 100vw;
+  height: calc(100vh - 56px);
+}
+</style>

@@ -28,7 +28,8 @@ export default {
           yAxes: [
             {
               ticks: {
-                beginAtZero: true
+                beginAtZero: true,
+                fontColor: 'aliceblue'
               }
             }
           ],

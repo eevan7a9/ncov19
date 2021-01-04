@@ -1,18 +1,22 @@
 <template lang="pug">
   div.text-light.h-100.text-left.overflow-hidden
-    h3.text-uppercase.text-center.mt-md-2.mt-sm-3 Global Numbers
-    div.mt-4.d-flex.flex-column.align-items-center(v-if="getTotalNumbers.content")
-      p.confirmed.text-info.my-md-2 Confirmed:
+    h3.text-uppercase.mt-md-4.mt-3.text-center Global Numbers
+    div.row(v-if="getTotalNumbers.content")
+      div.col-6.confirmed.text-info.text-right.text-title.text-uppercase Confirmed:
+      div.col-6
         small.m-0.ml-2.p-0.text-light.font-weight-bold {{ getTotalNumbers.cases.toLocaleString() }}
-      p.active.text-warning.my-md-2 Active:
+      div.col-6.active.text-warning.text-right.text-title.text-uppercase Active:
+      div.col-6
         small.m-0.ml-2.p-0.text-light.font-weight-bold
           | {{ getTotalNumbers.active.toLocaleString() }}
           small.font-weight-bold.text-warning -({{ (getTotalNumbers.active / getTotalNumbers.cases * 100).toFixed(2) }}%)
-      p.deaths.text-danger.my-md-2 Deaths:
+      div.col-6.deaths.text-danger.text-right.text-title.text-uppercase Deaths:
+      div.col-6
         small.m-0.ml-2.p-0.text-light.font-weight-bold
           | {{ getTotalNumbers.death.toLocaleString() }}
           small.font-weight-bold.text-danger -({{ (getTotalNumbers.death / getTotalNumbers.cases * 100).toFixed(2) }}%)
-      p.recovered.text-success.my-md-2 Recovered:
+      div.col-6.recovered.text-success.text-right.text-title.text-uppercase Recovered:
+      div.col-6
         small.m-0.ml-2.p-0.text-light.font-weight-bold
           | {{ getTotalNumbers.treated.toLocaleString() }}
           small.font-weight-bold.text-success -({{ (getTotalNumbers.treated / getTotalNumbers.cases * 100).toFixed(2) }}%)
@@ -28,16 +32,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-p {
+div {
   font-size: 24px;
+  text-shadow: 1px 1px 1px #0f0000;
+}
+.text-title {
+  text-shadow: 2px 2px 1px #000000;
 }
 @media (max-width: 1000px) {
-  p {
+  div {
     font-size: 18px;
   }
 }
 @media (max-width: 576px) {
-  p {
+  div {
     font-size: 24px;
   }
 }

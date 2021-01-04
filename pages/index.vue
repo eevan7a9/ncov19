@@ -1,22 +1,25 @@
 <template lang="pug">
-  div.d-flex.flex-column.h-100.w-100
-    div.d-flex.justify-content-center.align-items-center.h-100.w-100(v-if="!initDom")
+  div.d-flex.flex-column.h-100.w-100.overflow-hidden
+    div.d-flex.justify-content-center.align-items-center.h-100(style="max-width: 100%" v-if="!initDom")
       b-spinner(style="width: 3rem; height: 3rem;" variant="danger" )
-    div.d-flex.flex-column.h-100(v-else)
-      div#topPanels.row.m-0.bg-dark(:class="showTopPanel ? 'show': 'hide'"  v-dragscroll)
-        div.all-cases.col-md-4.col-sm-6.p-0.h-100
-          AllCases
-        div.top-cases.col-md-4.col-sm-6.p-0.h-100
-          TopCases
-        div.global-numbers.col-md-4.col-0.p-0.h-100
-          GlobalNumbers
-      button.slider-button.p-0.btn.btn-dark.d-flex.justify-content-center.align-items-center(
-        @click="showTopPanel=!showTopPanel"
-      )
-        small
-          BIconTriangleFill(:flip-v="!showTopPanel")
-      div.flex-grow-1
-        CountriesMap#icon(:key="showTopPanel")
+    div.d-flex.h-100.position-relative( v-else)
+      div#topPanels.row.m-0.p-0.w-100
+        div.data-container.row.w-100.m-0.p-0(:class="showTopPanel ? 'show': 'hide'" v-dragscroll)
+          div.all-cases.col-md-4.col-sm-6.p-0.h-100
+            GlobalNumbers
+          div.top-cases.col-md-4.col-sm-6.p-0.h-100
+            TopCases
+          div.global-numbers.col-md-4.col-0.p-0.h-100
+            AllCases
+        button.col-12.slider-button.p-0.btn.d-flex.justify-content-center.align-items-center(
+          @click="showTopPanel=!showTopPanel"
+          :class="{'hide': !showTopPanel}"
+        )
+          small
+            BIconTriangleFill(:flip-v="!showTopPanel")
+
+      div.flex-grow-1()
+        CountriesMap.mapContainer(:key="showTopPanel")
 </template>
 
 <script>
@@ -90,12 +93,20 @@ export default {
 <style lang="scss" scoped>
 #topPanels {
   overflow: hidden;
-  // background: aliceblue;
-  &.show {
-    height: 300px;
-  }
-  &.hide {
-    height: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.507);
+  width: 100%;
+  z-index: 10000;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+
+  .data-container {
+    &.show {
+      height: 335px;
+    }
+    &.hide {
+      height: 0;
+    }
   }
   div {
     border: 1px solid rgb(121, 121, 121);
@@ -105,6 +116,7 @@ export default {
   height: 25px;
   color: #c4c4c4;
   border-radius: 0;
+  margin: 0;
   &:hover:before {
     transform: scale(1.2);
     box-shadow: 0 0 15px #ffffff;
@@ -115,8 +127,10 @@ export default {
     box-shadow: 0 0 15px #7e7976;
     text-shadow: 0 0 15px #fffcfa;
   }
+  &.hide {
+    background: rgb(43, 43, 43);
+  }
 }
-
 @media (max-width: 768px) {
   #topPanels {
     overflow: hidden;
