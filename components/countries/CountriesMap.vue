@@ -42,7 +42,7 @@
             </p>
             <p class="m-0 p-0">
               Total Recovered :<strong class="text-success">{{
-                marker.TotalRecovered
+                marker.TotalRecovered ? marker.TotalRecovered : 'Unavailable'
               }}</strong>
             </p>
             <p class="text-center text-uppercase m-0 mt-1 p-0">
