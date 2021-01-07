@@ -44,10 +44,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.item-media {
-  -webkit-box-shadow: 2px 5px 21px -12px rgba(26, 26, 26, 1);
-  -moz-box-shadow: 2px 5px 21px -12px rgba(26, 26, 26, 1);
-  box-shadow: 2px 5px 21px -12px rgba(26, 26, 26, 1);
-}
-</style>
+<style lang="scss" scoped></style>
