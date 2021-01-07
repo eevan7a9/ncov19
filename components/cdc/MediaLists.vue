@@ -2,7 +2,6 @@
   div
     b-alert(
       v-model="showDismissibleAlert"
-      class="mt-3"
       variant="danger"
       dismissible)
 
@@ -14,7 +13,7 @@
         label="Large Spinner"
         variant="danger")
     div.media-container.row.justify-content-center.p-3(v-else)
-      div(v-for="(media, i) in getCdcMedia" :key="i" class="col-lg-6")
+      div(v-for="(media, i) in getCdcMedia" :key="i" class="col-12")
         MediaItem(:media="media")
 </template>
 
