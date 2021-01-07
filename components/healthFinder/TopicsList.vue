@@ -40,7 +40,6 @@ export default {
   },
   methods: {
     viewTopic(topicId) {
-      console.log(topicId)
       this.$router.push({ path: '/media/health/' + topicId })
     }
   }
