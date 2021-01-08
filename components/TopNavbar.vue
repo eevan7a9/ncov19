@@ -12,15 +12,15 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item to="/" class="text-capitalize font-weight-bold"
-            >home</b-nav-item
-          >
-          <b-nav-item to="/media" class="text-capitalize font-weight-bold"
-            >media</b-nav-item
-          >
-          <b-nav-item to="/about" class="text-capitalize font-weight-bold"
-            >about</b-nav-item
-          >
+          <b-nav-item to="/" class="text-uppercase font-weight-bold">
+            home
+          </b-nav-item>
+          <b-nav-item to="/media" class="text-uppercase font-weight-bold">
+            media
+          </b-nav-item>
+          <b-nav-item to="/about" class="text-uppercase font-weight-bold">
+            about
+          </b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
@@ -68,5 +68,9 @@ export default {
 }
 a.nav-link.nuxt-link-exact-active {
   color: rgb(255, 255, 255);
+}
+.navbar-brand {
+  color: aliceblue;
+  font-size: clamp(20px, 5vw, 30px);
 }
 </style>
