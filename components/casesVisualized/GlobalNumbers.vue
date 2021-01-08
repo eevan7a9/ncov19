@@ -1,25 +1,28 @@
 <template lang="pug">
   div.text-light.h-100.text-left.overflow-hidden
-    h3.text-uppercase.mt-md-4.mt-3.text-center Global Numbers
+    h3.text-uppercase.mt-5.mt-md-3.mt-lg-5.text-center The Numbers
     div.row(v-if="getTotalNumbers.content")
-      div.col-6.confirmed.text-info.text-right.text-title.text-uppercase Confirmed:
+      div.col-6.text-info.text-title Detected:
       div.col-6
-        small.m-0.ml-2.p-0.text-light.font-weight-bold {{ getTotalNumbers.cases.toLocaleString() }}
-      div.col-6.active.text-warning.text-right.text-title.text-uppercase Active:
+        small.m-0.p-0.text-light.font-weight-bold {{ getTotalNumbers.cases.toLocaleString() }}
+      div.col-6.text-warning.text-title Active:
       div.col-6
-        small.m-0.ml-2.p-0.text-light.font-weight-bold
+        small.m-0.p-0.text-light.font-weight-bold
           | {{ getTotalNumbers.active.toLocaleString() }}
-          small.font-weight-bold.text-warning -({{ (getTotalNumbers.active / getTotalNumbers.cases * 100).toFixed(2) }}%)
-      div.col-6.deaths.text-danger.text-right.text-title.text-uppercase Deaths:
+          div.p-0.m-0.percent-text
+            small ({{ (getTotalNumbers.active / getTotalNumbers.cases * 100).toFixed(2) }}%)
+      div.col-6.text-danger.text-title Deaths:
       div.col-6
-        small.m-0.ml-2.p-0.text-light.font-weight-bold
+        small.m-0.p-0.text-light.font-weight-bold
           | {{ getTotalNumbers.death.toLocaleString() }}
-          small.font-weight-bold.text-danger -({{ (getTotalNumbers.death / getTotalNumbers.cases * 100).toFixed(2) }}%)
-      div.col-6.recovered.text-success.text-right.text-title.text-uppercase Recovered:
+          div.p-0.m-0.percent-text
+            small ({{ (getTotalNumbers.death / getTotalNumbers.cases * 100).toFixed(2) }}%)
+      div.col-6.text-success.text-title Healed:
       div.col-6
-        small.m-0.ml-2.p-0.text-light.font-weight-bold
+        small.m-0.p-0.text-light.font-weight-bold
           | {{ getTotalNumbers.treated.toLocaleString() }}
-          small.font-weight-bold.text-success -({{ (getTotalNumbers.treated / getTotalNumbers.cases * 100).toFixed(2) }}%)
+          div.p-0.m-0.percent-text
+            small ({{ (getTotalNumbers.treated / getTotalNumbers.cases * 100).toFixed(2) }}%)
 </template>
 
 <script>
@@ -34,14 +37,22 @@ export default {
 <style lang="scss" scoped>
 div {
   font-size: 24px;
-  text-shadow: 1px 1px 1px #0f0000;
+  text-shadow: 1px 2px 1px #0f0000;
 }
 .text-title {
   text-shadow: 2px 2px 1px #000000;
+  text-align: right;
+  font-weight: 800;
+}
+.percent-text {
+  font-size: 18px;
+  line-height: 16px;
+  text-shadow: 1px 2px 1px #5f5e5e;
+  font-weight: 900;
 }
 @media (max-width: 1000px) {
   div {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 @media (max-width: 576px) {
