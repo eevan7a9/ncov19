@@ -11,9 +11,8 @@
       small
          BIconTriangleFill(:flip-v="!showTopPanel")
     div.flex-grow-1
-      div.d-flex.justify-content-center.align-items-center.h-100
-        b-spinner(style="width: 3rem; height: 3rem;" variant="danger" v-show="fetchingData")
-
+      div.d-flex.justify-content-center.align-items-center.h-100(v-if="fetchingData")
+        b-spinner(style="width: 3rem; height: 3rem;" variant="danger")
       CountryTimeline(:key="showTopPanel" v-if="!fetchingData")
 
 </template>
