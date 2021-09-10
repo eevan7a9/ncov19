@@ -66,8 +66,15 @@ export const actions = {
   },
   async fetchCountryDetailedCases({ commit }, country) {
     try {
+      const dt = new Date()
+      dt.setDate(dt.getDate() - 1)
+      let m = dt.getMonth() + 1
+      let d = dt.getDate()
+      m = m > 9 ? m : '0' + m
+      d = d > 9 ? d : '0' + d
+      const day = `${dt.getFullYear()}-${m}-${d}`
       const cases = await this.$axios.get(
-        `https://covid-193.p.rapidapi.com/history?country=${country}`,
+        `https://covid-193.p.rapidapi.com/history?country=${country}&day=${day}`,
         {
           headers: {
             'x-rapidapi-host': rapidApi.host,
