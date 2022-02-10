@@ -18,7 +18,7 @@
     "bootstrap-vue": "^2.0.0",
     "chart.js": "^2.9.3",
     "leaflet": "^1.6.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "nuxt": "^2.4.2",
     "vue-chartjs": "^3.5.0",
     "vue-dragscroll": "^2.0.1",
