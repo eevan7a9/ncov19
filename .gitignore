@@ -91,6 +91,7 @@ sw.*
 
 # Assets/ dummy-data
 assets/dummy-data.json
+assets/dummy-summary.js
 
 # Assets/ rapidapi
 assets/rapidapi.js
