@@ -31,14 +31,8 @@ const getters = {
 const actions = {
   async fetchSummaryCases({ commit }) {
     try {
-      const result = await this.$axios.get(
-        'https://api.covid19api.com/summary',
-        {
-          headers: {
-            'X-Access-Token': '5cf9dfd5-3449-485e-b5ae-70a60e997864'
-          }
-        }
-      )
+      const result = await this.$axios.get('https://api.covid19api.com/summary')
+      console.log(result.data.Countries.length)
       const countries = result.data.Countries
       for (let i = 0; i < countries.length; i++) {
         const country = countries[i]
