@@ -1,5 +1,6 @@
 /* eslint-disable no-console */
 import countriesAlpha3 from 'assets/countries-alpha3'
+import summary from 'assets/dummy-summary'
 const state = () => {
   return {
     summaryCases: [],
@@ -32,7 +33,6 @@ const actions = {
   async fetchSummaryCases({ commit }) {
     try {
       const result = await this.$axios.get('https://api.covid19api.com/summary')
-      console.log(result.data.Countries.length)
       const countries = result.data.Countries
       for (let i = 0; i < countries.length; i++) {
         const country = countries[i]
@@ -49,7 +49,20 @@ const actions = {
       return result.data.Countries
     } catch (error) {
       if (error) {
-        this.$router.push({ name: 'Error-maintenance' })
+        const countries = summary.Countries
+        for (let i = 0; i < countries.length; i++) {
+          const country = countries[i]
+          const foundCountry = countriesAlpha3.find(
+            (item) => item['alpha-2'] === country.CountryCode
+          )
+          if (foundCountry) {
+            country.alpha3 = foundCountry['alpha-3']
+          } else {
+            country.alpha3 = ''
+          }
+        }
+        commit('SET_SUMMARY_CASES', countries)
+        return countries
       }
     }
   }
