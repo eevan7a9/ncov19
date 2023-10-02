@@ -36,7 +36,7 @@ const toggleCountrySearch = function (): void {
                 </button>
             </div>
 
-            <SidebarCountriesList />
+            <SidebarCountriesList :showList="showSidebar" class="mt-3" />
         </section>
 
         <article class="min-h-screen">
