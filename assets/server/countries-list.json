@@ -1,0 +1,1187 @@
+[
+  {
+    "countryCode": "AF",
+    "country": "Afghanistan",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "AL",
+    "country": "Albania",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "DZ",
+    "country": "Algeria",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "AS",
+    "country": "American Samoa",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "AD",
+    "country": "Andorra",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "AO",
+    "country": "Angola",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "AI",
+    "country": "Anguilla",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "AG",
+    "country": "Antigua and Barbuda",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "AR",
+    "country": "Argentina",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "AM",
+    "country": "Armenia",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "AW",
+    "country": "Aruba",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "AU",
+    "country": "Australia",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "AT",
+    "country": "Austria",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "AZ",
+    "country": "Azerbaijan",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "BS",
+    "country": "Bahamas",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "BH",
+    "country": "Bahrain",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "BD",
+    "country": "Bangladesh",
+    "whoRegion": "SEARO"
+  },
+  {
+    "countryCode": "BB",
+    "country": "Barbados",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "BY",
+    "country": "Belarus",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "BE",
+    "country": "Belgium",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "BZ",
+    "country": "Belize",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "BJ",
+    "country": "Benin",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "BM",
+    "country": "Bermuda",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "BT",
+    "country": "Bhutan",
+    "whoRegion": "SEARO"
+  },
+  {
+    "countryCode": "BO",
+    "country": "Bolivia (Plurinational State of)",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "XA",
+    "country": "Bonaire",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "BA",
+    "country": "Bosnia and Herzegovina",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "BW",
+    "country": "Botswana",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "BR",
+    "country": "Brazil",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "VG",
+    "country": "British Virgin Islands",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "BN",
+    "country": "Brunei Darussalam",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "BG",
+    "country": "Bulgaria",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "BF",
+    "country": "Burkina Faso",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "BI",
+    "country": "Burundi",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "CV",
+    "country": "Cabo Verde",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "KH",
+    "country": "Cambodia",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "CM",
+    "country": "Cameroon",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "CA",
+    "country": "Canada",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "KY",
+    "country": "Cayman Islands",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "CF",
+    "country": "Central African Republic",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "TD",
+    "country": "Chad",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "CL",
+    "country": "Chile",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "CN",
+    "country": "China",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "CO",
+    "country": "Colombia",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "KM",
+    "country": "Comoros",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "CG",
+    "country": "Congo",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "CK",
+    "country": "Cook Islands",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "CR",
+    "country": "Costa Rica",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "CI",
+    "country": "Côte d’Ivoire",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "HR",
+    "country": "Croatia",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "CU",
+    "country": "Cuba",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "CW",
+    "country": "Curaçao",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "CY",
+    "country": "Cyprus",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "CZ",
+    "country": "Czechia",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "KP",
+    "country": "Democratic People's Republic of Korea",
+    "whoRegion": "SEARO"
+  },
+  {
+    "countryCode": "CD",
+    "country": "Democratic Republic of the Congo",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "DK",
+    "country": "Denmark",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "DJ",
+    "country": "Djibouti",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "DM",
+    "country": "Dominica",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "DO",
+    "country": "Dominican Republic",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "EC",
+    "country": "Ecuador",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "EG",
+    "country": "Egypt",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "SV",
+    "country": "El Salvador",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "GQ",
+    "country": "Equatorial Guinea",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "ER",
+    "country": "Eritrea",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "EE",
+    "country": "Estonia",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "SZ",
+    "country": "Eswatini",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "ET",
+    "country": "Ethiopia",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "FK",
+    "country": "Falkland Islands (Malvinas)",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "FO",
+    "country": "Faroe Islands",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "FJ",
+    "country": "Fiji",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "FI",
+    "country": "Finland",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "FR",
+    "country": "France",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "GF",
+    "country": "French Guiana",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "PF",
+    "country": "French Polynesia",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "GA",
+    "country": "Gabon",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "GM",
+    "country": "Gambia",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "GE",
+    "country": "Georgia",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "DE",
+    "country": "Germany",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "GH",
+    "country": "Ghana",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "GI",
+    "country": "Gibraltar",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "GR",
+    "country": "Greece",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "GL",
+    "country": "Greenland",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "GD",
+    "country": "Grenada",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "GP",
+    "country": "Guadeloupe",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "GU",
+    "country": "Guam",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "GT",
+    "country": "Guatemala",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "GG",
+    "country": "Guernsey",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "GN",
+    "country": "Guinea",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "GW",
+    "country": "Guinea-Bissau",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "GY",
+    "country": "Guyana",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "HT",
+    "country": "Haiti",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "VA",
+    "country": "Holy See",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "HN",
+    "country": "Honduras",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "HU",
+    "country": "Hungary",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "IS",
+    "country": "Iceland",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "IN",
+    "country": "India",
+    "whoRegion": "SEARO"
+  },
+  {
+    "countryCode": "ID",
+    "country": "Indonesia",
+    "whoRegion": "SEARO"
+  },
+  {
+    "countryCode": "IR",
+    "country": "Iran (Islamic Republic of)",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "IQ",
+    "country": "Iraq",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "IE",
+    "country": "Ireland",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "IM",
+    "country": "Isle of Man",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "IL",
+    "country": "Israel",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "IT",
+    "country": "Italy",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "JM",
+    "country": "Jamaica",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "JP",
+    "country": "Japan",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "JE",
+    "country": "Jersey",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "JO",
+    "country": "Jordan",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "KZ",
+    "country": "Kazakhstan",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "KE",
+    "country": "Kenya",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "KI",
+    "country": "Kiribati",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "XK",
+    "country": "Kosovo[1]",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "KW",
+    "country": "Kuwait",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "KG",
+    "country": "Kyrgyzstan",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "LA",
+    "country": "Lao People's Democratic Republic",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "LV",
+    "country": "Latvia",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "LB",
+    "country": "Lebanon",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "LS",
+    "country": "Lesotho",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "LR",
+    "country": "Liberia",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "LY",
+    "country": "Libya",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "LI",
+    "country": "Liechtenstein",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "LT",
+    "country": "Lithuania",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "LU",
+    "country": "Luxembourg",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "MG",
+    "country": "Madagascar",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "MW",
+    "country": "Malawi",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "MY",
+    "country": "Malaysia",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "MV",
+    "country": "Maldives",
+    "whoRegion": "SEARO"
+  },
+  {
+    "countryCode": "ML",
+    "country": "Mali",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "MT",
+    "country": "Malta",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "MH",
+    "country": "Marshall Islands",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "MQ",
+    "country": "Martinique",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "MR",
+    "country": "Mauritania",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "MU",
+    "country": "Mauritius",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "YT",
+    "country": "Mayotte",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "MX",
+    "country": "Mexico",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "FM",
+    "country": "Micronesia (Federated States of)",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "MC",
+    "country": "Monaco",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "MN",
+    "country": "Mongolia",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "ME",
+    "country": "Montenegro",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "MS",
+    "country": "Montserrat",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "MA",
+    "country": "Morocco",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "MZ",
+    "country": "Mozambique",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "MM",
+    "country": "Myanmar",
+    "whoRegion": "SEARO"
+  },
+  {
+    "countryCode": "NA",
+    "country": "Namibia",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "NR",
+    "country": "Nauru",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "NP",
+    "country": "Nepal",
+    "whoRegion": "SEARO"
+  },
+  {
+    "countryCode": "NL",
+    "country": "Netherlands",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "NC",
+    "country": "New Caledonia",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "NZ",
+    "country": "New Zealand",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "NI",
+    "country": "Nicaragua",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "NE",
+    "country": "Niger",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "NG",
+    "country": "Nigeria",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "NU",
+    "country": "Niue",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "MK",
+    "country": "North Macedonia",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "MP",
+    "country": "Northern Mariana Islands (Commonwealth of the)",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "NO",
+    "country": "Norway",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "PS",
+    "country": "occupied Palestinian territory, including east Jerusalem",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "OM",
+    "country": "Oman",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": " ",
+    "country": "Other",
+    "whoRegion": "Other"
+  },
+  {
+    "countryCode": "PK",
+    "country": "Pakistan",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "PW",
+    "country": "Palau",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "PA",
+    "country": "Panama",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "PG",
+    "country": "Papua New Guinea",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "PY",
+    "country": "Paraguay",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "PE",
+    "country": "Peru",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "PH",
+    "country": "Philippines",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "PN",
+    "country": "Pitcairn Islands",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "PL",
+    "country": "Poland",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "PT",
+    "country": "Portugal",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "PR",
+    "country": "Puerto Rico",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "QA",
+    "country": "Qatar",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "KR",
+    "country": "Republic of Korea",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "MD",
+    "country": "Republic of Moldova",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "RE",
+    "country": "Réunion",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "RO",
+    "country": "Romania",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "RU",
+    "country": "Russian Federation",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "RW",
+    "country": "Rwanda",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "XC",
+    "country": "Saba",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "BL",
+    "country": "Saint Barthélemy",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "SH",
+    "country": "Saint Helena, Ascension and Tristan da Cunha",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "KN",
+    "country": "Saint Kitts and Nevis",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "LC",
+    "country": "Saint Lucia",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "MF",
+    "country": "Saint Martin",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "PM",
+    "country": "Saint Pierre and Miquelon",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "VC",
+    "country": "Saint Vincent and the Grenadines",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "WS",
+    "country": "Samoa",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "SM",
+    "country": "San Marino",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "ST",
+    "country": "Sao Tome and Principe",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "SA",
+    "country": "Saudi Arabia",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "SN",
+    "country": "Senegal",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "RS",
+    "country": "Serbia",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "SC",
+    "country": "Seychelles",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "SL",
+    "country": "Sierra Leone",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "SG",
+    "country": "Singapore",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "XB",
+    "country": "Sint Eustatius",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "SX",
+    "country": "Sint Maarten",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "SK",
+    "country": "Slovakia",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "SI",
+    "country": "Slovenia",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "SB",
+    "country": "Solomon Islands",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "SO",
+    "country": "Somalia",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "ZA",
+    "country": "South Africa",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "SS",
+    "country": "South Sudan",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "ES",
+    "country": "Spain",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "LK",
+    "country": "Sri Lanka",
+    "whoRegion": "SEARO"
+  },
+  {
+    "countryCode": "SD",
+    "country": "Sudan",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "SR",
+    "country": "Suriname",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "SE",
+    "country": "Sweden",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "CH",
+    "country": "Switzerland",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "SY",
+    "country": "Syrian Arab Republic",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "TJ",
+    "country": "Tajikistan",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "TH",
+    "country": "Thailand",
+    "whoRegion": "SEARO"
+  },
+  {
+    "countryCode": "GB",
+    "country": "The United Kingdom",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "TL",
+    "country": "Timor-Leste",
+    "whoRegion": "SEARO"
+  },
+  {
+    "countryCode": "TG",
+    "country": "Togo",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "TK",
+    "country": "Tokelau",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "TO",
+    "country": "Tonga",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "TT",
+    "country": "Trinidad and Tobago",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "TN",
+    "country": "Tunisia",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "TR",
+    "country": "Türkiye",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "TM",
+    "country": "Turkmenistan",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "TC",
+    "country": "Turks and Caicos Islands",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "TV",
+    "country": "Tuvalu",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "UG",
+    "country": "Uganda",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "UA",
+    "country": "Ukraine",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "AE",
+    "country": "United Arab Emirates",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "TZ",
+    "country": "United Republic of Tanzania",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "US",
+    "country": "United States of America",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "VI",
+    "country": "United States Virgin Islands",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "UY",
+    "country": "Uruguay",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "UZ",
+    "country": "Uzbekistan",
+    "whoRegion": "EURO"
+  },
+  {
+    "countryCode": "VU",
+    "country": "Vanuatu",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "VE",
+    "country": "Venezuela (Bolivarian Republic of)",
+    "whoRegion": "AMRO"
+  },
+  {
+    "countryCode": "VN",
+    "country": "Viet Nam",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "WF",
+    "country": "Wallis and Futuna",
+    "whoRegion": "WPRO"
+  },
+  {
+    "countryCode": "YE",
+    "country": "Yemen",
+    "whoRegion": "EMRO"
+  },
+  {
+    "countryCode": "ZM",
+    "country": "Zambia",
+    "whoRegion": "AFRO"
+  },
+  {
+    "countryCode": "ZW",
+    "country": "Zimbabwe",
+    "whoRegion": "AFRO"
+  }
+]
