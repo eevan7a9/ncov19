@@ -39,12 +39,12 @@ const toggleCountrySearch = function (): void {
             <SidebarCountriesList :showList="showSidebar" class="mt-3" />
         </section>
 
-        <article class="min-h-screen">
-            <nav class="px-6 py-3 bg-red-900 text-white transition-all" :class="showSidebar ? 'pl-52' : 'pl-12'">
+        <article class="h-full min-h-screen flex flex-col">
+            <nav class="px-6 py-3 bg-red-900 text-white transition-all" :class="showSidebar ? 'md:pl-52' : 'pl-12'">
                 <a class="px-2 text-xl font-bold">Ncov19</a>
             </nav>
 
-            <div class=" transition-all" :class="showSidebar ? 'pl-52' : 'pl-12'">
+            <div id="child" class="transition-all flex-1 flex flex-col" :class="showSidebar ? 'md:pl-52' : 'pl-12'">
                 <slot></slot>
             </div>
         </article>
