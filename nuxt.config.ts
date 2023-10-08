@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       }
     }
   },
-  modules: ['nuxt-icon'],
+  modules: ['nuxt-icon','@pinia/nuxt'],
   // disable dev-tools due to errors: https://github.com/nuxt/nuxt/issues/23493
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
@@ -21,4 +21,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  imports:{
+    dirs: ['stores']
+  }
 })

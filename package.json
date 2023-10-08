@@ -5,6 +5,9 @@
   "type": "module",
   "author": "eevan7a9",
   "private": true,
+  "overrides": {
+    "vue": "latest"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -23,6 +26,8 @@
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "pinia": "^2.1.6",
     "typescript": "^5.2.2",
     "vue-tsc": "^1.8.15"
   }
