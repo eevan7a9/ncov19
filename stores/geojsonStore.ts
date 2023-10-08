@@ -2,11 +2,11 @@ import { defineStore } from "pinia";
 
 export const useGeojsonStore = defineStore('geojson', {
     state: () => ({
-        countries: {} as CountriesGeoJSON
+        countriesGeoJSON: {} as CountriesGeoJSON | {} 
     }),
     actions: {
-        setGeoJSONCountries(cases: CountriesGeoJSON) {
-            this.countries = cases
+        setGeoJSONCountries(cases: CountriesGeoJSON | {}) {
+            this.countriesGeoJSON = cases
         }
     }
 }) 
