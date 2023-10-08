@@ -17,7 +17,7 @@ const toggleCountrySearch = function (): void {
 
 <template>
     <div>
-        <section class="h-full top-0 fixed bg-gray-900 transition-all transform duration-150 ease-in-out"
+        <section class="h-full top-0 fixed bg-gray-900 transition-all transform duration-150 ease-in-out side-bar"
             :class="showSidebar ? 'w-52' : 'w-12'">
 
             <div class="text-right">
@@ -39,7 +39,7 @@ const toggleCountrySearch = function (): void {
             <SidebarCountriesList :showList="showSidebar" class="mt-3" />
         </section>
 
-        <article class="h-full min-h-screen flex flex-col">
+        <article class="z-0 h-full min-h-screen flex flex-col">
             <nav class="px-6 py-3 bg-red-900 text-white transition-all" :class="showSidebar ? 'md:pl-52' : 'pl-12'">
                 <a class="px-2 text-xl font-bold">Ncov19</a>
             </nav>
@@ -50,3 +50,9 @@ const toggleCountrySearch = function (): void {
         </article>
     </div>
 </template>
+
+<style scoped lang="scss">
+.side-bar {
+z-index: 9999;
+}
+</style>
