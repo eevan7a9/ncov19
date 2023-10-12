@@ -16,6 +16,7 @@
   {
     "whoRegion": "Americas",
     "name": "United States of America",
+    "countryCode": "US",
     "casesCumulativeTotal": "103436829",
     "casesCumulativeTotalPer100000Population": "31249.547",
     "casesNewlyReportedInLast7Days": "0",
@@ -30,6 +31,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "China",
+    "countryCode": "CN",
     "casesCumulativeTotal": "99289096",
     "casesCumulativeTotalPer100000Population": "6748.452",
     "casesNewlyReportedInLast7Days": "3650",
@@ -44,6 +46,7 @@
   {
     "whoRegion": "South-East Asia",
     "name": "India",
+    "countryCode": "IN",
     "casesCumulativeTotal": "44994097",
     "casesCumulativeTotalPer100000Population": "3260.431",
     "casesNewlyReportedInLast7Days": "426",
@@ -58,6 +61,7 @@
   {
     "whoRegion": "Europe",
     "name": "France",
+    "countryCode": "FR",
     "casesCumulativeTotal": "38989382",
     "casesCumulativeTotalPer100000Population": "59947.365",
     "casesNewlyReportedInLast7Days": "0",
@@ -72,6 +76,7 @@
   {
     "whoRegion": "Europe",
     "name": "Germany",
+    "countryCode": "DE",
     "casesCumulativeTotal": "38431910",
     "casesCumulativeTotalPer100000Population": "46210.689",
     "casesNewlyReportedInLast7Days": "0",
@@ -86,6 +91,7 @@
   {
     "whoRegion": "Americas",
     "name": "Brazil",
+    "countryCode": "BR",
     "casesCumulativeTotal": "37656050",
     "casesCumulativeTotalPer100000Population": "17715.541",
     "casesNewlyReportedInLast7Days": "16726",
@@ -100,6 +106,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Japan",
+    "countryCode": "JP",
     "casesCumulativeTotal": "33803572",
     "casesCumulativeTotalPer100000Population": "26727.165",
     "casesNewlyReportedInLast7Days": "0",
@@ -114,6 +121,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Republic of Korea",
+    "countryCode": "KR",
     "casesCumulativeTotal": "32131606",
     "casesCumulativeTotalPer100000Population": "62672.356",
     "casesNewlyReportedInLast7Days": "113120",
@@ -128,6 +136,7 @@
   {
     "whoRegion": "Europe",
     "name": "Italy",
+    "countryCode": "IT",
     "casesCumulativeTotal": "25893101",
     "casesCumulativeTotalPer100000Population": "43414.579",
     "casesNewlyReportedInLast7Days": "1575",
@@ -142,6 +151,7 @@
   {
     "whoRegion": "Europe",
     "name": "The United Kingdom",
+    "countryCode": "GB",
     "casesCumulativeTotal": "24636637",
     "casesCumulativeTotalPer100000Population": "36291.188",
     "casesNewlyReportedInLast7Days": "244",
@@ -156,6 +166,7 @@
   {
     "whoRegion": "Europe",
     "name": "Russian Federation",
+    "countryCode": "RU",
     "casesCumulativeTotal": "22959198",
     "casesCumulativeTotalPer100000Population": "15732.54",
     "casesNewlyReportedInLast7Days": "5789",
@@ -170,6 +181,7 @@
   {
     "whoRegion": "Europe",
     "name": "Türkiye",
+    "countryCode": "TR",
     "casesCumulativeTotal": "17004677",
     "casesCumulativeTotalPer100000Population": "20162.278",
     "casesNewlyReportedInLast7Days": "0",
@@ -184,6 +196,7 @@
   {
     "whoRegion": "Europe",
     "name": "Spain",
+    "countryCode": "ES",
     "casesCumulativeTotal": "13970616",
     "casesCumulativeTotalPer100000Population": "29515.834",
     "casesNewlyReportedInLast7Days": "0",
@@ -198,6 +211,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Viet Nam",
+    "countryCode": "VN",
     "casesCumulativeTotal": "11620076",
     "casesCumulativeTotalPer100000Population": "11937.791",
     "casesNewlyReportedInLast7Days": "488",
@@ -212,6 +226,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Australia",
+    "countryCode": "AU",
     "casesCumulativeTotal": "11495207",
     "casesCumulativeTotalPer100000Population": "45079.448",
     "casesNewlyReportedInLast7Days": "0",
@@ -226,6 +241,7 @@
   {
     "whoRegion": "Americas",
     "name": "Argentina",
+    "countryCode": "AR",
     "casesCumulativeTotal": "10044957",
     "casesCumulativeTotalPer100000Population": "22225.434",
     "casesNewlyReportedInLast7Days": "0",
@@ -240,6 +256,7 @@
   {
     "whoRegion": "Europe",
     "name": "Netherlands",
+    "countryCode": "NL",
     "casesCumulativeTotal": "8616031",
     "casesCumulativeTotalPer100000Population": "49495.843",
     "casesNewlyReportedInLast7Days": "0",
@@ -254,6 +271,7 @@
   {
     "whoRegion": "Americas",
     "name": "Mexico",
+    "countryCode": "MX",
     "casesCumulativeTotal": "7633340",
     "casesCumulativeTotalPer100000Population": "5920.404",
     "casesNewlyReportedInLast7Days": "2116",
@@ -268,6 +286,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Iran (Islamic Republic of)",
+    "countryCode": "IR",
     "casesCumulativeTotal": "7612414",
     "casesCumulativeTotalPer100000Population": "9063.158",
     "casesNewlyReportedInLast7Days": "62",
@@ -282,6 +301,7 @@
   {
     "whoRegion": "South-East Asia",
     "name": "Indonesia",
+    "countryCode": "ID",
     "casesCumulativeTotal": "6811818",
     "casesCumulativeTotalPer100000Population": "2490.395",
     "casesNewlyReportedInLast7Days": "374",
@@ -296,6 +316,7 @@
   {
     "whoRegion": "Europe",
     "name": "Poland",
+    "countryCode": "PL",
     "casesCumulativeTotal": "6517833",
     "casesCumulativeTotalPer100000Population": "17171.108",
     "casesNewlyReportedInLast7Days": "122",
@@ -310,6 +331,7 @@
   {
     "whoRegion": "Americas",
     "name": "Colombia",
+    "countryCode": "CO",
     "casesCumulativeTotal": "6372392",
     "casesCumulativeTotalPer100000Population": "12523.644",
     "casesNewlyReportedInLast7Days": "1302",
@@ -324,6 +346,7 @@
   {
     "whoRegion": "Europe",
     "name": "Austria",
+    "countryCode": "AT",
     "casesCumulativeTotal": "6080914",
     "casesCumulativeTotalPer100000Population": "68316.709",
     "casesNewlyReportedInLast7Days": "678",
@@ -338,6 +361,7 @@
   {
     "whoRegion": "Europe",
     "name": "Portugal",
+    "countryCode": "PT",
     "casesCumulativeTotal": "5592028",
     "casesCumulativeTotalPer100000Population": "54313.106",
     "casesNewlyReportedInLast7Days": "0",
@@ -352,6 +376,7 @@
   {
     "whoRegion": "Europe",
     "name": "Ukraine",
+    "countryCode": "UA",
     "casesCumulativeTotal": "5516491",
     "casesCumulativeTotalPer100000Population": "12613.805",
     "casesNewlyReportedInLast7Days": "0",
@@ -366,6 +391,7 @@
   {
     "whoRegion": "Europe",
     "name": "Greece",
+    "countryCode": "GR",
     "casesCumulativeTotal": "5334160",
     "casesCumulativeTotalPer100000Population": "49765.617",
     "casesNewlyReportedInLast7Days": "0",
@@ -380,6 +406,7 @@
   {
     "whoRegion": "Americas",
     "name": "Chile",
+    "countryCode": "CL",
     "casesCumulativeTotal": "5288023",
     "casesCumulativeTotalPer100000Population": "27662.52",
     "casesNewlyReportedInLast7Days": "0",
@@ -394,6 +421,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Malaysia",
+    "countryCode": "MY",
     "casesCumulativeTotal": "5122019",
     "casesCumulativeTotalPer100000Population": "15825.308",
     "casesNewlyReportedInLast7Days": "0",
@@ -408,6 +436,7 @@
   {
     "whoRegion": "Europe",
     "name": "Israel",
+    "countryCode": "IL",
     "casesCumulativeTotal": "4828768",
     "casesCumulativeTotalPer100000Population": "55788.171",
     "casesNewlyReportedInLast7Days": "351",
@@ -422,6 +451,7 @@
   {
     "whoRegion": "Europe",
     "name": "Belgium",
+    "countryCode": "BE",
     "casesCumulativeTotal": "4801523",
     "casesCumulativeTotalPer100000Population": "41671.061",
     "casesNewlyReportedInLast7Days": "33",
@@ -436,6 +466,7 @@
   {
     "whoRegion": "South-East Asia",
     "name": "Thailand",
+    "countryCode": "TH",
     "casesCumulativeTotal": "4751563",
     "casesCumulativeTotalPer100000Population": "6807.399",
     "casesNewlyReportedInLast7Days": "1653",
@@ -450,6 +481,7 @@
   {
     "whoRegion": "Americas",
     "name": "Canada",
+    "countryCode": "CA",
     "casesCumulativeTotal": "4688830",
     "casesCumulativeTotalPer100000Population": "12423.324",
     "casesNewlyReportedInLast7Days": "1753",
@@ -464,6 +496,7 @@
   {
     "whoRegion": "Europe",
     "name": "Czechia",
+    "countryCode": "CZ",
     "casesCumulativeTotal": "4642698",
     "casesCumulativeTotalPer100000Population": "43414.293",
     "casesNewlyReportedInLast7Days": "87",
@@ -478,6 +511,7 @@
   {
     "whoRegion": "Americas",
     "name": "Peru",
+    "countryCode": "PE",
     "casesCumulativeTotal": "4512091",
     "casesCumulativeTotalPer100000Population": "13684.675",
     "casesNewlyReportedInLast7Days": "3988",
@@ -492,6 +526,7 @@
   {
     "whoRegion": "Europe",
     "name": "Switzerland",
+    "countryCode": "CH",
     "casesCumulativeTotal": "4406808",
     "casesCumulativeTotalPer100000Population": "50918.573",
     "casesNewlyReportedInLast7Days": "0",
@@ -506,6 +541,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Philippines",
+    "countryCode": "PH",
     "casesCumulativeTotal": "4162752",
     "casesCumulativeTotalPer100000Population": "3798.787",
     "casesNewlyReportedInLast7Days": "2598",
@@ -520,6 +556,7 @@
   {
     "whoRegion": "Africa",
     "name": "South Africa",
+    "countryCode": "ZA",
     "casesCumulativeTotal": "4072533",
     "casesCumulativeTotalPer100000Population": "6866.672",
     "casesNewlyReportedInLast7Days": "0",
@@ -534,6 +571,7 @@
   {
     "whoRegion": "Europe",
     "name": "Denmark",
+    "countryCode": "DK",
     "casesCumulativeTotal": "3414274",
     "casesCumulativeTotalPer100000Population": "58636.664",
     "casesNewlyReportedInLast7Days": "79",
@@ -548,6 +586,7 @@
   {
     "whoRegion": "Europe",
     "name": "Romania",
+    "countryCode": "RO",
     "casesCumulativeTotal": "3407485",
     "casesCumulativeTotalPer100000Population": "17629.021",
     "casesNewlyReportedInLast7Days": "586",
@@ -562,6 +601,7 @@
   {
     "whoRegion": "Europe",
     "name": "Sweden",
+    "countryCode": "SE",
     "casesCumulativeTotal": "2712743",
     "casesCumulativeTotalPer100000Population": "26266.953",
     "casesNewlyReportedInLast7Days": "437",
@@ -576,6 +616,7 @@
   {
     "whoRegion": "Europe",
     "name": "Serbia",
+    "countryCode": "RS",
     "casesCumulativeTotal": "2543720",
     "casesCumulativeTotalPer100000Population": "36723.377",
     "casesNewlyReportedInLast7Days": "0",
@@ -590,6 +631,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Singapore",
+    "countryCode": "SG",
     "casesCumulativeTotal": "2499988",
     "casesCumulativeTotalPer100000Population": "42732.339",
     "casesNewlyReportedInLast7Days": "0",
@@ -604,6 +646,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Iraq",
+    "countryCode": "IQ",
     "casesCumulativeTotal": "2465545",
     "casesCumulativeTotalPer100000Population": "6129.767",
     "casesNewlyReportedInLast7Days": "0",
@@ -618,6 +661,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "New Zealand",
+    "countryCode": "NZ",
     "casesCumulativeTotal": "2333913",
     "casesCumulativeTotalPer100000Population": "48399.009",
     "casesNewlyReportedInLast7Days": "0",
@@ -632,6 +676,7 @@
   {
     "whoRegion": "Europe",
     "name": "Hungary",
+    "countryCode": "HU",
     "casesCumulativeTotal": "2203129",
     "casesCumulativeTotalPer100000Population": "22551.033",
     "casesNewlyReportedInLast7Days": "0",
@@ -646,6 +691,7 @@
   {
     "whoRegion": "South-East Asia",
     "name": "Bangladesh",
+    "countryCode": "BD",
     "casesCumulativeTotal": "2042422",
     "casesCumulativeTotalPer100000Population": "1240.166",
     "casesNewlyReportedInLast7Days": "528",
@@ -660,6 +706,7 @@
   {
     "whoRegion": "Europe",
     "name": "Slovakia",
+    "countryCode": "SK",
     "casesCumulativeTotal": "1866857",
     "casesCumulativeTotalPer100000Population": "34204.845",
     "casesNewlyReportedInLast7Days": "0",
@@ -674,6 +721,7 @@
   {
     "whoRegion": "Europe",
     "name": "Georgia",
+    "countryCode": "GE",
     "casesCumulativeTotal": "1844789",
     "casesCumulativeTotalPer100000Population": "46244.875",
     "casesNewlyReportedInLast7Days": "0",
@@ -688,6 +736,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Jordan",
+    "countryCode": "JO",
     "casesCumulativeTotal": "1746997",
     "casesCumulativeTotalPer100000Population": "17122.161",
     "casesNewlyReportedInLast7Days": "0",
@@ -702,6 +751,7 @@
   {
     "whoRegion": "Europe",
     "name": "Ireland",
+    "countryCode": "IE",
     "casesCumulativeTotal": "1713613",
     "casesCumulativeTotalPer100000Population": "34517.75",
     "casesNewlyReportedInLast7Days": "0",
@@ -716,6 +766,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Pakistan",
+    "countryCode": "PK",
     "casesCumulativeTotal": "1580631",
     "casesCumulativeTotalPer100000Population": "715.566",
     "casesNewlyReportedInLast7Days": "0",
@@ -730,6 +781,7 @@
   {
     "whoRegion": "Europe",
     "name": "Kazakhstan",
+    "countryCode": "KZ",
     "casesCumulativeTotal": "1502857",
     "casesCumulativeTotalPer100000Population": "8003.837",
     "casesNewlyReportedInLast7Days": "0",
@@ -744,6 +796,7 @@
   {
     "whoRegion": "Europe",
     "name": "Norway",
+    "countryCode": "NO",
     "casesCumulativeTotal": "1485437",
     "casesCumulativeTotalPer100000Population": "27674.241",
     "casesNewlyReportedInLast7Days": "0",
@@ -758,6 +811,7 @@
   {
     "whoRegion": "Europe",
     "name": "Finland",
+    "countryCode": "FI",
     "casesCumulativeTotal": "1481994",
     "casesCumulativeTotalPer100000Population": "26822.003",
     "casesNewlyReportedInLast7Days": "39",
@@ -772,6 +826,7 @@
   {
     "whoRegion": "Europe",
     "name": "Slovenia",
+    "countryCode": "SI",
     "casesCumulativeTotal": "1344517",
     "casesCumulativeTotalPer100000Population": "64151.058",
     "casesNewlyReportedInLast7Days": "0",
@@ -786,6 +841,7 @@
   {
     "whoRegion": "Europe",
     "name": "Lithuania",
+    "countryCode": "LT",
     "casesCumulativeTotal": "1321328",
     "casesCumulativeTotalPer100000Population": "47290.102",
     "casesNewlyReportedInLast7Days": "111",
@@ -800,6 +856,7 @@
   {
     "whoRegion": "Europe",
     "name": "Bulgaria",
+    "countryCode": "BG",
     "casesCumulativeTotal": "1297994",
     "casesCumulativeTotalPer100000Population": "18672.191",
     "casesNewlyReportedInLast7Days": "0",
@@ -814,6 +871,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Morocco",
+    "countryCode": "MA",
     "casesCumulativeTotal": "1275136",
     "casesCumulativeTotalPer100000Population": "3454.664",
     "casesNewlyReportedInLast7Days": "47",
@@ -828,6 +886,7 @@
   {
     "whoRegion": "Europe",
     "name": "Croatia",
+    "countryCode": "HR",
     "casesCumulativeTotal": "1273991",
     "casesCumulativeTotalPer100000Population": "31393.278",
     "casesNewlyReportedInLast7Days": "32",
@@ -842,6 +901,7 @@
   {
     "whoRegion": "Americas",
     "name": "Guatemala",
+    "countryCode": "GT",
     "casesCumulativeTotal": "1259507",
     "casesCumulativeTotalPer100000Population": "7030.238",
     "casesNewlyReportedInLast7Days": "2263",
@@ -856,6 +916,7 @@
   {
     "whoRegion": "Americas",
     "name": "Puerto Rico",
+    "countryCode": "PR",
     "casesCumulativeTotal": "1252713",
     "casesCumulativeTotalPer100000Population": "43788.094",
     "casesNewlyReportedInLast7Days": "0",
@@ -870,6 +931,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Lebanon",
+    "countryCode": "LB",
     "casesCumulativeTotal": "1238552",
     "casesCumulativeTotalPer100000Population": "18146.099",
     "casesNewlyReportedInLast7Days": "0",
@@ -884,6 +946,7 @@
   {
     "whoRegion": "Americas",
     "name": "Costa Rica",
+    "countryCode": "CR",
     "casesCumulativeTotal": "1235961",
     "casesCumulativeTotalPer100000Population": "24262.512",
     "casesNewlyReportedInLast7Days": "805",
@@ -898,6 +961,7 @@
   {
     "whoRegion": "Americas",
     "name": "Bolivia (Plurinational State of)",
+    "countryCode": "BO",
     "casesCumulativeTotal": "1202710",
     "casesCumulativeTotalPer100000Population": "10303.331",
     "casesNewlyReportedInLast7Days": "1113",
@@ -912,6 +976,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Tunisia",
+    "countryCode": "TN",
     "casesCumulativeTotal": "1153361",
     "casesCumulativeTotalPer100000Population": "9758.847",
     "casesNewlyReportedInLast7Days": "0",
@@ -926,6 +991,7 @@
   {
     "whoRegion": "Americas",
     "name": "Cuba",
+    "countryCode": "CU",
     "casesCumulativeTotal": "1114729",
     "casesCumulativeTotalPer100000Population": "9841.677",
     "casesNewlyReportedInLast7Days": "270",
@@ -940,6 +1006,7 @@
   {
     "whoRegion": "Americas",
     "name": "Ecuador",
+    "countryCode": "EC",
     "casesCumulativeTotal": "1067327",
     "casesCumulativeTotalPer100000Population": "6049.559",
     "casesNewlyReportedInLast7Days": "670",
@@ -954,6 +1021,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "United Arab Emirates",
+    "countryCode": "AE",
     "casesCumulativeTotal": "1067030",
     "casesCumulativeTotalPer100000Population": "10788.54",
     "casesNewlyReportedInLast7Days": "0",
@@ -968,6 +1036,7 @@
   {
     "whoRegion": "Americas",
     "name": "Panama",
+    "countryCode": "PA",
     "casesCumulativeTotal": "1042631",
     "casesCumulativeTotalPer100000Population": "24164.248",
     "casesNewlyReportedInLast7Days": "0",
@@ -982,6 +1051,7 @@
   {
     "whoRegion": "Americas",
     "name": "Uruguay",
+    "countryCode": "UY",
     "casesCumulativeTotal": "1038774",
     "casesCumulativeTotalPer100000Population": "29903.706",
     "casesNewlyReportedInLast7Days": "0",
@@ -996,6 +1066,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Mongolia",
+    "countryCode": "MN",
     "casesCumulativeTotal": "1010034",
     "casesCumulativeTotalPer100000Population": "30809.782",
     "casesNewlyReportedInLast7Days": "0",
@@ -1010,6 +1081,7 @@
   {
     "whoRegion": "South-East Asia",
     "name": "Nepal",
+    "countryCode": "NP",
     "casesCumulativeTotal": "1003369",
     "casesCumulativeTotalPer100000Population": "3443.648",
     "casesNewlyReportedInLast7Days": "7",
@@ -1024,6 +1096,7 @@
   {
     "whoRegion": "Europe",
     "name": "Belarus",
+    "countryCode": "BY",
     "casesCumulativeTotal": "994037",
     "casesCumulativeTotalPer100000Population": "10519.666",
     "casesNewlyReportedInLast7Days": "0",
@@ -1038,6 +1111,7 @@
   {
     "whoRegion": "Europe",
     "name": "Latvia",
+    "countryCode": "LV",
     "casesCumulativeTotal": "975691",
     "casesCumulativeTotalPer100000Population": "51145.557",
     "casesNewlyReportedInLast7Days": "0",
@@ -1052,6 +1126,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Saudi Arabia",
+    "countryCode": "SA",
     "casesCumulativeTotal": "841469",
     "casesCumulativeTotalPer100000Population": "2417.051",
     "casesNewlyReportedInLast7Days": "0",
@@ -1066,6 +1141,7 @@
   {
     "whoRegion": "Europe",
     "name": "Azerbaijan",
+    "countryCode": "AZ",
     "casesCumulativeTotal": "831938",
     "casesCumulativeTotalPer100000Population": "8205.184",
     "casesNewlyReportedInLast7Days": "42",
@@ -1080,6 +1156,7 @@
   {
     "whoRegion": "Americas",
     "name": "Paraguay",
+    "countryCode": "PY",
     "casesCumulativeTotal": "735759",
     "casesCumulativeTotalPer100000Population": "10315.529",
     "casesNewlyReportedInLast7Days": "0",
@@ -1094,6 +1171,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "occupied Palestinian territory, including east Jerusalem",
+    "countryCode": "PS",
     "casesCumulativeTotal": "703228",
     "casesCumulativeTotalPer100000Population": "13784.962",
     "casesNewlyReportedInLast7Days": "0",
@@ -1108,6 +1186,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Bahrain",
+    "countryCode": "BH",
     "casesCumulativeTotal": "696614",
     "casesCumulativeTotalPer100000Population": "40939.365",
     "casesNewlyReportedInLast7Days": "0",
@@ -1122,6 +1201,7 @@
   {
     "whoRegion": "South-East Asia",
     "name": "Sri Lanka",
+    "countryCode": "LK",
     "casesCumulativeTotal": "672539",
     "casesCumulativeTotalPer100000Population": "3140.761",
     "casesNewlyReportedInLast7Days": "9",
@@ -1136,6 +1216,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Kuwait",
+    "countryCode": "KW",
     "casesCumulativeTotal": "665974",
     "casesCumulativeTotalPer100000Population": "15594.495",
     "casesNewlyReportedInLast7Days": "7",
@@ -1150,6 +1231,7 @@
   {
     "whoRegion": "Americas",
     "name": "Dominican Republic",
+    "countryCode": "DO",
     "casesCumulativeTotal": "662418",
     "casesCumulativeTotalPer100000Population": "6106.411",
     "casesNewlyReportedInLast7Days": "822",
@@ -1164,6 +1246,7 @@
   {
     "whoRegion": "Europe",
     "name": "Cyprus",
+    "countryCode": "CY",
     "casesCumulativeTotal": "660854",
     "casesCumulativeTotalPer100000Population": "74420.076",
     "casesNewlyReportedInLast7Days": "0",
@@ -1178,6 +1261,7 @@
   {
     "whoRegion": "South-East Asia",
     "name": "Myanmar",
+    "countryCode": "MM",
     "casesCumulativeTotal": "640391",
     "casesCumulativeTotalPer100000Population": "1176.977",
     "casesNewlyReportedInLast7Days": "189",
@@ -1192,6 +1276,7 @@
   {
     "whoRegion": "Europe",
     "name": "Republic of Moldova",
+    "countryCode": "MD",
     "casesCumulativeTotal": "620717",
     "casesCumulativeTotalPer100000Population": "15387.275",
     "casesNewlyReportedInLast7Days": "0",
@@ -1206,6 +1291,7 @@
   {
     "whoRegion": "Europe",
     "name": "Estonia",
+    "countryCode": "EE",
     "casesCumulativeTotal": "601537",
     "casesCumulativeTotalPer100000Population": "45263.195",
     "casesNewlyReportedInLast7Days": "0",
@@ -1220,6 +1306,7 @@
   {
     "whoRegion": "Americas",
     "name": "Venezuela (Bolivarian Republic of)",
+    "countryCode": "VE",
     "casesCumulativeTotal": "552695",
     "casesCumulativeTotalPer100000Population": "1943.649",
     "casesNewlyReportedInLast7Days": "0",
@@ -1234,6 +1321,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Egypt",
+    "countryCode": "EG",
     "casesCumulativeTotal": "516023",
     "casesCumulativeTotalPer100000Population": "504.252",
     "casesNewlyReportedInLast7Days": "0",
@@ -1248,6 +1336,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Qatar",
+    "countryCode": "QA",
     "casesCumulativeTotal": "514524",
     "casesCumulativeTotalPer100000Population": "17858.887",
     "casesNewlyReportedInLast7Days": "59",
@@ -1262,6 +1351,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Libya",
+    "countryCode": "LY",
     "casesCumulativeTotal": "507266",
     "casesCumulativeTotalPer100000Population": "7382.396",
     "casesNewlyReportedInLast7Days": "0",
@@ -1276,6 +1366,7 @@
   {
     "whoRegion": "Africa",
     "name": "Ethiopia",
+    "countryCode": "ET",
     "casesCumulativeTotal": "500920",
     "casesCumulativeTotalPer100000Population": "435.721",
     "casesNewlyReportedInLast7Days": "0",
@@ -1290,6 +1381,7 @@
   {
     "whoRegion": "Africa",
     "name": "Réunion",
+    "countryCode": "RE",
     "casesCumulativeTotal": "494595",
     "casesCumulativeTotalPer100000Population": "55242.753",
     "casesNewlyReportedInLast7Days": "0",
@@ -1304,6 +1396,7 @@
   {
     "whoRegion": "Americas",
     "name": "Honduras",
+    "countryCode": "HN",
     "casesCumulativeTotal": "472619",
     "casesCumulativeTotalPer100000Population": "4771.709",
     "casesNewlyReportedInLast7Days": "0",
@@ -1318,6 +1411,7 @@
   {
     "whoRegion": "Europe",
     "name": "Armenia",
+    "countryCode": "AM",
     "casesCumulativeTotal": "449233",
     "casesCumulativeTotalPer100000Population": "15160.227",
     "casesNewlyReportedInLast7Days": "2",
@@ -1332,6 +1426,7 @@
   {
     "whoRegion": "Europe",
     "name": "Bosnia and Herzegovina",
+    "countryCode": "BA",
     "casesCumulativeTotal": "403043",
     "casesCumulativeTotalPer100000Population": "12284.844",
     "casesNewlyReportedInLast7Days": "0",
@@ -1346,6 +1441,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Oman",
+    "countryCode": "OM",
     "casesCumulativeTotal": "399449",
     "casesCumulativeTotalPer100000Population": "7822.171",
     "casesNewlyReportedInLast7Days": "0",
@@ -1360,6 +1456,7 @@
   {
     "whoRegion": "Europe",
     "name": "Luxembourg",
+    "countryCode": "LU",
     "casesCumulativeTotal": "382785",
     "casesCumulativeTotalPer100000Population": "61137.216",
     "casesNewlyReportedInLast7Days": "0",
@@ -1374,6 +1471,7 @@
   {
     "whoRegion": "Europe",
     "name": "North Macedonia",
+    "countryCode": "MK",
     "casesCumulativeTotal": "348335",
     "casesCumulativeTotalPer100000Population": "16719.705",
     "casesNewlyReportedInLast7Days": "0",
@@ -1388,6 +1486,7 @@
   {
     "whoRegion": "Africa",
     "name": "Zambia",
+    "countryCode": "ZM",
     "casesCumulativeTotal": "347022",
     "casesCumulativeTotalPer100000Population": "1887.635",
     "casesNewlyReportedInLast7Days": "1061",
@@ -1402,6 +1501,7 @@
   {
     "whoRegion": "Africa",
     "name": "Kenya",
+    "countryCode": "KE",
     "casesCumulativeTotal": "343537",
     "casesCumulativeTotalPer100000Population": "638.885",
     "casesNewlyReportedInLast7Days": "0",
@@ -1416,6 +1516,7 @@
   {
     "whoRegion": "Europe",
     "name": "Albania",
+    "countryCode": "AL",
     "casesCumulativeTotal": "334090",
     "casesCumulativeTotalPer100000Population": "11609.215",
     "casesNewlyReportedInLast7Days": "0",
@@ -1430,6 +1531,7 @@
   {
     "whoRegion": "Africa",
     "name": "Botswana",
+    "countryCode": "BW",
     "casesCumulativeTotal": "330008",
     "casesCumulativeTotalPer100000Population": "14033.178",
     "casesNewlyReportedInLast7Days": "0",
@@ -1444,6 +1546,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Brunei Darussalam",
+    "countryCode": "BN",
     "casesCumulativeTotal": "308777",
     "casesCumulativeTotalPer100000Population": "70580.988",
     "casesNewlyReportedInLast7Days": "0",
@@ -1458,6 +1561,7 @@
   {
     "whoRegion": "Africa",
     "name": "Mauritius",
+    "countryCode": "MU",
     "casesCumulativeTotal": "308044",
     "casesCumulativeTotalPer100000Population": "24221.713",
     "casesNewlyReportedInLast7Days": "0",
@@ -1472,6 +1576,7 @@
   {
     "whoRegion": "Europe",
     "name": "Kosovo[1]",
+    "countryCode": "XK",
     "casesCumulativeTotal": "273909",
     "casesCumulativeTotalPer100000Population": "15253.895",
     "casesNewlyReportedInLast7Days": "1",
@@ -1486,6 +1591,7 @@
   {
     "whoRegion": "Africa",
     "name": "Algeria",
+    "countryCode": "DZ",
     "casesCumulativeTotal": "271847",
     "casesCumulativeTotalPer100000Population": "619.933",
     "casesNewlyReportedInLast7Days": "0",
@@ -1500,6 +1606,7 @@
   {
     "whoRegion": "Africa",
     "name": "Nigeria",
+    "countryCode": "NG",
     "casesCumulativeTotal": "266675",
     "casesCumulativeTotalPer100000Population": "129.366",
     "casesNewlyReportedInLast7Days": "0",
@@ -1514,6 +1621,7 @@
   {
     "whoRegion": "Africa",
     "name": "Zimbabwe",
+    "countryCode": "ZW",
     "casesCumulativeTotal": "265413",
     "casesCumulativeTotalPer100000Population": "1785.739",
     "casesNewlyReportedInLast7Days": "0",
@@ -1528,6 +1636,7 @@
   {
     "whoRegion": "Europe",
     "name": "Montenegro",
+    "countryCode": "ME",
     "casesCumulativeTotal": "251133",
     "casesCumulativeTotalPer100000Population": "39985.384",
     "casesNewlyReportedInLast7Days": "0",
@@ -1542,6 +1651,7 @@
   {
     "whoRegion": "Africa",
     "name": "Mozambique",
+    "countryCode": "MZ",
     "casesCumulativeTotal": "233417",
     "casesCumulativeTotalPer100000Population": "746.805",
     "casesNewlyReportedInLast7Days": "0",
@@ -1556,6 +1666,7 @@
   {
     "whoRegion": "Americas",
     "name": "Martinique",
+    "countryCode": "MQ",
     "casesCumulativeTotal": "230354",
     "casesCumulativeTotalPer100000Population": "61384.355",
     "casesNewlyReportedInLast7Days": "379",
@@ -1570,6 +1681,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Afghanistan",
+    "countryCode": "AF",
     "casesCumulativeTotal": "223175",
     "casesCumulativeTotalPer100000Population": "573.297",
     "casesNewlyReportedInLast7Days": "116",
@@ -1584,6 +1696,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Lao People's Democratic Republic",
+    "countryCode": "LA",
     "casesCumulativeTotal": "218419",
     "casesCumulativeTotalPer100000Population": "3002.092",
     "casesNewlyReportedInLast7Days": "31",
@@ -1598,6 +1711,7 @@
   {
     "whoRegion": "Europe",
     "name": "Iceland",
+    "countryCode": "IS",
     "casesCumulativeTotal": "208728",
     "casesCumulativeTotalPer100000Population": "57321.755",
     "casesNewlyReportedInLast7Days": "0",
@@ -1612,6 +1726,7 @@
   {
     "whoRegion": "Americas",
     "name": "Guadeloupe",
+    "countryCode": "GP",
     "casesCumulativeTotal": "203235",
     "casesCumulativeTotalPer100000Population": "50793.004",
     "casesNewlyReportedInLast7Days": "399",
@@ -1626,6 +1741,7 @@
   {
     "whoRegion": "Americas",
     "name": "El Salvador",
+    "countryCode": "SV",
     "casesCumulativeTotal": "201785",
     "casesCumulativeTotalPer100000Population": "3110.987",
     "casesNewlyReportedInLast7Days": "0",
@@ -1640,6 +1756,7 @@
   {
     "whoRegion": "Americas",
     "name": "Trinidad and Tobago",
+    "countryCode": "TT",
     "casesCumulativeTotal": "191496",
     "casesCumulativeTotalPer100000Population": "13683.29",
     "casesNewlyReportedInLast7Days": "0",
@@ -1654,6 +1771,7 @@
   {
     "whoRegion": "South-East Asia",
     "name": "Maldives",
+    "countryCode": "MV",
     "casesCumulativeTotal": "186685",
     "casesCumulativeTotalPer100000Population": "34536.504",
     "casesNewlyReportedInLast7Days": "0",
@@ -1668,6 +1786,7 @@
   {
     "whoRegion": "Africa",
     "name": "Ghana",
+    "countryCode": "GH",
     "casesCumulativeTotal": "171653",
     "casesCumulativeTotalPer100000Population": "552.42",
     "casesNewlyReportedInLast7Days": "0",
@@ -1682,6 +1801,7 @@
   {
     "whoRegion": "Africa",
     "name": "Namibia",
+    "countryCode": "NA",
     "casesCumulativeTotal": "171310",
     "casesCumulativeTotalPer100000Population": "6742.086",
     "casesNewlyReportedInLast7Days": "0",
@@ -1696,6 +1816,7 @@
   {
     "whoRegion": "Europe",
     "name": "Uzbekistan",
+    "countryCode": "UZ",
     "casesCumulativeTotal": "170825",
     "casesCumulativeTotalPer100000Population": "510.395",
     "casesNewlyReportedInLast7Days": "0",
@@ -1710,6 +1831,7 @@
   {
     "whoRegion": "Africa",
     "name": "Uganda",
+    "countryCode": "UG",
     "casesCumulativeTotal": "170775",
     "casesCumulativeTotalPer100000Population": "373.352",
     "casesNewlyReportedInLast7Days": "0",
@@ -1724,6 +1846,7 @@
   {
     "whoRegion": "Americas",
     "name": "Jamaica",
+    "countryCode": "JM",
     "casesCumulativeTotal": "155224",
     "casesCumulativeTotalPer100000Population": "5241.987",
     "casesNewlyReportedInLast7Days": "161",
@@ -1738,6 +1861,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Cambodia",
+    "countryCode": "KH",
     "casesCumulativeTotal": "138896",
     "casesCumulativeTotalPer100000Population": "830.769",
     "casesNewlyReportedInLast7Days": "9",
@@ -1752,6 +1876,7 @@
   {
     "whoRegion": "Africa",
     "name": "Rwanda",
+    "countryCode": "RW",
     "casesCumulativeTotal": "133194",
     "casesCumulativeTotalPer100000Population": "1028.349",
     "casesNewlyReportedInLast7Days": "0",
@@ -1766,6 +1891,7 @@
   {
     "whoRegion": "Africa",
     "name": "Cameroon",
+    "countryCode": "CM",
     "casesCumulativeTotal": "125084",
     "casesCumulativeTotalPer100000Population": "471.2",
     "casesNewlyReportedInLast7Days": "0",
@@ -1780,6 +1906,7 @@
   {
     "whoRegion": "Europe",
     "name": "Malta",
+    "countryCode": "MT",
     "casesCumulativeTotal": "118907",
     "casesCumulativeTotalPer100000Population": "23108.301",
     "casesNewlyReportedInLast7Days": "0",
@@ -1794,6 +1921,7 @@
   {
     "whoRegion": "Americas",
     "name": "Barbados",
+    "countryCode": "BB",
     "casesCumulativeTotal": "107794",
     "casesCumulativeTotalPer100000Population": "37509.874",
     "casesNewlyReportedInLast7Days": "0",
@@ -1808,6 +1936,7 @@
   {
     "whoRegion": "Africa",
     "name": "Angola",
+    "countryCode": "AO",
     "casesCumulativeTotal": "105384",
     "casesCumulativeTotalPer100000Population": "320.645",
     "casesNewlyReportedInLast7Days": "0",
@@ -1822,6 +1951,7 @@
   {
     "whoRegion": "Americas",
     "name": "French Guiana",
+    "countryCode": "GF",
     "casesCumulativeTotal": "98041",
     "casesCumulativeTotalPer100000Population": "32824.542",
     "casesNewlyReportedInLast7Days": "0",
@@ -1836,6 +1966,7 @@
   {
     "whoRegion": "Africa",
     "name": "Democratic Republic of the Congo",
+    "countryCode": "CD",
     "casesCumulativeTotal": "97409",
     "casesCumulativeTotalPer100000Population": "108.762",
     "casesNewlyReportedInLast7Days": "0",
@@ -1850,6 +1981,7 @@
   {
     "whoRegion": "Africa",
     "name": "Senegal",
+    "countryCode": "SN",
     "casesCumulativeTotal": "89003",
     "casesCumulativeTotalPer100000Population": "531.554",
     "casesNewlyReportedInLast7Days": "0",
@@ -1864,6 +1996,7 @@
   {
     "whoRegion": "Africa",
     "name": "Malawi",
+    "countryCode": "MW",
     "casesCumulativeTotal": "88703",
     "casesCumulativeTotalPer100000Population": "463.686",
     "casesNewlyReportedInLast7Days": "0",
@@ -1878,6 +2011,7 @@
   {
     "whoRegion": "Africa",
     "name": "Côte d’Ivoire",
+    "countryCode": "CI",
     "casesCumulativeTotal": "88335",
     "casesCumulativeTotalPer100000Population": "334.878",
     "casesNewlyReportedInLast7Days": "0",
@@ -1892,6 +2026,7 @@
   {
     "whoRegion": "Europe",
     "name": "Kyrgyzstan",
+    "countryCode": "KG",
     "casesCumulativeTotal": "87887",
     "casesCumulativeTotalPer100000Population": "1347.094",
     "casesNewlyReportedInLast7Days": "0",
@@ -1906,6 +2041,7 @@
   {
     "whoRegion": "Americas",
     "name": "Suriname",
+    "countryCode": "SR",
     "casesCumulativeTotal": "82563",
     "casesCumulativeTotalPer100000Population": "14074.07",
     "casesNewlyReportedInLast7Days": "0",
@@ -1920,6 +2056,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "New Caledonia",
+    "countryCode": "NC",
     "casesCumulativeTotal": "80064",
     "casesCumulativeTotalPer100000Population": "28043.629",
     "casesNewlyReportedInLast7Days": "0",
@@ -1934,6 +2071,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "French Polynesia",
+    "countryCode": "PF",
     "casesCumulativeTotal": "78601",
     "casesCumulativeTotalPer100000Population": "27981.047",
     "casesNewlyReportedInLast7Days": "0",
@@ -1948,6 +2086,7 @@
   {
     "whoRegion": "Africa",
     "name": "Eswatini",
+    "countryCode": "SZ",
     "casesCumulativeTotal": "74882",
     "casesCumulativeTotalPer100000Population": "6454.432",
     "casesNewlyReportedInLast7Days": "0",
@@ -1962,6 +2101,7 @@
   {
     "whoRegion": "Americas",
     "name": "Guyana",
+    "countryCode": "GY",
     "casesCumulativeTotal": "73324",
     "casesCumulativeTotalPer100000Population": "9322.206",
     "casesNewlyReportedInLast7Days": "11",
@@ -1976,6 +2116,7 @@
   {
     "whoRegion": "Americas",
     "name": "Belize",
+    "countryCode": "BZ",
     "casesCumulativeTotal": "70782",
     "casesCumulativeTotalPer100000Population": "17801.06",
     "casesNewlyReportedInLast7Days": "0",
@@ -1990,6 +2131,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Fiji",
+    "countryCode": "FJ",
     "casesCumulativeTotal": "69072",
     "casesCumulativeTotalPer100000Population": "7705.102",
     "casesNewlyReportedInLast7Days": "0",
@@ -2004,6 +2146,7 @@
   {
     "whoRegion": "Africa",
     "name": "Madagascar",
+    "countryCode": "MG",
     "casesCumulativeTotal": "68289",
     "casesCumulativeTotalPer100000Population": "246.611",
     "casesNewlyReportedInLast7Days": "0",
@@ -2018,6 +2161,7 @@
   {
     "whoRegion": "Europe",
     "name": "Jersey",
+    "countryCode": "JE",
     "casesCumulativeTotal": "66391",
     "casesCumulativeTotalPer100000Population": "61589.484",
     "casesNewlyReportedInLast7Days": "0",
@@ -2032,6 +2176,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Sudan",
+    "countryCode": "SD",
     "casesCumulativeTotal": "63993",
     "casesCumulativeTotalPer100000Population": "145.939",
     "casesNewlyReportedInLast7Days": "0",
@@ -2046,6 +2191,7 @@
   {
     "whoRegion": "Africa",
     "name": "Cabo Verde",
+    "countryCode": "CV",
     "casesCumulativeTotal": "63985",
     "casesCumulativeTotalPer100000Population": "11508.363",
     "casesNewlyReportedInLast7Days": "0",
@@ -2060,6 +2206,7 @@
   {
     "whoRegion": "Africa",
     "name": "Mauritania",
+    "countryCode": "MR",
     "casesCumulativeTotal": "63710",
     "casesCumulativeTotalPer100000Population": "1370.208",
     "casesNewlyReportedInLast7Days": "0",
@@ -2074,6 +2221,7 @@
   {
     "whoRegion": "South-East Asia",
     "name": "Bhutan",
+    "countryCode": "BT",
     "casesCumulativeTotal": "62673",
     "casesCumulativeTotalPer100000Population": "8122.389",
     "casesNewlyReportedInLast7Days": "1",
@@ -2088,6 +2236,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Syrian Arab Republic",
+    "countryCode": "SY",
     "casesCumulativeTotal": "57423",
     "casesCumulativeTotalPer100000Population": "328.119",
     "casesNewlyReportedInLast7Days": "0",
@@ -2102,6 +2251,7 @@
   {
     "whoRegion": "Africa",
     "name": "Burundi",
+    "countryCode": "BI",
     "casesCumulativeTotal": "54142",
     "casesCumulativeTotalPer100000Population": "455.327",
     "casesNewlyReportedInLast7Days": "0",
@@ -2116,6 +2266,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Guam",
+    "countryCode": "GU",
     "casesCumulativeTotal": "51623",
     "casesCumulativeTotalPer100000Population": "30586.876",
     "casesNewlyReportedInLast7Days": "74",
@@ -2130,6 +2281,7 @@
   {
     "whoRegion": "Africa",
     "name": "Seychelles",
+    "countryCode": "SC",
     "casesCumulativeTotal": "50937",
     "casesCumulativeTotalPer100000Population": "51793.141",
     "casesNewlyReportedInLast7Days": "0",
@@ -2144,6 +2296,7 @@
   {
     "whoRegion": "Africa",
     "name": "Gabon",
+    "countryCode": "GA",
     "casesCumulativeTotal": "48992",
     "casesCumulativeTotalPer100000Population": "2201.162",
     "casesNewlyReportedInLast7Days": "0",
@@ -2158,6 +2311,7 @@
   {
     "whoRegion": "Europe",
     "name": "Andorra",
+    "countryCode": "AD",
     "casesCumulativeTotal": "48015",
     "casesCumulativeTotalPer100000Population": "62143.273",
     "casesNewlyReportedInLast7Days": "0",
@@ -2172,6 +2326,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Papua New Guinea",
+    "countryCode": "PG",
     "casesCumulativeTotal": "46864",
     "casesCumulativeTotalPer100000Population": "523.794",
     "casesNewlyReportedInLast7Days": "0",
@@ -2186,6 +2341,7 @@
   {
     "whoRegion": "Americas",
     "name": "Curaçao",
+    "countryCode": "CW",
     "casesCumulativeTotal": "45817",
     "casesCumulativeTotalPer100000Population": "27921.362",
     "casesNewlyReportedInLast7Days": "0",
@@ -2200,6 +2356,7 @@
   {
     "whoRegion": "Americas",
     "name": "Aruba",
+    "countryCode": "AW",
     "casesCumulativeTotal": "44200",
     "casesCumulativeTotalPer100000Population": "41398.947",
     "casesNewlyReportedInLast7Days": "0",
@@ -2214,6 +2371,7 @@
   {
     "whoRegion": "Africa",
     "name": "United Republic of Tanzania",
+    "countryCode": "TZ",
     "casesCumulativeTotal": "43078",
     "casesCumulativeTotalPer100000Population": "72.116",
     "casesNewlyReportedInLast7Days": "0",
@@ -2228,6 +2386,7 @@
   {
     "whoRegion": "Africa",
     "name": "Mayotte",
+    "countryCode": "YT",
     "casesCumulativeTotal": "42027",
     "casesCumulativeTotalPer100000Population": "15404.945",
     "casesNewlyReportedInLast7Days": "0",
@@ -2242,6 +2401,7 @@
   {
     "whoRegion": "Africa",
     "name": "Togo",
+    "countryCode": "TG",
     "casesCumulativeTotal": "39503",
     "casesCumulativeTotalPer100000Population": "477.163",
     "casesNewlyReportedInLast7Days": "0",
@@ -2256,6 +2416,7 @@
   {
     "whoRegion": "Africa",
     "name": "Guinea",
+    "countryCode": "GN",
     "casesCumulativeTotal": "38563",
     "casesCumulativeTotalPer100000Population": "293.639",
     "casesNewlyReportedInLast7Days": "0",
@@ -2270,6 +2431,7 @@
   {
     "whoRegion": "Americas",
     "name": "Bahamas",
+    "countryCode": "BS",
     "casesCumulativeTotal": "38084",
     "casesCumulativeTotalPer100000Population": "9684.572",
     "casesNewlyReportedInLast7Days": "0",
@@ -2284,6 +2446,7 @@
   {
     "whoRegion": "Europe",
     "name": "Isle of Man",
+    "countryCode": "IM",
     "casesCumulativeTotal": "38008",
     "casesCumulativeTotalPer100000Population": "44698.466",
     "casesNewlyReportedInLast7Days": "0",
@@ -2298,6 +2461,7 @@
   {
     "whoRegion": "Europe",
     "name": "Guernsey",
+    "countryCode": "GG",
     "casesCumulativeTotal": "35326",
     "casesCumulativeTotalPer100000Population": "54796.178",
     "casesNewlyReportedInLast7Days": "0",
@@ -2312,6 +2476,7 @@
   {
     "whoRegion": "Europe",
     "name": "Faroe Islands",
+    "countryCode": "FO",
     "casesCumulativeTotal": "34658",
     "casesCumulativeTotalPer100000Population": "70926.021",
     "casesNewlyReportedInLast7Days": "0",
@@ -2326,6 +2491,7 @@
   {
     "whoRegion": "Africa",
     "name": "Lesotho",
+    "countryCode": "LS",
     "casesCumulativeTotal": "34490",
     "casesCumulativeTotalPer100000Population": "1609.99",
     "casesNewlyReportedInLast7Days": "0",
@@ -2340,6 +2506,7 @@
   {
     "whoRegion": "Americas",
     "name": "Haiti",
+    "countryCode": "HT",
     "casesCumulativeTotal": "34301",
     "casesCumulativeTotalPer100000Population": "300.819",
     "casesNewlyReportedInLast7Days": "0",
@@ -2354,6 +2521,7 @@
   {
     "whoRegion": "Africa",
     "name": "Mali",
+    "countryCode": "ML",
     "casesCumulativeTotal": "33151",
     "casesCumulativeTotalPer100000Population": "163.702",
     "casesNewlyReportedInLast7Days": "0",
@@ -2368,6 +2536,7 @@
   {
     "whoRegion": "Americas",
     "name": "Cayman Islands",
+    "countryCode": "KY",
     "casesCumulativeTotal": "31472",
     "casesCumulativeTotalPer100000Population": "47888.01",
     "casesNewlyReportedInLast7Days": "0",
@@ -2382,6 +2551,7 @@
   {
     "whoRegion": "Americas",
     "name": "Saint Lucia",
+    "countryCode": "LC",
     "casesCumulativeTotal": "30052",
     "casesCumulativeTotalPer100000Population": "16365.785",
     "casesNewlyReportedInLast7Days": "0",
@@ -2396,6 +2566,7 @@
   {
     "whoRegion": "Africa",
     "name": "Benin",
+    "countryCode": "BJ",
     "casesCumulativeTotal": "28014",
     "casesCumulativeTotalPer100000Population": "231.078",
     "casesNewlyReportedInLast7Days": "0",
@@ -2410,6 +2581,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Somalia",
+    "countryCode": "SO",
     "casesCumulativeTotal": "27334",
     "casesCumulativeTotalPer100000Population": "171.985",
     "casesNewlyReportedInLast7Days": "0",
@@ -2424,6 +2596,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Micronesia (Federated States of)",
+    "countryCode": "FM",
     "casesCumulativeTotal": "26459",
     "casesCumulativeTotalPer100000Population": "23003.225",
     "casesNewlyReportedInLast7Days": "0",
@@ -2438,6 +2611,7 @@
   {
     "whoRegion": "Americas",
     "name": "United States Virgin Islands",
+    "countryCode": "VI",
     "casesCumulativeTotal": "25245",
     "casesCumulativeTotalPer100000Population": "24175.245",
     "casesNewlyReportedInLast7Days": "34",
@@ -2452,6 +2626,7 @@
   {
     "whoRegion": "Africa",
     "name": "Congo",
+    "countryCode": "CG",
     "casesCumulativeTotal": "25196",
     "casesCumulativeTotalPer100000Population": "456.608",
     "casesNewlyReportedInLast7Days": "0",
@@ -2466,6 +2641,7 @@
   {
     "whoRegion": "Europe",
     "name": "San Marino",
+    "countryCode": "SM",
     "casesCumulativeTotal": "24326",
     "casesCumulativeTotalPer100000Population": "71677.765",
     "casesNewlyReportedInLast7Days": "4",
@@ -2480,6 +2656,7 @@
   {
     "whoRegion": "South-East Asia",
     "name": "Timor-Leste",
+    "countryCode": "TL",
     "casesCumulativeTotal": "23457",
     "casesCumulativeTotalPer100000Population": "1779.141",
     "casesNewlyReportedInLast7Days": "0",
@@ -2494,6 +2671,7 @@
   {
     "whoRegion": "Africa",
     "name": "Burkina Faso",
+    "countryCode": "BF",
     "casesCumulativeTotal": "22056",
     "casesCumulativeTotalPer100000Population": "105.515",
     "casesNewlyReportedInLast7Days": "0",
@@ -2508,6 +2686,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Solomon Islands",
+    "countryCode": "SB",
     "casesCumulativeTotal": "21611",
     "casesCumulativeTotalPer100000Population": "3146.237",
     "casesNewlyReportedInLast7Days": "0",
@@ -2522,6 +2701,7 @@
   {
     "whoRegion": "Europe",
     "name": "Liechtenstein",
+    "countryCode": "LI",
     "casesCumulativeTotal": "21472",
     "casesCumulativeTotalPer100000Population": "55415.903",
     "casesNewlyReportedInLast7Days": "0",
@@ -2536,6 +2716,7 @@
   {
     "whoRegion": "Europe",
     "name": "Gibraltar",
+    "countryCode": "GI",
     "casesCumulativeTotal": "20550",
     "casesCumulativeTotalPer100000Population": "60995.518",
     "casesNewlyReportedInLast7Days": "0",
@@ -2550,6 +2731,7 @@
   {
     "whoRegion": "Americas",
     "name": "Grenada",
+    "countryCode": "GD",
     "casesCumulativeTotal": "19693",
     "casesCumulativeTotalPer100000Population": "17501.311",
     "casesNewlyReportedInLast7Days": "0",
@@ -2564,6 +2746,7 @@
   {
     "whoRegion": "Americas",
     "name": "Bermuda",
+    "countryCode": "BM",
     "casesCumulativeTotal": "18860",
     "casesCumulativeTotalPer100000Population": "30285.999",
     "casesNewlyReportedInLast7Days": "0",
@@ -2578,6 +2761,7 @@
   {
     "whoRegion": "Africa",
     "name": "South Sudan",
+    "countryCode": "SS",
     "casesCumulativeTotal": "18368",
     "casesCumulativeTotalPer100000Population": "164.092",
     "casesNewlyReportedInLast7Days": "0",
@@ -2592,6 +2776,7 @@
   {
     "whoRegion": "Europe",
     "name": "Tajikistan",
+    "countryCode": "TJ",
     "casesCumulativeTotal": "17786",
     "casesCumulativeTotalPer100000Population": "186.482",
     "casesNewlyReportedInLast7Days": "0",
@@ -2606,6 +2791,7 @@
   {
     "whoRegion": "Africa",
     "name": "Equatorial Guinea",
+    "countryCode": "GQ",
     "casesCumulativeTotal": "17130",
     "casesCumulativeTotalPer100000Population": "1220.968",
     "casesNewlyReportedInLast7Days": "0",
@@ -2620,6 +2806,7 @@
   {
     "whoRegion": "Europe",
     "name": "Monaco",
+    "countryCode": "MC",
     "casesCumulativeTotal": "16838",
     "casesCumulativeTotalPer100000Population": "42905.922",
     "casesNewlyReportedInLast7Days": "12",
@@ -2634,6 +2821,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Tonga",
+    "countryCode": "TO",
     "casesCumulativeTotal": "16819",
     "casesCumulativeTotalPer100000Population": "15912.768",
     "casesNewlyReportedInLast7Days": "0",
@@ -2648,6 +2836,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Samoa",
+    "countryCode": "WS",
     "casesCumulativeTotal": "16764",
     "casesCumulativeTotalPer100000Population": "8449.001",
     "casesNewlyReportedInLast7Days": "0",
@@ -2662,6 +2851,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Marshall Islands",
+    "countryCode": "MH",
     "casesCumulativeTotal": "16098",
     "casesCumulativeTotalPer100000Population": "27195.324",
     "casesNewlyReportedInLast7Days": "0",
@@ -2676,6 +2866,7 @@
   {
     "whoRegion": "Americas",
     "name": "Nicaragua",
+    "countryCode": "NI",
     "casesCumulativeTotal": "15821",
     "casesCumulativeTotalPer100000Population": "238.824",
     "casesNewlyReportedInLast7Days": "47",
@@ -2690,6 +2881,7 @@
   {
     "whoRegion": "Americas",
     "name": "Dominica",
+    "countryCode": "DM",
     "casesCumulativeTotal": "15760",
     "casesCumulativeTotalPer100000Population": "21891.625",
     "casesNewlyReportedInLast7Days": "0",
@@ -2704,6 +2896,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Djibouti",
+    "countryCode": "DJ",
     "casesCumulativeTotal": "15690",
     "casesCumulativeTotalPer100000Population": "1588.057",
     "casesNewlyReportedInLast7Days": "0",
@@ -2718,6 +2911,7 @@
   {
     "whoRegion": "Africa",
     "name": "Central African Republic",
+    "countryCode": "CF",
     "casesCumulativeTotal": "15367",
     "casesCumulativeTotalPer100000Population": "318.173",
     "casesNewlyReportedInLast7Days": "0",
@@ -2732,6 +2926,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Northern Mariana Islands (Commonwealth of the)",
+    "countryCode": "MP",
     "casesCumulativeTotal": "14000",
     "casesCumulativeTotalPer100000Population": "24323.714",
     "casesNewlyReportedInLast7Days": "0",
@@ -2746,6 +2941,7 @@
   {
     "whoRegion": "Africa",
     "name": "Gambia",
+    "countryCode": "GM",
     "casesCumulativeTotal": "12626",
     "casesCumulativeTotalPer100000Population": "522.455",
     "casesNewlyReportedInLast7Days": "0",
@@ -2760,6 +2956,7 @@
   {
     "whoRegion": "Americas",
     "name": "Saint Martin",
+    "countryCode": "MF",
     "casesCumulativeTotal": "12324",
     "casesCumulativeTotalPer100000Population": "31878.735",
     "casesNewlyReportedInLast7Days": "21",
@@ -2774,6 +2971,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Vanuatu",
+    "countryCode": "VU",
     "casesCumulativeTotal": "12019",
     "casesCumulativeTotalPer100000Population": "3913.135",
     "casesNewlyReportedInLast7Days": "0",
@@ -2788,6 +2986,7 @@
   {
     "whoRegion": "Europe",
     "name": "Greenland",
+    "countryCode": "GL",
     "casesCumulativeTotal": "11971",
     "casesCumulativeTotalPer100000Population": "21086.099",
     "casesNewlyReportedInLast7Days": "0",
@@ -2802,6 +3001,7 @@
   {
     "whoRegion": "Eastern Mediterranean",
     "name": "Yemen",
+    "countryCode": "YE",
     "casesCumulativeTotal": "11945",
     "casesCumulativeTotalPer100000Population": "40.049",
     "casesNewlyReportedInLast7Days": "0",
@@ -2816,6 +3016,7 @@
   {
     "whoRegion": "Americas",
     "name": "Sint Maarten",
+    "countryCode": "SX",
     "casesCumulativeTotal": "11051",
     "casesCumulativeTotalPer100000Population": "25770.72",
     "casesNewlyReportedInLast7Days": "0",
@@ -2830,6 +3031,7 @@
   {
     "whoRegion": "Africa",
     "name": "Eritrea",
+    "countryCode": "ER",
     "casesCumulativeTotal": "10189",
     "casesCumulativeTotalPer100000Population": "287.304",
     "casesNewlyReportedInLast7Days": "0",
@@ -2844,6 +3046,7 @@
   {
     "whoRegion": "Americas",
     "name": "Bonaire",
+    "countryCode": "XA",
     "casesCumulativeTotal": "9864",
     "casesCumulativeTotalPer100000Population": "47162.324",
     "casesNewlyReportedInLast7Days": "0",
@@ -2858,6 +3061,7 @@
   {
     "whoRegion": "Americas",
     "name": "Saint Vincent and the Grenadines",
+    "countryCode": "VC",
     "casesCumulativeTotal": "9631",
     "casesCumulativeTotalPer100000Population": "8681.269",
     "casesNewlyReportedInLast7Days": "0",
@@ -2872,6 +3076,7 @@
   {
     "whoRegion": "Africa",
     "name": "Guinea-Bissau",
+    "countryCode": "GW",
     "casesCumulativeTotal": "9614",
     "casesCumulativeTotalPer100000Population": "488.516",
     "casesNewlyReportedInLast7Days": "0",
@@ -2886,6 +3091,7 @@
   {
     "whoRegion": "Africa",
     "name": "Niger",
+    "countryCode": "NE",
     "casesCumulativeTotal": "9513",
     "casesCumulativeTotalPer100000Population": "39.299",
     "casesNewlyReportedInLast7Days": "0",
@@ -2900,6 +3106,7 @@
   {
     "whoRegion": "Africa",
     "name": "Comoros",
+    "countryCode": "KM",
     "casesCumulativeTotal": "9109",
     "casesCumulativeTotalPer100000Population": "1047.492",
     "casesNewlyReportedInLast7Days": "0",
@@ -2914,6 +3121,7 @@
   {
     "whoRegion": "Americas",
     "name": "Antigua and Barbuda",
+    "countryCode": "AG",
     "casesCumulativeTotal": "9106",
     "casesCumulativeTotalPer100000Population": "9298.573",
     "casesNewlyReportedInLast7Days": "0",
@@ -2928,6 +3136,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "American Samoa",
+    "countryCode": "AS",
     "casesCumulativeTotal": "8332",
     "casesCumulativeTotalPer100000Population": "15095.023",
     "casesNewlyReportedInLast7Days": "0",
@@ -2942,6 +3151,7 @@
   {
     "whoRegion": "Africa",
     "name": "Liberia",
+    "countryCode": "LR",
     "casesCumulativeTotal": "8090",
     "casesCumulativeTotalPer100000Population": "159.955",
     "casesNewlyReportedInLast7Days": "0",
@@ -2956,6 +3166,7 @@
   {
     "whoRegion": "Africa",
     "name": "Sierra Leone",
+    "countryCode": "SL",
     "casesCumulativeTotal": "7762",
     "casesCumulativeTotalPer100000Population": "97.305",
     "casesNewlyReportedInLast7Days": "0",
@@ -2970,6 +3181,7 @@
   {
     "whoRegion": "Africa",
     "name": "Chad",
+    "countryCode": "TD",
     "casesCumulativeTotal": "7698",
     "casesCumulativeTotalPer100000Population": "46.865",
     "casesNewlyReportedInLast7Days": "0",
@@ -2984,6 +3196,7 @@
   {
     "whoRegion": "Americas",
     "name": "British Virgin Islands",
+    "countryCode": "VG",
     "casesCumulativeTotal": "7305",
     "casesCumulativeTotalPer100000Population": "24159.143",
     "casesNewlyReportedInLast7Days": "0",
@@ -2998,6 +3211,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Cook Islands",
+    "countryCode": "CK",
     "casesCumulativeTotal": "7144",
     "casesCumulativeTotalPer100000Population": "40674.106",
     "casesNewlyReportedInLast7Days": "2",
@@ -3012,6 +3226,7 @@
   {
     "whoRegion": "Americas",
     "name": "Saint Kitts and Nevis",
+    "countryCode": "KN",
     "casesCumulativeTotal": "6606",
     "casesCumulativeTotalPer100000Population": "12419.161",
     "casesNewlyReportedInLast7Days": "0",
@@ -3026,6 +3241,7 @@
   {
     "whoRegion": "Africa",
     "name": "Sao Tome and Principe",
+    "countryCode": "ST",
     "casesCumulativeTotal": "6588",
     "casesCumulativeTotalPer100000Population": "3006.037",
     "casesNewlyReportedInLast7Days": "0",
@@ -3040,6 +3256,7 @@
   {
     "whoRegion": "Americas",
     "name": "Turks and Caicos Islands",
+    "countryCode": "TC",
     "casesCumulativeTotal": "6588",
     "casesCumulativeTotalPer100000Population": "17015.342",
     "casesNewlyReportedInLast7Days": "0",
@@ -3054,6 +3271,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Palau",
+    "countryCode": "PW",
     "casesCumulativeTotal": "6013",
     "casesCumulativeTotalPer100000Population": "33235.684",
     "casesNewlyReportedInLast7Days": "0",
@@ -3068,6 +3286,7 @@
   {
     "whoRegion": "Americas",
     "name": "Saint Barthélemy",
+    "countryCode": "BL",
     "casesCumulativeTotal": "5507",
     "casesCumulativeTotalPer100000Population": "55710.673",
     "casesNewlyReportedInLast7Days": "13",
@@ -3082,6 +3301,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Nauru",
+    "countryCode": "NR",
     "casesCumulativeTotal": "5393",
     "casesCumulativeTotalPer100000Population": "49778.475",
     "casesNewlyReportedInLast7Days": "0",
@@ -3096,6 +3316,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Kiribati",
+    "countryCode": "KI",
     "casesCumulativeTotal": "5037",
     "casesCumulativeTotalPer100000Population": "4216.862",
     "casesNewlyReportedInLast7Days": "0",
@@ -3110,6 +3331,7 @@
   {
     "whoRegion": "Americas",
     "name": "Anguilla",
+    "countryCode": "AI",
     "casesCumulativeTotal": "3904",
     "casesCumulativeTotalPer100000Population": "26023.197",
     "casesNewlyReportedInLast7Days": "0",
@@ -3124,6 +3346,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Wallis and Futuna",
+    "countryCode": "WF",
     "casesCumulativeTotal": "3550",
     "casesCumulativeTotalPer100000Population": "31566.779",
     "casesNewlyReportedInLast7Days": "0",
@@ -3138,6 +3361,7 @@
   {
     "whoRegion": "Americas",
     "name": "Saint Pierre and Miquelon",
+    "countryCode": "PM",
     "casesCumulativeTotal": "3426",
     "casesCumulativeTotalPer100000Population": "59119.931",
     "casesNewlyReportedInLast7Days": "0",
@@ -3152,6 +3376,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Tuvalu",
+    "countryCode": "TV",
     "casesCumulativeTotal": "2943",
     "casesCumulativeTotalPer100000Population": "24957.598",
     "casesNewlyReportedInLast7Days": "0",
@@ -3166,6 +3391,7 @@
   {
     "whoRegion": "Africa",
     "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "countryCode": "SH",
     "casesCumulativeTotal": "2166",
     "casesCumulativeTotalPer100000Population": "35677.813",
     "casesNewlyReportedInLast7Days": "0",
@@ -3180,6 +3406,7 @@
   {
     "whoRegion": "Americas",
     "name": "Falkland Islands (Malvinas)",
+    "countryCode": "FK",
     "casesCumulativeTotal": "1923",
     "casesCumulativeTotalPer100000Population": "55211.025",
     "casesNewlyReportedInLast7Days": "0",
@@ -3194,6 +3421,7 @@
   {
     "whoRegion": "Americas",
     "name": "Montserrat",
+    "countryCode": "MS",
     "casesCumulativeTotal": "1403",
     "casesCumulativeTotalPer100000Population": "28065.613",
     "casesNewlyReportedInLast7Days": "0",
@@ -3208,6 +3436,7 @@
   {
     "whoRegion": "Americas",
     "name": "Sint Eustatius",
+    "countryCode": "XB",
     "casesCumulativeTotal": "1220",
     "casesCumulativeTotalPer100000Population": "38865.881",
     "casesNewlyReportedInLast7Days": "0",
@@ -3222,6 +3451,7 @@
   {
     "whoRegion": "Americas",
     "name": "Saba",
+    "countryCode": "XC",
     "casesCumulativeTotal": "837",
     "casesCumulativeTotalPer100000Population": "43300.569",
     "casesNewlyReportedInLast7Days": "0",
@@ -3236,6 +3466,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Niue",
+    "countryCode": "NU",
     "casesCumulativeTotal": "820",
     "casesCumulativeTotalPer100000Population": "50679.852",
     "casesNewlyReportedInLast7Days": "0",
@@ -3250,6 +3481,7 @@
   {
     "whoRegion": "Other",
     "name": "Other",
+    "countryCode": " ",
     "casesCumulativeTotal": "764",
     "casesCumulativeTotalPer100000Population": "",
     "casesNewlyReportedInLast7Days": "0",
@@ -3264,6 +3496,7 @@
   {
     "whoRegion": "Europe",
     "name": "Holy See",
+    "countryCode": "VA",
     "casesCumulativeTotal": "26",
     "casesCumulativeTotalPer100000Population": "3213.844",
     "casesNewlyReportedInLast7Days": "0",
@@ -3278,6 +3511,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Tokelau",
+    "countryCode": "TK",
     "casesCumulativeTotal": "19",
     "casesCumulativeTotalPer100000Population": "1407.407",
     "casesNewlyReportedInLast7Days": "0",
@@ -3292,6 +3526,7 @@
   {
     "whoRegion": "Western Pacific",
     "name": "Pitcairn Islands",
+    "countryCode": "PN",
     "casesCumulativeTotal": "4",
     "casesCumulativeTotalPer100000Population": "8000",
     "casesNewlyReportedInLast7Days": "0",
@@ -3306,6 +3541,7 @@
   {
     "whoRegion": "South-East Asia",
     "name": "Democratic People's Republic of Korea",
+    "countryCode": "KP",
     "casesCumulativeTotal": "0",
     "casesCumulativeTotalPer100000Population": "0",
     "casesNewlyReportedInLast7Days": "0",
@@ -3320,6 +3556,7 @@
   {
     "whoRegion": "Europe",
     "name": "Turkmenistan",
+    "countryCode": "TM",
     "casesCumulativeTotal": "0",
     "casesCumulativeTotalPer100000Population": "0",
     "casesNewlyReportedInLast7Days": "0",

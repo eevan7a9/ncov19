@@ -10,17 +10,18 @@ interface Country {
 interface CountriesTotalCase {
     whoRegion: string,
     name: string,
-    countryCode: string,
+    countryCode?: string,
+    latlng?: string[] | number[],
     casesCumulativeTotal: string,
     casesCumulativeTotalPer100000Population: string,
-    casesNewlyReportedInLast7Days: string,
-    casesNewlyReportedInLast7DaysPer100000Population: string,
-    casesNewlyReportedInLast24Hours: string,
-    deathsCumulativeTotal: string,
-    deathsCumulativeTotalPer100000Population: string,
-    deathsNewlyReportedInLast7Days: string,
-    deathsNewlyReportedInLast7DaysPer100000Population: string,
-    deathsNewlyReportedInLast24Hours: string
+    casesNewlyReportedInLast7Days?: string,
+    casesNewlyReportedInLast7DaysPer100000Population?: string,
+    casesNewlyReportedInLast24Hours?: string,
+    deathsCumulativeTotal?: string,
+    deathsCumulativeTotalPer100000Population?: string,
+    deathsNewlyReportedInLast7Days?: string,
+    deathsNewlyReportedInLast7DaysPer100000Population?: string,
+    deathsNewlyReportedInLast24Hours?: string
 }
 
 interface GeoFeature  {
