@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Icon, IconOptions, LatLngExpression, PointExpression } from 'leaflet';
+import { Icon, IconOptions, LatLngExpression, Layer, PointExpression } from 'leaflet';
 import { GeoJsonObject } from 'geojson';
 import "leaflet/dist/leaflet.css"
 
@@ -22,25 +22,43 @@ const center = ref<PointExpression>([18.453557, -35.572679])
 const zoom = ref(3)
 const attribution = ref('&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors')
 
+
+
 function onEachFeatureFunction() {
     return (feature: GeoFeature, layer: any) => {
         const foundCountry = globalCases.value.find(
             (country) => country.countryCode === feature.properties.alpha2
         )
         layer.bindTooltip(
-            "<div>Cases:" + foundCountry?.casesCumulativeTotal +
-            "</div>",
+            `<div>
+                <h1 class="text-xl font-semibold">
+                    ${feature.properties.name} <small>(${feature.properties.alpha2})</small>
+                </h1>
+                <div class="text-base">
+                    Total Cases: ${ formatNumberWithCommas(foundCountry?.casesCumulativeTotal)}
+                </div>
+                <div class="text-base text-red-600">
+                    Total Death: ${ formatNumberWithCommas(foundCountry?.deathsCumulativeTotal)}
+                </div>
+                <div class="text-sm text-blue-700 mt-3">
+                    (Click to learn more!!!)
+                </div>
+            </div>`,
             { permanent: false, sticky: true }
         );
 
         const highestDeaths = getTopThree.value[1]?.casesCumulativeTotal || 0
         layer.setStyle({
-            color: 'red',
+            color: '#690606', // Dark Burgundy
             fillColor: shadeColor(
                 Number(foundCountry?.casesCumulativeTotal),
                 Number(highestDeaths),
             ),
             fillOpacity: 0.8
+        })
+        layer.on('click', (e: PointerEvent) => {
+            const target = e.target as any
+            console.log(target.feature?.properties?.name)
         })
     };
 }
@@ -59,7 +77,6 @@ if (!globalCases.value.length) {
         console.error(error)
     }
 }
-
 </script>
 
 <template>
@@ -87,4 +104,15 @@ if (!globalCases.value.length) {
     </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss">
+// remove retangle square when click layer
+path.leaflet-interactive:focus {
+    outline: none;
+}
+
+// change leaflet canvas color 
+.leaflet-container {
+    background: #aad3df;
+    outline: 0;
+}
+</style>
