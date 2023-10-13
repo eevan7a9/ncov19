@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Icon, IconOptions, LatLngExpression, Layer, PointExpression } from 'leaflet';
+import { LatLngExpression, PointExpression } from 'leaflet';
 import { GeoJsonObject } from 'geojson';
 import "leaflet/dist/leaflet.css"
 
@@ -21,8 +21,7 @@ const myMap = ref<any>(null)
 const center = ref<PointExpression>([18.453557, -35.572679])
 const zoom = ref(3)
 const attribution = ref('&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors')
-
-
+const markerRefs = ref<any[]>([])
 
 function onEachFeatureFunction() {
     return (feature: GeoFeature, layer: any) => {
@@ -35,10 +34,10 @@ function onEachFeatureFunction() {
                     ${feature.properties.name} <small>(${feature.properties.alpha2})</small>
                 </h1>
                 <div class="text-base">
-                    Total Cases: ${ formatNumberWithCommas(foundCountry?.casesCumulativeTotal)}
+                    Total Cases: ${formatNumberWithCommas(foundCountry?.casesCumulativeTotal)}
                 </div>
                 <div class="text-base text-red-600">
-                    Total Death: ${ formatNumberWithCommas(foundCountry?.deathsCumulativeTotal)}
+                    Total Death: ${formatNumberWithCommas(foundCountry?.deathsCumulativeTotal)}
                 </div>
                 <div class="text-sm text-blue-700 mt-3">
                     (Click to learn more!!!)
@@ -63,9 +62,6 @@ function onEachFeatureFunction() {
     };
 }
 
-
-
-
 if (!globalCases.value.length) {
     try {
         const [globalCasesRes, geojsonRes] = await Promise.all([
@@ -73,10 +69,22 @@ if (!globalCases.value.length) {
         ])
         covidCasesStore.setGlobalCases(globalCasesRes.data.value || [])
         geojsonStore.setGeoJSONCountries(geojsonRes.data.value || {})
+
     } catch (error) {
         console.error(error)
     }
 }
+
+/**
+ * Open Markers Popup when ready
+ */
+function popReady(): void {
+    for (const marker of markerRefs.value as any) {
+        // mapObject or leafletObject
+        marker.leafletObject.openPopup()
+    }
+}
+
 </script>
 
 <template>
@@ -90,10 +98,21 @@ if (!globalCases.value.length) {
 
                 <l-geo-json :geojson="(countriesGeoJSON as GeoJsonObject)" :options="geojsonOptions" />
 
-                <l-marker v-for="country of getTopThree" @l-add="$event.target.openPopup()"
-                    :lat-lng="(country.latlng as LatLngExpression)">
-                    <l-popup>
-                        <h1>text</h1>
+                <l-marker v-for="(country, i) of getTopThree" :key="country.name" :ref="el => { markerRefs[i] = el }"
+                    @l-add="$event.target.openPopup()" :lat-lng="(country.latlng as LatLngExpression)">
+                    <l-popup @ready="popReady" :options="{ closeOnClick: false, autoClose: false }">
+                        <div class=" flex flex-col">
+                            <h1 class="text-xl font-bold">
+                                {{ country.name }} <small class="text-sm text-gray-500">Top #{{ i + 1 }}</small>
+                            </h1>
+                            <div class="text-sm">
+                                Total Case: {{ formatNumberWithCommas(country.casesCumulativeTotal) }}
+                            </div>
+                            <div class="text-sm text-red-700">
+                                Total Death: {{ formatNumberWithCommas(country.deathsCumulativeTotal) }}
+                            </div>
+                            <button class="text-blue-700 mx-auto mt-3 text-sm underline">More Details</button>
+                        </div>
                     </l-popup>
 
                     <l-icon :icon-size="[64, 64]" :icon-anchor="[32, 15]" :icon-url="'/coronavirus.png'">
