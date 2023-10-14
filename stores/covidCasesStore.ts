@@ -7,7 +7,7 @@ export const useCovidCasesStore = defineStore('covidCases', {
         countries: [] as Country[]
     }),
     getters: {
-        getTopThree: (state) => {
+        topCountriesByCases: (state) => {
             return state.globalCases.sort(
                 (curr, next) =>
                     Number(next?.casesCumulativeTotal) - Number(curr?.casesCumulativeTotal))

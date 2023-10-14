@@ -7,7 +7,7 @@ import { LMap, LGeoJson, LTileLayer, LMarker, LPopup, LIcon } from "@vue-leaflet
 import { storeToRefs } from "pinia";
 
 const covidCasesStore = useCovidCasesStore()
-const { globalCases, getTopThree } = storeToRefs(covidCasesStore)
+const { globalCases, topCountriesByCases } = storeToRefs(covidCasesStore)
 
 const geojsonStore = useGeojsonStore()
 const { countriesGeoJSON } = storeToRefs(geojsonStore)
@@ -46,7 +46,7 @@ function onEachFeatureFunction() {
             { permanent: false, sticky: true }
         );
 
-        const highestDeaths = getTopThree.value[1]?.casesCumulativeTotal || 0
+        const highestDeaths = topCountriesByCases.value[1]?.casesCumulativeTotal || 0
         layer.setStyle({
             color: '#690606', // Dark Burgundy
             fillColor: shadeColor(
@@ -88,9 +88,11 @@ function popReady(): void {
 </script>
 
 <template>
-    <div class="bg-blue-200">
-
-        <client-only>
+    <div class="bg-blue-200 relative">
+        <!-- Fixed Bar chart -->
+        <bar-chart-top-cases class="world-map-bar-chart z-999" />
+        <!-- Leaflet Map -->
+        <client-only class="z-0">
             <l-map :useGlobalLeaflet="false" ref="myMap" v-model:zoom="zoom" :center="center">
                 <l-tile-layer :max-zoom="6" :min-zoom="3" :no-wrap="true"
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" :attribution="attribution">
@@ -98,8 +100,9 @@ function popReady(): void {
 
                 <l-geo-json :geojson="(countriesGeoJSON as GeoJsonObject)" :options="geojsonOptions" />
 
-                <l-marker v-for="(country, i) of getTopThree" :key="country.name" :ref="el => { markerRefs[i] = el }"
-                    @l-add="$event.target.openPopup()" :lat-lng="(country.latlng as LatLngExpression)">
+                <l-marker v-for="(country, i) of topCountriesByCases" :key="country.name"
+                    :ref="el => { markerRefs[i] = el }" @l-add="$event.target.openPopup()"
+                    :lat-lng="(country.latlng as LatLngExpression)">
                     <l-popup @ready="popReady" :options="{ closeOnClick: false, autoClose: false }">
                         <div class=" flex flex-col">
                             <h1 class="text-xl font-bold">
@@ -133,5 +136,11 @@ path.leaflet-interactive:focus {
 .leaflet-container {
     background: #aad3df;
     outline: 0;
+}
+
+.world-map-bar-chart {
+    max-width: 400px;
+    position: fixed;
+    bottom: 0;
 }
 </style>
