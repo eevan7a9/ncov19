@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import { LatLngExpression, PointExpression } from 'leaflet';
-import { GeoJsonObject } from 'geojson';
-import "leaflet/dist/leaflet.css"
-
-import { LMap, LGeoJson, LTileLayer, LMarker, LPopup, LIcon } from "@vue-leaflet/vue-leaflet";
 import { storeToRefs } from "pinia";
+import { GeoJsonObject } from 'geojson';
+import { LatLngExpression, PointExpression } from 'leaflet';
+import { LMap, LGeoJson, LTileLayer, LMarker, LPopup, LIcon } from "@vue-leaflet/vue-leaflet";
+import "leaflet/dist/leaflet.css";
 
 const covidCasesStore = useCovidCasesStore()
 const { globalCases, topCountriesByCases } = storeToRefs(covidCasesStore)
@@ -12,11 +11,9 @@ const { globalCases, topCountriesByCases } = storeToRefs(covidCasesStore)
 const geojsonStore = useGeojsonStore()
 const { countriesGeoJSON } = storeToRefs(geojsonStore)
 
-
 const geojsonOptions = ref({
     onEachFeature: onEachFeatureFunction()
 })
-
 const myMap = ref<any>(null)
 const center = ref<PointExpression>([18.453557, -35.572679])
 const zoom = ref(3)
@@ -62,19 +59,6 @@ function onEachFeatureFunction() {
     };
 }
 
-if (!globalCases.value.length) {
-    try {
-        const [globalCasesRes, geojsonRes] = await Promise.all([
-            useFetch('/api/global-total-case'), useFetch('/api/geojson/countries')
-        ])
-        covidCasesStore.setGlobalCases(globalCasesRes.data.value || [])
-        geojsonStore.setGeoJSONCountries(geojsonRes.data.value || {})
-
-    } catch (error) {
-        console.error(error)
-    }
-}
-
 /**
  * Open Markers Popup when ready
  */
@@ -84,15 +68,16 @@ function popReady(): void {
         marker.leafletObject.openPopup()
     }
 }
-
 </script>
 
 <template>
-    <div class="bg-blue-200 relative">
-        <!-- Fixed Bar chart -->
-        <bar-chart-top-cases class="world-map-bar-chart z-999" />
-        <!-- Leaflet Map -->
-        <client-only class="z-0">
+    <div class="bg-blue-200">
+
+        <client-only class="z-0 relative">
+            <!-- Fixed Bar chart -->
+            <bar-chart-top-cases class="world-map-bar-chart z-999 absolute bottom-1/2 lg:bottom-0" />
+
+            <!-- Leaflet Map -->
             <l-map :useGlobalLeaflet="false" ref="myMap" v-model:zoom="zoom" :center="center">
                 <l-tile-layer :max-zoom="6" :min-zoom="3" :no-wrap="true"
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" :attribution="attribution">
@@ -140,7 +125,5 @@ path.leaflet-interactive:focus {
 
 .world-map-bar-chart {
     max-width: 400px;
-    position: fixed;
-    bottom: 0;
 }
 </style>
