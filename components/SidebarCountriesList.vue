@@ -22,26 +22,3 @@ if (!covidCasesStore.countries.length) {
         </li>
     </ul>
 </template>
-
-<style scoped>
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: rgb(75 85 99 / var(--tw-bg-opacity));
-    border-radius: 5px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-</style>
