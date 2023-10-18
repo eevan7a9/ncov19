@@ -1,9 +1,10 @@
 <script lang="ts" setup>
-import Chart, { ChartData, ChartItem } from 'chart.js/auto'
+import Chart, { ChartData, ChartDataset, ChartItem } from 'chart.js/auto'
 
 const acquisitions = ref<ChartItem>()
 const props = withDefaults(defineProps<{
-    doughnutData: ChartData<"doughnut">;
+    doughnutData: ChartDataset<"doughnut">[];
+    labels: string[],
     title?: string;
     textColor?: string;
     titleSize?: number;
@@ -11,6 +12,7 @@ const props = withDefaults(defineProps<{
     scaleTickCallback?: Function
 }>(), {
     title: 'Doughnut Chart',
+    titleSize: 30,
     textColor: '#333',
     legendSize: 16
 })
@@ -23,29 +25,30 @@ onMounted(async () => {
         acquisitions.value,
         {
             type: 'doughnut',
-            data: props.doughnutData,
+            data: {
+                labels: props.labels,
+                datasets: props.doughnutData
+            },
             options: {
                 color: props.textColor,
-                font:{
+                font: {
                     size: 30
                 },
                 plugins: {
-                    legend:{
-                        labels:{
+                    legend: {
+                        labels: {
                             color: props.textColor,
-                            font:{
+                            font: {
                                 size: props.legendSize,
-                                weight: 'bold'
                             }
                         }
                     },
                     title: {
                         display: !!props.title,
                         text: props.title,
-                        color:props.textColor,
+                        color: props.textColor,
                         font: {
-                            size: 30,
-                            weight: 'bold'
+                            size: props.titleSize,
                         }
                     }
                 }

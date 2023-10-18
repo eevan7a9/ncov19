@@ -29,8 +29,18 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="w-full bg-white opacity-80 hover:opacity-100">
-        <utils-charts-bar-chart :bar-data="{ labels, datasets }" :title="'Top Coutries by Case'"
+    <div class="bg-custom-bar w-full pt-6">
+        <utils-charts-bar-chart :bar-data="{ labels, datasets }" :title-size="20" :title="'Top Coutries by Case'"
             :scale-tick-callback="scaleTickCallback" v-if="datasets.length" />
     </div>
 </template>
+
+<style lang="scss" scoped>
+.bg-custom-bar {
+    background-color: rgba(255, 255, 255, 0.13);
+    transition: background-color 300ms linear;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.527);
+    }
+}
+</style>

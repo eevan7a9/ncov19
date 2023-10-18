@@ -65,7 +65,7 @@ function setCurrentCountry(alpha2?: string) {
             <div class="flex justify-center col-span-2 h-500px lg:h-fit pb-7 lg:pb-0">
                 <chart-doughnut-summary-cases :country="currentOverall" />
             </div>
-            <div class="lg:col-span-4 overflow-y-auto">
+            <div class="lg:col-span-4">
                 <div class="h-full">
                     <section class="grid grid-cols-5 bg-red-900 text-white">
                         <div class="p-3">

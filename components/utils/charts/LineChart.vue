@@ -19,12 +19,24 @@ onMounted(async () => {
         {
             type: 'line',
             data: props.lineData,
-
             options: {
+
                 plugins: {
+                    legend:{
+                        labels: {
+                            color: '#000',
+                            font: {
+                                size: 20
+                            }
+                        }
+                    },
                     title: {
                         display: !!props.title,
-                        text: props.title
+                        text: props.title,
+                        color: '#000',
+                        font: {
+                            size: 30,                            
+                        }
                     }
                 },
             }

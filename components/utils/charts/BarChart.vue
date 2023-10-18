@@ -5,9 +5,13 @@ const acquisitions = ref<ChartItem>()
 const props = withDefaults(defineProps<{
     barData: ChartData<"bar">;
     title?: string;
+    titleSize?: number;
+    textColor?: string;
     scaleTickCallback?: Function
 }>(), {
-    title: 'Bar Chart'
+    title: 'Bar Chart',
+    titleSize: 30,
+    textColor: '#000'
 })
 
 onMounted(async () => {
@@ -24,7 +28,12 @@ onMounted(async () => {
                 plugins: {
                     title: {
                         display: !!props.title,
-                        text: props.title
+                        text: props.title,
+                        color: props.textColor,
+
+                        font: {
+                            size: props.titleSize,
+                        }
                     }
                 },
                 scales: {

@@ -75,9 +75,9 @@ function popReady(): void {
     <div class="bg-blue-200 relative">
         <client-only class="z-0">
             <!-- Fixed Bar chart -->
-            <chart-bar-top-cases class="world-map-bar-chart z-999 absolute bottom-1/2 lg:bottom-0" />
+            <chart-bar-top-cases class="world-map-bar-chart z-999 absolute bottom-0 lg:bottom-0" />
             <!-- Fixed Doughnut chart -->
-            <chart-doughnut-global-cases class="world-doughnut-global-chart z-999 absolute bottom-1/2 lg:top-0 lg:right-0" />
+            <chart-doughnut-global-cases class="world-doughnut-global-chart hidden z-999 lg:block absolute lg:top-0 lg:right-0" />
             <!-- Leaflet Map -->
             <l-map :useGlobalLeaflet="false" ref="myMap" v-model:zoom="zoom" :center="center">
                 <l-tile-layer :max-zoom="6" :min-zoom="3" :no-wrap="true"
@@ -129,6 +129,6 @@ path.leaflet-interactive:focus {
     max-width: 400px;
 }
 .world-doughnut-global-chart {
-    max-width: 320px;
+    max-width: 300px;
 }
 </style>

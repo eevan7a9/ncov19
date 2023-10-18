@@ -45,8 +45,20 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="w-full opacity-80 hover:opacity-100" style="height: 300px;">
-        <utils-charts-doughnut-chart :doughnut-data="{ labels, datasets }" :textColor="'white'" :title="'Top Cases'"
+    <div class="w-full bg-custom-doughnut pb-6">
+        <utils-charts-doughnut-chart :doughnut-data="datasets" :labels="labels" :textColor="'#000'" :title="'Top Cases'"
             v-if="datasets.length"></utils-charts-doughnut-chart>
     </div>
 </template>
+
+
+<style lang="scss" scoped>
+
+.bg-custom-doughnut {
+    background-color: rgba(255, 255, 255, 0.13);
+    transition: background-color 300ms linear;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.438);
+    }
+}
+</style>

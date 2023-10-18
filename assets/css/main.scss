@@ -69,4 +69,9 @@
         }
 
     }
+    &.keep-expand-scrollbar {
+        &::-webkit-scrollbar {
+            width: 13px;
+        }
+    }
 }

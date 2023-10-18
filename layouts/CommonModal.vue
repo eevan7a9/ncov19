@@ -14,7 +14,7 @@ function closeModal(e: MouseEvent) {
             <slot name="header"></slot>
 
 
-            <section class="py-3 px-4 overflow-y-auto h-full  custom-scrollbar">
+            <section class="py-3 px-4 overflow-y-auto h-full  custom-scrollbar keep-expand-scrollbar">
                 <slot></slot>
             </section>
 
