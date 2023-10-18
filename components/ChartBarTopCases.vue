@@ -27,7 +27,7 @@ onMounted(() => {
 
 <template>
     <div class="w-full bg-white opacity-80 hover:opacity-100">
-        <charts-bar-chart :bar-data="{ labels, datasets }" :title="'Top Coutries by Case'"
+        <utils-charts-bar-chart :bar-data="{ labels, datasets }" :title="'Top Coutries by Case'"
             :scale-tick-callback="scaleTickCallback" v-if="showBarChart" />
     </div>
 </template>

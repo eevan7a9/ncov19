@@ -5,6 +5,7 @@ import { LatLngExpression, PointExpression } from 'leaflet';
 import { LMap, LGeoJson, LTileLayer, LMarker, LPopup, LIcon } from "@vue-leaflet/vue-leaflet";
 import "leaflet/dist/leaflet.css";
 
+const router = useRouter()
 const covidCasesStore = useCovidCasesStore()
 const { globalCases, topCountriesByCases } = storeToRefs(covidCasesStore)
 
@@ -36,7 +37,7 @@ function onEachFeatureFunction() {
                 <div class="text-base text-red-600">
                     Total Death: ${formatNumberWithCommas(foundCountry?.deathsCumulativeTotal)}
                 </div>
-                <div class="text-sm text-blue-700 mt-3">
+                <div class="text-sm text-blue-700 mt-3"}>
                     (Click to learn more!!!)
                 </div>
             </div>`,
@@ -54,7 +55,7 @@ function onEachFeatureFunction() {
         })
         layer.on('click', (e: PointerEvent) => {
             const target = e.target as any
-            console.log(target.feature?.properties?.name)
+            alpha2RouteQuery(target.feature?.properties?.alpha2, router)
         })
     };
 }
@@ -72,10 +73,9 @@ function popReady(): void {
 
 <template>
     <div class="bg-blue-200">
-
         <client-only class="z-0 relative">
             <!-- Fixed Bar chart -->
-            <bar-chart-top-cases class="world-map-bar-chart z-999 absolute bottom-1/2 lg:bottom-0" />
+            <chart-bar-top-cases class="world-map-bar-chart z-999 absolute bottom-1/2 lg:bottom-0" />
 
             <!-- Leaflet Map -->
             <l-map :useGlobalLeaflet="false" ref="myMap" v-model:zoom="zoom" :center="center">
@@ -99,7 +99,7 @@ function popReady(): void {
                             <div class="text-sm text-red-700">
                                 Total Death: {{ formatNumberWithCommas(country.deathsCumulativeTotal) }}
                             </div>
-                            <button class="text-blue-700 mx-auto mt-3 text-sm underline">More Details</button>
+                            <button class="text-blue-700 mx-auto mt-3 text-sm underline" @click="alpha2RouteQuery(country.countryCode, $router)">More Details</button>
                         </div>
                     </l-popup>
 
