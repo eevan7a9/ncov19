@@ -1,5 +1,6 @@
 export const shadeColor = function(currentTotalCase:number, highestTotalCase: number) {
     const percent = Math.ceil(Number(((currentTotalCase / highestTotalCase) * 100).toFixed(2))) 
+
     if (percent < 1) {
       return '#ffff1a'
     } else if (percent <= 2) {
@@ -11,15 +12,17 @@ export const shadeColor = function(currentTotalCase:number, highestTotalCase: nu
     } else if (percent <= 40) {
       return '#ff8566';
     } else if (percent <= 50) {
-        return '#e62e00'; 
+        return '#ff6600'; 
     } else if (percent <= 70) {
-        return '#ff0000'
+        return '#ff4000'
     } else if(percent <= 90) {
         return '#b30000'
     } else if (percent >= 91 && percent <= 100) {
-        return "#800000"
+        return "#e60000"
+    } else if (percent > 100) {
+        return '#990000'
     }
     else {
-      return '#000000'; // Default color (black) or handle other cases
+      return '#fff'; // Default color (black) or handle other cases
     }
 }
