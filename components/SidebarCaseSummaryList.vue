@@ -1,19 +1,16 @@
-<script setup>
+<script lang="ts" setup>
 import { storeToRefs } from 'pinia';
 
 const covidCasesStore = useCovidCasesStore()
+const router = useRouter()
 const { globalCases } = storeToRefs(covidCasesStore)
-
-onMounted(() => {
-    console.log(toRaw(globalCases.value))
-})
 </script>
 
 
 <template>
-    <div class="h-full overflow-auto">
+    <div class="h-full overflow-auto custom-dark-scrollbar">
         <div class="flex flex-col gap-4 px-3 pt-6">
-            <div v-for="(country, i) of globalCases" :key="i" class="bg-white cursor-pointer rounded-md hover:bg-gray-100">
+            <div v-for="(country, i) of globalCases" :key="i" class="bg-white cursor-pointer rounded-md hover:bg-gray-100" @click="alpha2RouteQuery(country.countryCode, router)">
                 <h1 class="text-xl font-bold mb-3 border-b-2 py-3 px-4">
                     {{ country.name }}
                     <small v-if="country.countryCode">

@@ -24,7 +24,7 @@ interface CountriesTotalCase {
     deathsNewlyReportedInLast24Hours?: string
 }
 
-interface GeoFeature  {
+interface GeoFeature {
     type: string,
     id: string,
     properties: {
@@ -40,4 +40,19 @@ interface GeoFeature  {
 interface CountriesGeoJSON {
     type: string;
     features: GeoFeature[]
+}
+
+interface CountryOvertimeCase {
+    country: string;
+    countryCode: string;
+    data: {
+        date: string;
+        countryCode: string;
+        country: string;
+        whoRegion: string;
+        newCases: string | number;
+        cumulativeCases: string | number;
+        newDeaths: string | number;
+        cumulativeDeaths: string | number;
+    }[]
 }
