@@ -5,9 +5,14 @@ const acquisitions = ref<ChartItem>()
 const props = withDefaults(defineProps<{
     doughnutData: ChartData<"doughnut">;
     title?: string;
+    textColor?: string;
+    titleSize?: number;
+    legendSize?: number;
     scaleTickCallback?: Function
 }>(), {
-    title: 'Doughnut Chart'
+    title: 'Doughnut Chart',
+    textColor: '#333',
+    legendSize: 16
 })
 
 onMounted(async () => {
@@ -20,10 +25,28 @@ onMounted(async () => {
             type: 'doughnut',
             data: props.doughnutData,
             options: {
+                color: props.textColor,
+                font:{
+                    size: 30
+                },
                 plugins: {
+                    legend:{
+                        labels:{
+                            color: props.textColor,
+                            font:{
+                                size: props.legendSize,
+                                weight: 'bold'
+                            }
+                        }
+                    },
                     title: {
                         display: !!props.title,
-                        text: props.title
+                        text: props.title,
+                        color:props.textColor,
+                        font: {
+                            size: 30,
+                            weight: 'bold'
+                        }
                     }
                 }
             }
