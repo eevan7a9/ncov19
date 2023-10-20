@@ -37,7 +37,7 @@ watch(()=> route.query, (newVal) => {
                     <WorldMap class="h-full" v-if="globalCases.length" />
                 </section>
 
-                <section class="bg-gray-900 ">
+                <section class="bg-gray-900 overflow-hidden">
                     <SidebarCaseSummaryList v-if="globalCases.length" />
                 </section>
             </div>
@@ -50,6 +50,6 @@ watch(()=> route.query, (newVal) => {
 <style lang="scss" scoped>
 .max-height-custom {
     height: 100%;
-    max-height: calc(100vh - 52px);
+    max-height: calc(100vh - 66px);
 }
 </style>

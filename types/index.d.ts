@@ -56,3 +56,109 @@ interface CountryOvertimeCase {
         cumulativeDeaths: string | number;
     }[]
 }
+
+// https://tools.cdc.gov/api/v2/resources/media?languageisocode=eng
+interface CDCMedia {
+    id: number;
+    url: string;
+    name: string;
+    subTitle?: null;
+    description?: string;
+    mediaType?: string;
+    language?: {
+        name?: string;
+        isoCode?: string;
+        isoCode2?: string;
+    };
+    tags?: {
+        id?: number;
+        name?: string;
+        language?: string;
+        type?: string;
+    }[];
+    geoTags?: any[];
+    campaigns?: any[];
+    source?: {
+        name?: string;
+        acronym?: string;
+        websiteUrl?: string;
+        largeLogoUrl?: string;
+        smallLogoUrl?: string;
+    };
+    attribution?: string;
+    domainName?: string;
+    owningOrgName?: string;
+    owningOrgId?: string;
+    maintainingOrgName?: string;
+    maintainingOrgId?: string;
+    sourceUrl?: string;
+    targetUrl?: string;
+    persistentUrlToken?: string;
+    persistentUrl?: string;
+    embedUrl?: string;
+    syndicateUrl?: string;
+    contentUrl?: string;
+    thumbnailUrl?: string;
+    alternateImages?: {
+        id?: number;
+        name?: string;
+        width?: number;
+        height?: number;
+        url?: string;
+        type?: string;
+    }[];
+    alternateText?: string;
+    noScriptText?: string;
+    featuredText?: string;
+    embedCode?: string;
+    author?: string;
+    length?: string;
+    size?: null;
+    height?: null;
+    width?: null;
+    childCount?: number;
+    children?: null;
+    parentCount?: number;
+    parents?: any[];
+    rating?: null;
+    ratingCount?: null;
+    ratingCommentCount?: null;
+    status?: string;
+    datePublished?: string;
+    dateModified?: string;
+    dateContentAuthored?: string;
+    dateContentUpdated?: string;
+    dateContentPublished?: string;
+    dateContentReviewed?: string;
+    dateSyndicationCaptured?: string;
+    dateSyndicationUpdated?: string;
+    dateSyndicationVisible?: string;
+    extendedAttributes?: {};
+    extension?: {};
+    pageCount?: string;
+    dataSize?: null;
+    durationSeconds?: null;
+    enclosures?: any[];
+    omnitureChannel?: null;
+    isTopSyndicated?: string;
+}
+
+interface CDCMeta {
+    status: number;
+    message: any[];
+    resultSet: {
+      id?: string;
+    };
+    pagination: {
+      total: number;
+      count: number;
+      max: number;
+      offset: number;
+      pageNum: number;
+      totalPages: number;
+      sort: string;
+      previousUrl: string;
+      currentUrl: string;
+      nextUrl: string;
+    };
+  }
