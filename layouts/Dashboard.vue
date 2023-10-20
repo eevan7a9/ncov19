@@ -40,9 +40,7 @@ const toggleCountrySearch = function (): void {
         </section>
 
         <article class="z-0 h-full min-h-screen flex flex-col">
-            <nav class="px-6 py-3 bg-red-900 text-white transition-all" :class="showSidebar ? 'md:pl-52' : 'pl-12'">
-                <a class="px-2 text-xl font-bold">Ncov19</a>
-            </nav>
+            <navbar-top :class="showSidebar ? 'md:pl-52' : 'pl-12'"></navbar-top>
 
             <div id="child" class="transition-all flex-1 flex flex-col" :class="showSidebar ? 'md:pl-52' : 'pl-12'">
                 <slot></slot>
