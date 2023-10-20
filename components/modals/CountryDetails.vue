@@ -33,9 +33,9 @@ function setCurrentCountry(alpha2?: string) {
     }
     currentOverall.value = foundCountryTotal
     nextTick(async () => {
-        const res = await useFetch("/api/country-overtime/" + foundCountryTotal.countryCode);
+        const res = await useFetch<CountryOvertimeCase>("/api/country-overtime/" + foundCountryTotal.countryCode);
         if (res.data.value) {
-            currentOvertime.value = res.data?.value as CountryOvertimeCase
+            currentOvertime.value = res.data?.value
         }
     })
 }

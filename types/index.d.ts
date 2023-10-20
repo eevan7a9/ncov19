@@ -147,18 +147,57 @@ interface CDCMeta {
     status: number;
     message: any[];
     resultSet: {
-      id?: string;
+        id?: string;
     };
     pagination: {
-      total: number;
-      count: number;
-      max: number;
-      offset: number;
-      pageNum: number;
-      totalPages: number;
-      sort: string;
-      previousUrl: string;
-      currentUrl: string;
-      nextUrl: string;
+        total: number;
+        count: number;
+        max: number;
+        offset: number;
+        pageNum: number;
+        totalPages: number;
+        sort: string;
+        previousUrl: string;
+        currentUrl: string;
+        nextUrl: string;
     };
-  }
+}
+
+interface HealthArticle {
+    Type: string;
+    Id: string;
+    Title: string;
+    ParentId: number;
+    TranslationId: string;
+}
+
+interface ArticlesRes {
+    Error: string;
+    Total: number;
+    Query: {
+        ApiVersion?: string;
+        ApiType?: string;
+        TopicId?: string;
+        ToolId?: string;
+        CategoryId?: string;
+        PopulationId?: string;
+        Keyword?: string;
+        Who?: string;
+        Age?: number;
+        Sex?: string;
+        Pregnant?: string;
+        TobaccoUse?: string;
+        SexuallyActive?: string;
+        Category?: string;
+        Lang?: string;
+        Type?: string;
+        ReturnType?: string;
+        Callback?: string;
+        HealthfinderPage?: number;
+        APiType?: string;
+    };
+    Language?: string;
+    Items: {
+        Item: HealthArticle[];
+    };
+} 
