@@ -16,7 +16,7 @@ const geojsonOptions = ref({
     onEachFeature: onEachFeatureFunction()
 })
 const myMap = ref<any>(null)
-const center = ref<PointExpression>([18.453557, -35.572679])
+const center = ref<PointExpression>([21.7679, 78.8718])
 const zoom = ref(3)
 const attribution = ref('&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors')
 const markerRefs = ref<any[]>([])
