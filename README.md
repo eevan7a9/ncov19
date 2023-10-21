@@ -4,6 +4,8 @@ Data visualize covid19 cases.
 
 Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. - [WHO](https://www.who.int/health-topics/coronavirus#tab=tab_1)
 
+![GitHub Logo](https://ik.imagekit.io/wr5lnrww0q8/ncov19/v2-cover_oyGAnkRU11.jpg?updatedAt=1697892239388)
+
 ## Attributions
 
 - **DATA SOURCE**
