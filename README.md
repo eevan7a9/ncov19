@@ -11,11 +11,15 @@ Coronavirus disease (COVID-19) is an infectious disease caused by a newly discov
 - **DATA SOURCE**
   - [**Johns Hopkins CSSE**](https://github.com/CSSEGISandData/COVID-19)
   - [**CDC Media Library**](https://tools.cdc.gov/medialibrary/index.aspx#/results)
+  - [**World Health Organization**](https://www.who.int)
+  - [**Health Gov**](https://health.gov)
 
 ## Framework & Libraries
 
 - [Nuxtjs](https://nuxt.com/)
+- [Pinia](https://pinia.vuejs.org/)
 - [TailwindCss](https://tailwindcss.com/)
+- [Leafletjs](https://leafletjs.com/)
 
 ## Build Setup
 
