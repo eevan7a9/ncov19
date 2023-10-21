@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ChartDataset } from 'chart.js';
+import type { ChartDataset } from 'chart.js';
 
 const props = defineProps<{ country?: CountriesTotalCase }>()
 const labels = ref<string[]>([

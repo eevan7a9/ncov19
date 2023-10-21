@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ChartDataset } from 'chart.js';
+import type { ChartDataset } from 'chart.js';
 import { storeToRefs } from 'pinia';
 
 const labels = ref<string[]>([])

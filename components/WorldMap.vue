@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { storeToRefs } from "pinia";
-import { GeoJsonObject } from 'geojson';
-import { LatLngExpression, PointExpression } from 'leaflet';
+import type { GeoJsonObject } from 'geojson';
+import type { LatLngExpression, PointExpression } from 'leaflet';
 import { LMap, LGeoJson, LTileLayer, LMarker, LPopup, LIcon } from "@vue-leaflet/vue-leaflet";
 import "leaflet/dist/leaflet.css";
 

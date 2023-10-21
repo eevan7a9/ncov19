@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import Chart, { ChartData, ChartDataset, ChartItem } from 'chart.js/auto'
+import Chart, { type ChartData, type ChartDataset, type ChartItem } from 'chart.js/auto'
 
 const acquisitions = ref<ChartItem>()
 const props = withDefaults(defineProps<{
