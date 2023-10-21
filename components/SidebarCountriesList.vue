@@ -7,12 +7,6 @@ defineProps({
 
 const covidCasesStore = useCovidCasesStore()
 const { countries } = storeToRefs(covidCasesStore)
-if (!covidCasesStore.countries.length) {
-    const response = await useFetch('/api/countries')
-    setTimeout(() => {
-        covidCasesStore.setCountriesList(response.data?.value || [])
-    }, 3000)
-}
 </script>
 
 <template>
