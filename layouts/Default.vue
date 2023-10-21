@@ -1,9 +1,8 @@
 
 <template>
-    <div class="flex flex-col min-h-screen max-h-screen">
-        <navbar-top></navbar-top>
-
-        <div class="flex-1 overflow-y-auto custom-scrollbar keep-expand-scrollbar bg-gray-50">
+    <div class="flex flex-col min-h-screen">
+        <navbar-top class="sticky top-0"></navbar-top>
+        <div class=" bg-gray-50">
             <slot></slot>
         </div>
     </div>

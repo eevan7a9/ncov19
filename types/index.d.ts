@@ -233,4 +233,77 @@ interface ArticlesRes {
     Items: {
         Item: HealthArticle[];
     };
-} 
+}
+
+interface HealthSection {
+    Title: string;
+    Description: string;
+    Content: string;
+}
+
+interface HealthGovRes {
+    Result: {
+        Error: string;
+        Total: number;
+        Query: {
+            ApiVersion: string;
+            ApiType: string;
+            TopicId: string;
+            ToolId: null;
+            CategoryId: null;
+            PopulationId: null;
+            Keyword: null;
+            Who: null;
+            Age: null;
+            Sex: null;
+            Pregnant: null;
+            TobaccoUse: null;
+            SexuallyActive: null;
+            Category: null;
+            Lang: string;
+            Type: null;
+            ReturnType: string;
+            Callback: null;
+            HealthfinderPage: null;
+            APiType: string;
+        };
+        Language: string;
+        Resources: {
+            Resource: [
+                {
+                    Type: string;
+                    Id: string;
+                    Title: string;
+                    TranslationId: string;
+                    TranslationTitle: string;
+                    Categories: string;
+                    Populations: string;
+                    MyHFTitle: string;
+                    MyHFDescription: string;
+                    MyHFCategory: string;
+                    MyHFCategoryHeading: string;
+                    LastUpdate: string;
+                    ImageUrl: string;
+                    ImageAlt: string;
+                    AccessibleVersion: string;
+                    RelatedItems: {
+                        RelatedItem: [
+                            {
+                                Type: string;
+                                Id: string;
+                                Title: string;
+                                Url: string;
+                            }
+                        ];
+                    };
+                    Sections: {
+                        section: HealthSection[];
+                    };
+                    MoreInfoItems: null;
+                    HealthfinderLogo: string;
+                    HealthfinderUrl: string;
+                }
+            ];
+        };
+    };
+}

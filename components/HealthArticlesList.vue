@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import { storeToRefs } from 'pinia';
 
+const router = useRouter()
 const mediaStore = useMediaStore()
 const { articlesHealthList } = storeToRefs(mediaStore)
 onMounted(() => {
@@ -17,6 +18,10 @@ onMounted(() => {
         }
     })
 })
+
+function goToHealth(id:string) {
+    router.push('/media/health/'+id)
+}
 </script>
 
 <template>
@@ -35,7 +40,7 @@ onMounted(() => {
         </div>
 
         <ul class="p-3">
-            <li class="p-3 underline rounded-lg hover:bg-gray-100" v-for="(article, i) of articlesHealthList" :key="i">
+            <li class="p-3 underline rounded-lg hover:bg-gray-100 cursor-pointer" v-for="(article, i) of articlesHealthList" :key="i" @click="goToHealth(article.Id)">
                 {{ article.Title }}
             </li>
         </ul>
