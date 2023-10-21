@@ -143,6 +143,39 @@ interface CDCMedia {
     isTopSyndicated?: string;
 }
 
+// https://tools.cdc.gov/api/v3/resources/media/129853/syndicate.json
+interface CDCMediaSyndicate {
+    meta: {
+        status: number,
+        message: string[],
+        resultSet: {
+            id: string
+        },
+        pagination: {
+            total?: number,
+            count?: number,
+            max?: number,
+            offset?: number,
+            pageNum?: number,
+            totalPages?: number,
+            sort?: null,
+            previousUrl?: string,
+            currentUrl?: string,
+            nextUrl?: string
+        }
+    },
+    results: {
+        mediaId: number,
+        mediaType: string,
+        name: string,
+        description: string,
+        sourceUrl: string,
+        targetUrl: string,
+        content: string,
+        templateVersion?: string
+    }
+}
+
 interface CDCMeta {
     status: number;
     message: any[];

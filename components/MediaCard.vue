@@ -5,10 +5,9 @@ function getImageUrl(media: CDCMedia) {
     if (!media.alternateImages?.length) {
         return
     }
-    return media.alternateImages[2]?.url || media.alternateImages[1]?.url
+    return media.alternateImages[media.alternateImages.length - 1]?.url
 }
 </script>
-
 
 <template>
     <div class="bg-white border py-6 px-6 rounded-lg text-black">
@@ -22,8 +21,8 @@ function getImageUrl(media: CDCMedia) {
             </div>
 
             <div class="mt-6 lg:mt-0 flex justify-end" v-if="getImageUrl(props.media)">
-                <div class=" w-full" style="max-width: 200px;">
-                    <img :src="getImageUrl(props.media)" width="auto" :alt="props.media.name" srcset="">
+                <div class="w-full">
+                    <img :src="getImageUrl(props.media)" style="max-width: 200px; height: 200px;" class="bg-red-200" :alt="props.media.name">
                 </div>
             </div>
         </div>
