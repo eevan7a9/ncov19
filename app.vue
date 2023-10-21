@@ -7,12 +7,12 @@ const geojsonStore = useGeojsonStore()
 
 if (!globalCases.value.length) {
   try {
-    const [globalCasesRes, geojsonRes] = await Promise.all([
-      useFetch('/api/global-total-case'), useFetch('/api/geojson/countries')
+    const [globalCasesRes, geojsonRes, countriesRes] = await Promise.all([
+      useFetch('/api/global-total-case'), useFetch('/api/geojson/countries'), useLazyFetch('/api/countries')
     ])
     covidCasesStore.setGlobalCases(globalCasesRes.data.value || [])
     geojsonStore.setGeoJSONCountries(geojsonRes.data.value || {})
-
+    covidCasesStore.setCountriesList(countriesRes.data?.value || [])
   } catch (error) {
     console.error(error)
   }
