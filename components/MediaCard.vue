@@ -11,7 +11,7 @@ function getImageUrl(media: CDCMedia) {
 
 
 <template>
-    <div class="bg-white border py-6 px-6 rounded-lg">
+    <div class="bg-white border py-6 px-6 rounded-lg text-black">
         <div class="flex lg:flex-row" :class="getImageUrl(props.media) ? 'justify-between' : ''">
             <div class="h-100 flex flex-col pr-3">
                 <h1 class="text-2xl font-bold pb-3" v-html="props.media.name"></h1>
