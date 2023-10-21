@@ -88,7 +88,7 @@ function nextSection() {
                     <h6 class="bg-red" v-if="description">
                         {{ description }}
                     </h6>
-                    <div class="px-6" :key="currentSection" v-if="title">
+                    <div class="px-6 health-article-wrapper" :key="currentSection" v-if="title">
                         <article v-html="content"></article>
                     </div>
                 </div>
@@ -102,25 +102,27 @@ function nextSection() {
 </template>
 
 <style lang="scss">
-h4 {
-    font-size: 2rem;
-    padding: 16px 0;
-}
+.health-article-wrapper {
+    h4 {
+        font-size: 2rem;
+        padding: 16px 0;
+    }
 
-p {
-    font-size: 1.3rem;
-    background-color: #f3f3f373;
-    padding: 1rem;
-    border-radius: 1rem;
-    margin: 16px 0;
-}
+    p {
+        font-size: 1.3rem;
+        background-color: #f3f3f373;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin: 16px 0;
+    }
 
-ul {
-    padding-left: 1.1rem;
+    ul {
+        padding-left: 1.1rem;
 
-    li {
-        font-weight: 500;
-        padding: 8px 0;
+        li {
+            font-weight: 500;
+            padding: 8px 0;
+        }
     }
 }
 </style>
