@@ -14,7 +14,7 @@
                 To visualize covid19&nbsp;
                 <i>Confirmed cases, Deaths, Recovered.</i>
             </p>
-            <div class="col-sm-6 pt-3 text-xl">
+            <div class="pt-3 text-xl">
                 <p>
                     <strong>Charts of Covid19 cases</strong>&nbsp;can be assessed better by using a graph. The use of a
                     graph
@@ -29,6 +29,18 @@
                     investigating their epidemiology and identifying populations at risk of infection.
                 </p>
             </div>
+            <h1 class="text-3xl font-bold py-6">Data source</h1>
+            <div>
+                <h6 class="text-2xl">World Health Organization</h6>
+                <a class="text-xl" href="https://covid19.who.int/data/" target="_blank">https://covid19.who.int/data/</a>
+
+                <h6 class="text-2xl mt-6">Central for Disease Control and Prevention</h6>
+                <a class="text-xl" href="https://open.cdc.gov/apis.html" target="_blank">https://open.cdc.gov/apis.html</a>
+
+                <h6 class="text-2xl mt-6">Office of Disease Prevention and Health Promotion </h6>
+                <a class="text-xl" href="https://health.gov" target="_blank">https://health.gov</a>
+            </div>
+
             <p class="mt-auto text-center border-t py-6">Source code of this project &nbsp;<a class="font-weight-normal"
                     href="https://github.com/eevan7a9/ncov19" target="_blank">https://github.com/eevan7a9/ncov19</a></p>
         </div>
