@@ -13,7 +13,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.scss'],
   typescript:{
-    typeCheck: true
+    // have to turn false due to bug
+    // https://github.com/nuxt/nuxt/issues/22421
+    typeCheck: false
   },
   postcss: {
     plugins: {
