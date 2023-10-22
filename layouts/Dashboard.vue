@@ -2,7 +2,8 @@
 import { ref, nextTick } from 'vue'
 
 const showSidebar = ref<boolean>(true)
-const countrySearchField = ref<HTMLInputElement>();
+const countrySearchField = ref<HTMLInputElement>()
+const searchCountry = ref('')
 
 const toggleSidebar = function (): void {
     showSidebar.value = !showSidebar.value
@@ -27,7 +28,7 @@ const toggleCountrySearch = function (): void {
                 </button>
 
                 <div class="flex items-center px-2 gap-1 mt-2" v-if="showSidebar">
-                    <input ref="countrySearchField" placeholder="Search Country" type="text"
+                    <input ref="countrySearchField" v-model="searchCountry" placeholder="Search Country" type="text"
                         class="w-full pl-2 pr-8 h-10 rounded-md">
                     <Icon name="material-symbols:search" size="32px" class="fixed right-2 text-gray-600" />
                 </div>
@@ -36,7 +37,7 @@ const toggleCountrySearch = function (): void {
                 </button>
             </div>
 
-            <SidebarCountriesList :showList="showSidebar" class="mt-3" />
+            <SidebarCountriesList :filterCountry="searchCountry" :showList="showSidebar" class="mt-3" />
         </section>
 
         <article class="z-0 h-full min-h-screen flex flex-col">

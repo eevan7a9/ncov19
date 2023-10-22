@@ -11,7 +11,7 @@ const { globalCases } = storeToRefs(covidCasesStore)
     <div class="h-full overflow-x-hidden overflow-y-auto custom-dark-scrollbar">
         <div class="flex flex-col gap-4 px-3 pt-6">
             <template v-for="(country, i) of globalCases" :key="i">
-                <div class="bg-white cursor-pointer rounded-md hover:bg-gray-100"
+                <div class="bg-gray-800 text-white cursor-pointer rounded-md hover:bg-gray-700"
                     @click="alpha2RouteQuery(country.countryCode, router)" v-if="i">
                     <h1 class="text-xl font-bold mb-3 border-b-2 py-3 px-4">
                         {{ country.name }}
