@@ -28,7 +28,7 @@ const toggleCountrySearch = function (): void {
                         size="28px" />
                 </button>
 
-                <div class="flex items-center px-2 gap-1 mt-2 w-full" @click="!showSidebar && toggleCountrySearch()">
+                <div class="flex border-t border-gray-700 pt-4 items-center px-2 gap-1 mt-2 w-full" @click="!showSidebar && toggleCountrySearch()">
                     <input ref="countrySearchField" v-model="searchCountry" placeholder="Search Country" type="text"
                         class="w-full pl-2 pr-8 h-10 rounded-md"
                         :class="showSidebar ? 'w-full' : 'fixed opacity-0 w-0'">
@@ -41,9 +41,9 @@ const toggleCountrySearch = function (): void {
         </section>
 
         <article class="relative z-0 h-full min-h-screen flex flex-col w-full">
-            <navbar-top :class="showSidebar ? 'md:pl-[310px]' : 'pl-[70px]'"></navbar-top>
+            <navbar-top class="relative z-50" :class="showSidebar ? 'md:pl-[310px]' : 'pl-3 sm:pl-[70px]'"></navbar-top>
 
-            <div id="child" class="transition-all flex-1 flex flex-col"
+            <div id="child" class="z-0 transition-all flex-1 flex flex-col"
                 :class="showSidebar ? 'md:pl-[300px]' : 'md:pl-[55px]'">
                 <slot></slot>
             </div>

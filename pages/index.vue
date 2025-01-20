@@ -41,7 +41,7 @@ watch(
         </section>
 
         <section
-          class="z-10 h-auto md:h-full bg-[#aad3df] bg-opacity-2 flex flex-col gap-y-3 w-full md:max-w-[300px] lg:max-w-[400px] md:absolute top-0 right-0 overflow-hidden py-1 px-1 md:pr-4">
+          class="z-10 h-auto md:h-full bg-[#aad3df] bg-opacity-2 flex flex-col gap-y-3 w-full md:max-w-[300px] lg:max-w-[400px] md:absolute top-0 right-0 overflow-hidden py-1 px-1 md:pr-2">
           <SidebarTopCasesList class="h-auto md:h-[50%] md:max-h-full md:row-span-1" />
           <SidebarCdcArticles class="h-auto md:h-[50%] md:max-h-full md:row-span-1" />
         </section>
