@@ -1,55 +1,61 @@
 <script lang="ts" setup>
-const article = ref<HealthGovRes>()
-const currentSection = ref(0)
-const title = ref('')
-const description = ref('')
-const content = ref('')
-const disableNext = ref(false)
-const disablePrev = ref(false)
-const route = useRoute()
-const { id } = route.params
+const runtime = useRuntimeConfig();
+const article = ref<HealthGovRes>();
+const currentSection = ref(0);
+const title = ref("");
+const description = ref("");
+const content = ref("");
+const disableNext = ref(false);
+const disablePrev = ref(false);
+const route = useRoute();
+const { id } = route.params;
 
-const { data } = await useFetch<HealthGovRes>(`/myhealthfinder/api/v3/topicsearch.json?TopicId=${id}`, {
-    baseURL: 'https://health.gov',
-    keepalive: true
-})
+const { data } = await useFetch<HealthGovRes>(
+    `/myhealthfinder/api/v3/topicsearch.json?TopicId=${id}`,
+    {
+        baseURL: runtime.public.NUXT_API_HEALTH_GOV_URL,
+        keepalive: true,
+    }
+);
 
+console.log(data.value)
 if (data.value) {
-    article.value = data.value
+    article.value = data.value;
 }
 
 onMounted(() => {
-    setCurrentSection()
-})
+    setCurrentSection();
+});
 
 function setCurrentSection() {
-    const sections = article.value?.Result?.Resources?.Resource[0].Sections?.section || []
-    const section = sections[currentSection.value]
+    const sections =
+        article.value?.Result?.Resources?.Resource[0].Sections?.section || [];
+    const section = sections[currentSection.value];
     if (section) {
-        const { Title, Description, Content } = section
-        title.value = Title
-        description.value = Description
-        content.value = Content
-
+        const { Title, Description, Content } = section;
+        title.value = Title;
+        description.value = Description;
+        content.value = Content;
     }
-    disableNext.value = currentSection.value + 1 >= sections.length
-    disablePrev.value = currentSection.value == 0
+    disableNext.value = currentSection.value + 1 >= sections.length;
+    disablePrev.value = currentSection.value == 0;
 }
 
 function prevSection() {
     if (currentSection.value <= 0) {
         return;
     }
-    currentSection.value--
-    setCurrentSection()
+    currentSection.value--;
+    setCurrentSection();
 }
 function nextSection() {
-    const sections = article.value?.Result?.Resources?.Resource[0].Sections?.section || []
+    const sections =
+        article.value?.Result?.Resources?.Resource[0].Sections?.section || [];
     if (currentSection.value + 1 >= sections?.length) {
         return;
     }
-    currentSection.value++
-    setCurrentSection()
+    currentSection.value++;
+    setCurrentSection();
 }
 </script>
 
@@ -58,21 +64,25 @@ function nextSection() {
         <div class="w-full lg:w-10/12 mx-auto flex items-center text-black mt-6">
             <nuxt-link class="text-2xl font-bold hover:bg-gray-100 p-3 rounded-lg cursor-pointer text-black"
                 :to="'/media'">Media</nuxt-link>
-            <Icon class=" text-red-900" name="mdi:chevron-right" size="44px" />
-            <span class="text-2xl font-bold">{{ article?.Result?.Resources?.Resource[0]?.Title }}</span>
+            <Icon class="text-red-900" name="mdi:chevron-right" size="44px" />
+            <span class="text-2xl font-bold">{{
+                article?.Result?.Resources?.Resource[0]?.Title
+                }}</span>
         </div>
 
         <div class="w-full lg:w-10/12 mx-auto pb-3 grid lg:grid-cols-12 gap-6">
-            <article class="flex flex-col gap-4  pt-6 col-span-12 lg:col-span-9">
+            <article class="flex flex-col gap-4 pt-6 col-span-12 lg:col-span-9">
                 <div class="bg-white pb-6">
-                    <div class=" flex items-center justify-between border-b px-5 py-4">
+                    <div class="flex items-center justify-between border-b px-5 py-4">
                         <button class="bg-red-900 text-white py-3 px-5 rounded-lg font-bold" @click="prevSection()"
                             :disabled="disablePrev" :class="disablePrev ? 'bg-gray-300 cursor-not-allowed' : ''">
                             Prev
                         </button>
 
                         <div>
-                            {{ currentSection + 1 }} / {{ article?.Result?.Resources?.Resource[0]?.Sections.section.length
+                            {{ currentSection + 1 }} /
+                            {{
+                                article?.Result?.Resources?.Resource[0]?.Sections.section.length
                             }}
                         </div>
 

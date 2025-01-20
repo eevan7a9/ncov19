@@ -1,7 +1,14 @@
+<script setup lang="ts">
+const runtime = useRuntimeConfig();
+
+</script>
+
 <template>
-    <nuxt-layout>
-        <div class="w-100 lg:w-10/12 mx-auto flex-1 flex flex-col">
-            <h1 class="text-3xl font-bold py-6">COVID-19</h1>
+    <NuxtLayout name="default">
+        <div class="w-100 lg:max-w-screen-lg bg-white px-3 lg:px-5 mx-auto flex-1 flex flex-col">
+            <h1 class="text-3xl font-bold py-6">
+                {{ runtime.public.APP_NAME }}
+            </h1>
             <p class="text-xl">
                 Coronavirus disease 2019 (COVID-19) is a respiratory illness that can spread from person to person. The
                 virus
@@ -40,9 +47,8 @@
                 <h6 class="text-2xl mt-6">Office of Disease Prevention and Health Promotion </h6>
                 <a class="text-xl" href="https://health.gov" target="_blank">https://health.gov</a>
             </div>
-
-            <p class="mt-auto text-center border-t py-6">Source code of this project &nbsp;<a class="font-weight-normal"
-                    href="https://github.com/eevan7a9/ncov19" target="_blank">https://github.com/eevan7a9/ncov19</a></p>
         </div>
-    </nuxt-layout>
+        
+        <FooterBar />
+    </NuxtLayout>
 </template>

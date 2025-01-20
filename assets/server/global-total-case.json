@@ -26,7 +26,8 @@
     "deathsCumulativeTotalPer100000Population": "340.527",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [38, -97]
   },
   {
     "whoRegion": "Western Pacific",
@@ -41,7 +42,8 @@
     "deathsCumulativeTotalPer100000Population": "8.256",
     "deathsNewlyReportedInLast7Days": "74",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.005",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [35, 105]
   },
   {
     "whoRegion": "South-East Asia",
@@ -56,7 +58,8 @@
     "deathsCumulativeTotalPer100000Population": "38.544",
     "deathsNewlyReportedInLast7Days": "7",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.001",
-    "deathsNewlyReportedInLast24Hours": "2"
+    "deathsNewlyReportedInLast24Hours": "2",
+    "latlng": [20, 77]
   },
   {
     "whoRegion": "Europe",
@@ -71,7 +74,8 @@
     "deathsCumulativeTotalPer100000Population": "258.187",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [46, 2]
   },
   {
     "whoRegion": "Europe",
@@ -86,7 +90,8 @@
     "deathsCumulativeTotalPer100000Population": "209.886",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [51, 9]
   },
   {
     "whoRegion": "Americas",
@@ -101,7 +106,8 @@
     "deathsCumulativeTotalPer100000Population": "331.069",
     "deathsNewlyReportedInLast7Days": "320",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.151",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-10, -55]
   },
   {
     "whoRegion": "Western Pacific",
@@ -116,7 +122,8 @@
     "deathsCumulativeTotalPer100000Population": "59.058",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [36, 138]
   },
   {
     "whoRegion": "Western Pacific",
@@ -131,7 +138,8 @@
     "deathsCumulativeTotalPer100000Population": "68.3",
     "deathsNewlyReportedInLast7Days": "57",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.111",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [37, 127.5]
   },
   {
     "whoRegion": "Europe",
@@ -146,7 +154,8 @@
     "deathsCumulativeTotalPer100000Population": "319.881",
     "deathsNewlyReportedInLast7Days": "18",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.03",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [42.8333, 12.8333]
   },
   {
     "whoRegion": "Europe",
@@ -161,7 +170,8 @@
     "deathsCumulativeTotalPer100000Population": "335.156",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [54, -2]
   },
   {
     "whoRegion": "Europe",
@@ -176,7 +186,8 @@
     "deathsCumulativeTotalPer100000Population": "273.796",
     "deathsNewlyReportedInLast7Days": "127",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.087",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [60, 100]
   },
   {
     "whoRegion": "Europe",
@@ -191,7 +202,8 @@
     "deathsCumulativeTotalPer100000Population": "120.252",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [39, 35]
   },
   {
     "whoRegion": "Europe",
@@ -206,7 +218,8 @@
     "deathsCumulativeTotalPer100000Population": "257.167",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [40, -4]
   },
   {
     "whoRegion": "Western Pacific",
@@ -221,7 +234,8 @@
     "deathsCumulativeTotalPer100000Population": "44.387",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [16, 106]
   },
   {
     "whoRegion": "Western Pacific",
@@ -236,7 +250,8 @@
     "deathsCumulativeTotalPer100000Population": "85.04",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-27, 133]
   },
   {
     "whoRegion": "Americas",
@@ -251,7 +266,8 @@
     "deathsCumulativeTotalPer100000Population": "288.682",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-34, -64]
   },
   {
     "whoRegion": "Europe",
@@ -266,7 +282,8 @@
     "deathsCumulativeTotalPer100000Population": "132.046",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [52.5, 5.75]
   },
   {
     "whoRegion": "Americas",
@@ -281,7 +298,8 @@
     "deathsCumulativeTotalPer100000Population": "259.31",
     "deathsNewlyReportedInLast7Days": "20",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.016",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [23, -102]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -296,7 +314,8 @@
     "deathsCumulativeTotalPer100000Population": "174.172",
     "deathsNewlyReportedInLast7Days": "1",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.001",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [32, 53]
   },
   {
     "whoRegion": "South-East Asia",
@@ -311,7 +330,8 @@
     "deathsCumulativeTotalPer100000Population": "59.178",
     "deathsNewlyReportedInLast7Days": "14",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.005",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-5, 120]
   },
   {
     "whoRegion": "Europe",
@@ -326,7 +346,8 @@
     "deathsCumulativeTotalPer100000Population": "315.147",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [52, 20]
   },
   {
     "whoRegion": "Americas",
@@ -341,7 +362,8 @@
     "deathsCumulativeTotalPer100000Population": "280.658",
     "deathsNewlyReportedInLast7Days": "13",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.026",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [4, -72]
   },
   {
     "whoRegion": "Europe",
@@ -356,7 +378,8 @@
     "deathsCumulativeTotalPer100000Population": "253.161",
     "deathsNewlyReportedInLast7Days": "1",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.011",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [47.3333, 13.3333]
   },
   {
     "whoRegion": "Europe",
@@ -371,7 +394,8 @@
     "deathsCumulativeTotalPer100000Population": "260.997",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [39.5, -8]
   },
   {
     "whoRegion": "Europe",
@@ -386,7 +410,8 @@
     "deathsCumulativeTotalPer100000Population": "251.236",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [49, 32]
   },
   {
     "whoRegion": "Europe",
@@ -401,7 +426,8 @@
     "deathsCumulativeTotalPer100000Population": "346.819",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [39, 22]
   },
   {
     "whoRegion": "Americas",
@@ -416,7 +442,8 @@
     "deathsCumulativeTotalPer100000Population": "322.062",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-30, -71]
   },
   {
     "whoRegion": "Western Pacific",
@@ -431,7 +458,8 @@
     "deathsCumulativeTotalPer100000Population": "114.71",
     "deathsNewlyReportedInLast7Days": "9",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.028",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [2.5, 112.5]
   },
   {
     "whoRegion": "Europe",
@@ -446,7 +474,8 @@
     "deathsCumulativeTotalPer100000Population": "145.156",
     "deathsNewlyReportedInLast7Days": "2",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.023",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [31.5, 34.75]
   },
   {
     "whoRegion": "Europe",
@@ -461,7 +490,8 @@
     "deathsCumulativeTotalPer100000Population": "298.305",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [50.8333, 4]
   },
   {
     "whoRegion": "South-East Asia",
@@ -476,7 +506,8 @@
     "deathsCumulativeTotalPer100000Population": "49.181",
     "deathsNewlyReportedInLast7Days": "36",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.052",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [15, 100]
   },
   {
     "whoRegion": "Americas",
@@ -491,7 +522,8 @@
     "deathsCumulativeTotalPer100000Population": "140.056",
     "deathsNewlyReportedInLast7Days": "24",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.064",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [60, -95]
   },
   {
     "whoRegion": "Europe",
@@ -506,7 +538,8 @@
     "deathsCumulativeTotalPer100000Population": "400.32",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [49.75, 15.5]
   },
   {
     "whoRegion": "Americas",
@@ -521,7 +554,8 @@
     "deathsCumulativeTotalPer100000Population": "670.399",
     "deathsNewlyReportedInLast7Days": "250",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.758",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-10, -76]
   },
   {
     "whoRegion": "Europe",
@@ -536,7 +570,8 @@
     "deathsCumulativeTotalPer100000Population": "162.006",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [47, 8]
   },
   {
     "whoRegion": "Western Pacific",
@@ -551,7 +586,8 @@
     "deathsCumulativeTotalPer100000Population": "60.669",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [13, 122]
   },
   {
     "whoRegion": "Africa",
@@ -566,7 +602,8 @@
     "deathsCumulativeTotalPer100000Population": "172.985",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-29, 24]
   },
   {
     "whoRegion": "Europe",
@@ -581,7 +618,8 @@
     "deathsCumulativeTotalPer100000Population": "150.221",
     "deathsNewlyReportedInLast7Days": "3",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.052",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [56, 10]
   },
   {
     "whoRegion": "Europe",
@@ -596,7 +634,8 @@
     "deathsCumulativeTotalPer100000Population": "353.011",
     "deathsNewlyReportedInLast7Days": "9",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.047",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [46, 25]
   },
   {
     "whoRegion": "Europe",
@@ -611,7 +650,8 @@
     "deathsCumulativeTotalPer100000Population": "237.577",
     "deathsNewlyReportedInLast7Days": "10",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.097",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [62, 15]
   },
   {
     "whoRegion": "Europe",
@@ -626,7 +666,8 @@
     "deathsCumulativeTotalPer100000Population": "260.687",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [44, 21]
   },
   {
     "whoRegion": "Western Pacific",
@@ -641,7 +682,8 @@
     "deathsCumulativeTotalPer100000Population": "31.468",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [1.3667, 103.8]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -656,7 +698,8 @@
     "deathsCumulativeTotalPer100000Population": "63.087",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [33, 44]
   },
   {
     "whoRegion": "Western Pacific",
@@ -671,7 +714,8 @@
     "deathsCumulativeTotalPer100000Population": "63.809",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-41, 174]
   },
   {
     "whoRegion": "Europe",
@@ -686,7 +730,8 @@
     "deathsCumulativeTotalPer100000Population": "499.482",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [47, 20]
   },
   {
     "whoRegion": "South-East Asia",
@@ -701,7 +746,8 @@
     "deathsCumulativeTotalPer100000Population": "17.889",
     "deathsNewlyReportedInLast7Days": "4",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.002",
-    "deathsNewlyReportedInLast24Hours": "1"
+    "deathsNewlyReportedInLast24Hours": "1",
+    "latlng": [24, 90]
   },
   {
     "whoRegion": "Europe",
@@ -716,7 +762,8 @@
     "deathsCumulativeTotalPer100000Population": "387.825",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [48.6667, 19.5]
   },
   {
     "whoRegion": "Europe",
@@ -731,7 +778,8 @@
     "deathsCumulativeTotalPer100000Population": "428.46",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [42, 43.5]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -746,7 +794,8 @@
     "deathsCumulativeTotalPer100000Population": "138.408",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [31, 36]
   },
   {
     "whoRegion": "Europe",
@@ -761,7 +810,8 @@
     "deathsCumulativeTotalPer100000Population": "182.458",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [53, -8]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -776,7 +826,8 @@
     "deathsCumulativeTotalPer100000Population": "13.878",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [30, 70]
   },
   {
     "whoRegion": "Europe",
@@ -791,7 +842,8 @@
     "deathsCumulativeTotalPer100000Population": "101.573",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [48, 68]
   },
   {
     "whoRegion": "Europe",
@@ -806,7 +858,8 @@
     "deathsCumulativeTotalPer100000Population": "103.51",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [62, 10]
   },
   {
     "whoRegion": "Europe",
@@ -821,7 +874,8 @@
     "deathsCumulativeTotalPer100000Population": "179.556",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [64, 26]
   },
   {
     "whoRegion": "Europe",
@@ -836,7 +890,8 @@
     "deathsCumulativeTotalPer100000Population": "448.837",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [46, 15]
   },
   {
     "whoRegion": "Europe",
@@ -851,7 +906,8 @@
     "deathsCumulativeTotalPer100000Population": "346.839",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [56, 24]
   },
   {
     "whoRegion": "Europe",
@@ -866,7 +922,8 @@
     "deathsCumulativeTotalPer100000Population": "551.738",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [43, 25]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -881,7 +938,8 @@
     "deathsCumulativeTotalPer100000Population": "44.153",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [32, -5]
   },
   {
     "whoRegion": "Europe",
@@ -896,7 +954,8 @@
     "deathsCumulativeTotalPer100000Population": "450.277",
     "deathsNewlyReportedInLast7Days": "4",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.099",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [45.1667, 15.5]
   },
   {
     "whoRegion": "Americas",
@@ -911,7 +970,8 @@
     "deathsCumulativeTotalPer100000Population": "112.779",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [15.5, -90.25]
   },
   {
     "whoRegion": "Americas",
@@ -926,7 +986,8 @@
     "deathsCumulativeTotalPer100000Population": "207.56",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [18.25, -66.5]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -941,7 +1002,8 @@
     "deathsCumulativeTotalPer100000Population": "160.224",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [33.8333, 35.8333]
   },
   {
     "whoRegion": "Americas",
@@ -956,7 +1018,8 @@
     "deathsCumulativeTotalPer100000Population": "184.252",
     "deathsNewlyReportedInLast7Days": "2",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.039",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [10, -84]
   },
   {
     "whoRegion": "Americas",
@@ -971,7 +1034,8 @@
     "deathsCumulativeTotalPer100000Population": "191.81",
     "deathsNewlyReportedInLast7Days": "3",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.026",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-17, -65]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -986,7 +1050,8 @@
     "deathsCumulativeTotalPer100000Population": "248.955",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [34, 9]
   },
   {
     "whoRegion": "Americas",
@@ -1001,7 +1066,8 @@
     "deathsCumulativeTotalPer100000Population": "75.309",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [21.5, -80]
   },
   {
     "whoRegion": "Americas",
@@ -1016,7 +1082,8 @@
     "deathsCumulativeTotalPer100000Population": "204.239",
     "deathsNewlyReportedInLast7Days": "1",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.006",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-2, -77.5]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -1031,7 +1098,8 @@
     "deathsCumulativeTotalPer100000Population": "23.75",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [24, 54]
   },
   {
     "whoRegion": "Americas",
@@ -1046,7 +1114,8 @@
     "deathsCumulativeTotalPer100000Population": "200.104",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [9, -80]
   },
   {
     "whoRegion": "Americas",
@@ -1061,7 +1130,8 @@
     "deathsCumulativeTotalPer100000Population": "219.764",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-33, -56]
   },
   {
     "whoRegion": "Western Pacific",
@@ -1076,7 +1146,8 @@
     "deathsCumulativeTotalPer100000Population": "65.156",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [46, 105]
   },
   {
     "whoRegion": "South-East Asia",
@@ -1091,7 +1162,8 @@
     "deathsCumulativeTotalPer100000Population": "41.291",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [28, 84]
   },
   {
     "whoRegion": "Europe",
@@ -1106,7 +1178,8 @@
     "deathsCumulativeTotalPer100000Population": "75.328",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [53, 28]
   },
   {
     "whoRegion": "Europe",
@@ -1121,7 +1194,8 @@
     "deathsCumulativeTotalPer100000Population": "386.124",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [57, 25]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -1136,7 +1210,8 @@
     "deathsCumulativeTotalPer100000Population": "27.707",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [25, 45]
   },
   {
     "whoRegion": "Europe",
@@ -1151,7 +1226,8 @@
     "deathsCumulativeTotalPer100000Population": "101.409",
     "deathsNewlyReportedInLast7Days": "1",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.01",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [40.5, 47.5]
   },
   {
     "whoRegion": "Americas",
@@ -1166,7 +1242,8 @@
     "deathsCumulativeTotalPer100000Population": "279.858",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-23, -58]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -1181,7 +1258,8 @@
     "deathsCumulativeTotalPer100000Population": "111.891",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [32, 35.25]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -1196,7 +1274,8 @@
     "deathsCumulativeTotalPer100000Population": "90.269",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [26, 50.55]
   },
   {
     "whoRegion": "South-East Asia",
@@ -1211,7 +1290,8 @@
     "deathsCumulativeTotalPer100000Population": "78.825",
     "deathsNewlyReportedInLast7Days": "2",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.009",
-    "deathsNewlyReportedInLast24Hours": "2"
+    "deathsNewlyReportedInLast24Hours": "2",
+    "latlng": [7, 81]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -1226,7 +1306,8 @@
     "deathsCumulativeTotalPer100000Population": "60.179",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [29.3375, 47.6581]
   },
   {
     "whoRegion": "Americas",
@@ -1241,7 +1322,8 @@
     "deathsCumulativeTotalPer100000Population": "40.413",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [19, -70.6667]
   },
   {
     "whoRegion": "Europe",
@@ -1256,7 +1338,8 @@
     "deathsCumulativeTotalPer100000Population": "153.603",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [35, 33]
   },
   {
     "whoRegion": "South-East Asia",
@@ -1271,7 +1354,8 @@
     "deathsCumulativeTotalPer100000Population": "35.828",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [22, 98]
   },
   {
     "whoRegion": "Europe",
@@ -1286,7 +1370,8 @@
     "deathsCumulativeTotalPer100000Population": "300.548",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [47, 29]
   },
   {
     "whoRegion": "Europe",
@@ -1301,7 +1386,8 @@
     "deathsCumulativeTotalPer100000Population": "217.987",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [59, 26]
   },
   {
     "whoRegion": "Americas",
@@ -1316,7 +1402,8 @@
     "deathsCumulativeTotalPer100000Population": "20.594",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [8, -66]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -1331,7 +1418,8 @@
     "deathsCumulativeTotalPer100000Population": "24.264",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [27, 30]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -1346,7 +1434,8 @@
     "deathsCumulativeTotalPer100000Population": "23.95",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [25.5, 51.25]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -1361,7 +1450,8 @@
     "deathsCumulativeTotalPer100000Population": "93.68",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [25, 17]
   },
   {
     "whoRegion": "Africa",
@@ -1376,7 +1466,8 @@
     "deathsCumulativeTotalPer100000Population": "6.588",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [8, 38]
   },
   {
     "whoRegion": "Africa",
@@ -1391,7 +1482,8 @@
     "deathsCumulativeTotalPer100000Population": "102.869",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-21.1, 55.6]
   },
   {
     "whoRegion": "Americas",
@@ -1406,7 +1498,8 @@
     "deathsCumulativeTotalPer100000Population": "112.231",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [15, -86.5]
   },
   {
     "whoRegion": "Europe",
@@ -1421,7 +1514,8 @@
     "deathsCumulativeTotalPer100000Population": "295.319",
     "deathsNewlyReportedInLast7Days": "1",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.034",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [40, 45]
   },
   {
     "whoRegion": "Europe",
@@ -1436,7 +1530,8 @@
     "deathsCumulativeTotalPer100000Population": "498.352",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [44, 18]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -1451,7 +1546,8 @@
     "deathsCumulativeTotalPer100000Population": "90.627",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [21, 57]
   },
   {
     "whoRegion": "Europe",
@@ -1466,7 +1562,8 @@
     "deathsCumulativeTotalPer100000Population": "159.717",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [49.75, 6.1667]
   },
   {
     "whoRegion": "Europe",
@@ -1481,7 +1578,8 @@
     "deathsCumulativeTotalPer100000Population": "477.061",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [41.8333, 22]
   },
   {
     "whoRegion": "Africa",
@@ -1496,7 +1594,8 @@
     "deathsCumulativeTotalPer100000Population": "22.095",
     "deathsNewlyReportedInLast7Days": "2",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.011",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-15, 30]
   },
   {
     "whoRegion": "Africa",
@@ -1511,7 +1610,8 @@
     "deathsCumulativeTotalPer100000Population": "10.58",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [1, 38]
   },
   {
     "whoRegion": "Europe",
@@ -1526,7 +1626,8 @@
     "deathsCumulativeTotalPer100000Population": "125.235",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [41, 20]
   },
   {
     "whoRegion": "Africa",
@@ -1541,7 +1642,8 @@
     "deathsCumulativeTotalPer100000Population": "118.939",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-22, 24]
   },
   {
     "whoRegion": "Western Pacific",
@@ -1556,7 +1658,8 @@
     "deathsCumulativeTotalPer100000Population": "36.802",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [4.5, 114.6667]
   },
   {
     "whoRegion": "Africa",
@@ -1571,7 +1674,8 @@
     "deathsCumulativeTotalPer100000Population": "82.719",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-20.2833, 57.55]
   },
   {
     "whoRegion": "Europe",
@@ -1601,7 +1705,8 @@
     "deathsCumulativeTotalPer100000Population": "15.692",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [28, 3]
   },
   {
     "whoRegion": "Africa",
@@ -1616,7 +1721,8 @@
     "deathsCumulativeTotalPer100000Population": "1.531",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [10, 8]
   },
   {
     "whoRegion": "Africa",
@@ -1631,7 +1737,8 @@
     "deathsCumulativeTotalPer100000Population": "38.398",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-20, 30]
   },
   {
     "whoRegion": "Europe",
@@ -1646,7 +1753,8 @@
     "deathsCumulativeTotalPer100000Population": "422.57",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [42, 19]
   },
   {
     "whoRegion": "Africa",
@@ -1661,7 +1769,8 @@
     "deathsCumulativeTotalPer100000Population": "7.176",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-18.25, 35]
   },
   {
     "whoRegion": "Americas",
@@ -1676,7 +1785,8 @@
     "deathsCumulativeTotalPer100000Population": "294.192",
     "deathsNewlyReportedInLast7Days": "2",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.533",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [14.6667, -61]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -1691,7 +1801,8 @@
     "deathsCumulativeTotalPer100000Population": "20.366",
     "deathsNewlyReportedInLast7Days": "4",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.01",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [33, 65]
   },
   {
     "whoRegion": "Western Pacific",
@@ -1706,7 +1817,8 @@
     "deathsCumulativeTotalPer100000Population": "9.223",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [18, 105]
   },
   {
     "whoRegion": "Europe",
@@ -1721,7 +1833,8 @@
     "deathsCumulativeTotalPer100000Population": "51.08",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [65, -18]
   },
   {
     "whoRegion": "Americas",
@@ -1736,7 +1849,8 @@
     "deathsCumulativeTotalPer100000Population": "255.171",
     "deathsNewlyReportedInLast7Days": "4",
     "deathsNewlyReportedInLast7DaysPer100000Population": "1",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [16.25, -61.5833]
   },
   {
     "whoRegion": "Americas",
@@ -1751,7 +1865,8 @@
     "deathsCumulativeTotalPer100000Population": "65.215",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [13.8333, -88.9167]
   },
   {
     "whoRegion": "Americas",
@@ -1766,7 +1881,8 @@
     "deathsCumulativeTotalPer100000Population": "313.686",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [11, -61]
   },
   {
     "whoRegion": "South-East Asia",
@@ -1781,7 +1897,8 @@
     "deathsCumulativeTotalPer100000Population": "58.46",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [3.25, 73]
   },
   {
     "whoRegion": "Africa",
@@ -1796,7 +1913,8 @@
     "deathsCumulativeTotalPer100000Population": "4.705",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [8, -2]
   },
   {
     "whoRegion": "Africa",
@@ -1811,7 +1929,8 @@
     "deathsCumulativeTotalPer100000Population": "161.006",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-22, 17]
   },
   {
     "whoRegion": "Europe",
@@ -1826,7 +1945,8 @@
     "deathsCumulativeTotalPer100000Population": "3.036",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [41, 64]
   },
   {
     "whoRegion": "Africa",
@@ -1841,7 +1961,8 @@
     "deathsCumulativeTotalPer100000Population": "7.94",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [1, 32]
   },
   {
     "whoRegion": "Americas",
@@ -1856,7 +1977,8 @@
     "deathsCumulativeTotalPer100000Population": "120.155",
     "deathsNewlyReportedInLast7Days": "8",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0.27",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [18.25, -77.5]
   },
   {
     "whoRegion": "Western Pacific",
@@ -1871,7 +1993,8 @@
     "deathsCumulativeTotalPer100000Population": "18.279",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [13, 105]
   },
   {
     "whoRegion": "Africa",
@@ -1886,7 +2009,8 @@
     "deathsCumulativeTotalPer100000Population": "11.334",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-2, 30]
   },
   {
     "whoRegion": "Africa",
@@ -1901,7 +2025,8 @@
     "deathsCumulativeTotalPer100000Population": "7.436",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [6, 12]
   },
   {
     "whoRegion": "Europe",
@@ -1916,7 +2041,8 @@
     "deathsCumulativeTotalPer100000Population": "167.326",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [35.8333, 14.5833]
   },
   {
     "whoRegion": "Americas",
@@ -1931,7 +2057,8 @@
     "deathsCumulativeTotalPer100000Population": "206.351",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [13.1667, -59.5333]
   },
   {
     "whoRegion": "Africa",
@@ -1946,7 +2073,8 @@
     "deathsCumulativeTotalPer100000Population": "5.884",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-12.5, 18.5]
   },
   {
     "whoRegion": "Americas",
@@ -1961,7 +2089,8 @@
     "deathsCumulativeTotalPer100000Population": "138.274",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [4, -53]
   },
   {
     "whoRegion": "Africa",
@@ -1976,7 +2105,8 @@
     "deathsCumulativeTotalPer100000Population": "1.639",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [0, 25]
   },
   {
     "whoRegion": "Africa",
@@ -1991,7 +2121,8 @@
     "deathsCumulativeTotalPer100000Population": "11.771",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [14, -14]
   },
   {
     "whoRegion": "Africa",
@@ -2006,7 +2137,8 @@
     "deathsCumulativeTotalPer100000Population": "14.041",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-13.5, 34]
   },
   {
     "whoRegion": "Africa",
@@ -2021,7 +2153,8 @@
     "deathsCumulativeTotalPer100000Population": "3.165",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [8, -5]
   },
   {
     "whoRegion": "Europe",
@@ -2036,7 +2169,8 @@
     "deathsCumulativeTotalPer100000Population": "15.695",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [41, 75]
   },
   {
     "whoRegion": "Americas",
@@ -2051,7 +2185,8 @@
     "deathsCumulativeTotalPer100000Population": "239.673",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [4, -56]
   },
   {
     "whoRegion": "Western Pacific",
@@ -2066,7 +2201,8 @@
     "deathsCumulativeTotalPer100000Population": "109.983",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-21.5, 165.5]
   },
   {
     "whoRegion": "Western Pacific",
@@ -2081,7 +2217,8 @@
     "deathsCumulativeTotalPer100000Population": "231.036",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-15, -140]
   },
   {
     "whoRegion": "Africa",
@@ -2096,7 +2233,8 @@
     "deathsCumulativeTotalPer100000Population": "123",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-26.5, 31.5]
   },
   {
     "whoRegion": "Americas",
@@ -2111,7 +2249,8 @@
     "deathsCumulativeTotalPer100000Population": "165.024",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [5, -59]
   },
   {
     "whoRegion": "Americas",
@@ -2126,7 +2265,8 @@
     "deathsCumulativeTotalPer100000Population": "173.026",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [17.25, -88.75]
   },
   {
     "whoRegion": "Western Pacific",
@@ -2141,7 +2281,8 @@
     "deathsCumulativeTotalPer100000Population": "98.723",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-18, 175]
   },
   {
     "whoRegion": "Africa",
@@ -2156,7 +2297,8 @@
     "deathsCumulativeTotalPer100000Population": "5.146",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-20, 47]
   },
   {
     "whoRegion": "Europe",
@@ -2171,7 +2313,8 @@
     "deathsCumulativeTotalPer100000Population": "149.356",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [49.21, -2.13]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -2186,7 +2329,8 @@
     "deathsCumulativeTotalPer100000Population": "11.508",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [15, 30]
   },
   {
     "whoRegion": "Africa",
@@ -2201,7 +2345,8 @@
     "deathsCumulativeTotalPer100000Population": "74.462",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [16, -24]
   },
   {
     "whoRegion": "Africa",
@@ -2216,7 +2361,8 @@
     "deathsCumulativeTotalPer100000Population": "21.442",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [20, -12]
   },
   {
     "whoRegion": "South-East Asia",
@@ -2231,7 +2377,8 @@
     "deathsCumulativeTotalPer100000Population": "2.722",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [27.5, 90.5]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -2246,7 +2393,8 @@
     "deathsCumulativeTotalPer100000Population": "18.074",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [35, 38]
   },
   {
     "whoRegion": "Africa",
@@ -2261,7 +2409,8 @@
     "deathsCumulativeTotalPer100000Population": "0.126",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-3.5, 30]
   },
   {
     "whoRegion": "Western Pacific",
@@ -2276,7 +2425,8 @@
     "deathsCumulativeTotalPer100000Population": "244.704",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [13.4667, 144.7833]
   },
   {
     "whoRegion": "Africa",
@@ -2291,7 +2441,8 @@
     "deathsCumulativeTotalPer100000Population": "174.891",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-4.5833, 55.6667]
   },
   {
     "whoRegion": "Africa",
@@ -2306,7 +2457,8 @@
     "deathsCumulativeTotalPer100000Population": "13.793",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-1, 11.75]
   },
   {
     "whoRegion": "Europe",
@@ -2321,7 +2473,8 @@
     "deathsCumulativeTotalPer100000Population": "205.785",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [42.5, 1.6]
   },
   {
     "whoRegion": "Western Pacific",
@@ -2336,7 +2489,8 @@
     "deathsCumulativeTotalPer100000Population": "7.489",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-6, 147]
   },
   {
     "whoRegion": "Americas",
@@ -2366,7 +2520,8 @@
     "deathsCumulativeTotalPer100000Population": "271.622",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [12.5, -69.9667]
   },
   {
     "whoRegion": "Africa",
@@ -2381,7 +2536,8 @@
     "deathsCumulativeTotalPer100000Population": "1.416",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-6, 35]
   },
   {
     "whoRegion": "Africa",
@@ -2396,7 +2552,8 @@
     "deathsCumulativeTotalPer100000Population": "68.545",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-12.8333, 45.1667]
   },
   {
     "whoRegion": "Africa",
@@ -2411,7 +2568,8 @@
     "deathsCumulativeTotalPer100000Population": "3.503",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [8, 1.1667]
   },
   {
     "whoRegion": "Africa",
@@ -2426,7 +2584,8 @@
     "deathsCumulativeTotalPer100000Population": "3.564",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [11, -10]
   },
   {
     "whoRegion": "Americas",
@@ -2441,7 +2600,8 @@
     "deathsCumulativeTotalPer100000Population": "214.625",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [24.25, -76]
   },
   {
     "whoRegion": "Europe",
@@ -2456,7 +2616,8 @@
     "deathsCumulativeTotalPer100000Population": "136.419",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [54.23, -4.55]
   },
   {
     "whoRegion": "Europe",
@@ -2471,7 +2632,8 @@
     "deathsCumulativeTotalPer100000Population": "103.928",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [49.5, -2.56]
   },
   {
     "whoRegion": "Europe",
@@ -2486,7 +2648,8 @@
     "deathsCumulativeTotalPer100000Population": "57.301",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [62, -7]
   },
   {
     "whoRegion": "Africa",
@@ -2501,7 +2664,8 @@
     "deathsCumulativeTotalPer100000Population": "32.956",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-29.5, 28.5]
   },
   {
     "whoRegion": "Americas",
@@ -2516,7 +2680,8 @@
     "deathsCumulativeTotalPer100000Population": "7.542",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [19, -72.4167]
   },
   {
     "whoRegion": "Africa",
@@ -2531,7 +2696,8 @@
     "deathsCumulativeTotalPer100000Population": "3.669",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [17, -4]
   },
   {
     "whoRegion": "Americas",
@@ -2546,7 +2712,8 @@
     "deathsCumulativeTotalPer100000Population": "56.299",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [19.5, -80.5]
   },
   {
     "whoRegion": "Americas",
@@ -2561,7 +2728,8 @@
     "deathsCumulativeTotalPer100000Population": "222.734",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [13.8833, -61.1333]
   },
   {
     "whoRegion": "Africa",
@@ -2576,7 +2744,8 @@
     "deathsCumulativeTotalPer100000Population": "1.345",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [9.5, 2.25]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -2591,7 +2760,8 @@
     "deathsCumulativeTotalPer100000Population": "8.563",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [10, 49]
   },
   {
     "whoRegion": "Western Pacific",
@@ -2606,7 +2776,8 @@
     "deathsCumulativeTotalPer100000Population": "56.51",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [6.9167, 158.25]
   },
   {
     "whoRegion": "Americas",
@@ -2621,7 +2792,8 @@
     "deathsCumulativeTotalPer100000Population": "125.449",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [18.3333, -64.8333]
   },
   {
     "whoRegion": "Africa",
@@ -2636,7 +2808,8 @@
     "deathsCumulativeTotalPer100000Population": "7.05",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-1, 15]
   },
   {
     "whoRegion": "Europe",
@@ -2651,7 +2824,8 @@
     "deathsCumulativeTotalPer100000Population": "368.319",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [43.7667, 12.4167]
   },
   {
     "whoRegion": "South-East Asia",
@@ -2666,7 +2840,8 @@
     "deathsCumulativeTotalPer100000Population": "10.467",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-8.55, 125.5167]
   },
   {
     "whoRegion": "Africa",
@@ -2681,7 +2856,8 @@
     "deathsCumulativeTotalPer100000Population": "1.894",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [13, -2]
   },
   {
     "whoRegion": "Western Pacific",
@@ -2696,7 +2872,8 @@
     "deathsCumulativeTotalPer100000Population": "22.275",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-8, 159]
   },
   {
     "whoRegion": "Europe",
@@ -2711,7 +2888,8 @@
     "deathsCumulativeTotalPer100000Population": "224.534",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [47.1667, 9.5333]
   },
   {
     "whoRegion": "Europe",
@@ -2726,7 +2904,8 @@
     "deathsCumulativeTotalPer100000Population": "335.401",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [36.1833, -5.3667]
   },
   {
     "whoRegion": "Americas",
@@ -2741,7 +2920,8 @@
     "deathsCumulativeTotalPer100000Population": "211.512",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [12.1167, -61.6667]
   },
   {
     "whoRegion": "Americas",
@@ -2756,7 +2936,8 @@
     "deathsCumulativeTotalPer100000Population": "264.962",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [32.3333, -64.75]
   },
   {
     "whoRegion": "Africa",
@@ -2786,7 +2967,8 @@
     "deathsCumulativeTotalPer100000Population": "1.311",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [39, 71]
   },
   {
     "whoRegion": "Africa",
@@ -2801,7 +2983,8 @@
     "deathsCumulativeTotalPer100000Population": "13.044",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [2, 10]
   },
   {
     "whoRegion": "Europe",
@@ -2816,7 +2999,8 @@
     "deathsCumulativeTotalPer100000Population": "170.727",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [43.7333, 7.4]
   },
   {
     "whoRegion": "Western Pacific",
@@ -2831,7 +3015,8 @@
     "deathsCumulativeTotalPer100000Population": "11.353",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-20, -175]
   },
   {
     "whoRegion": "Western Pacific",
@@ -2846,7 +3031,8 @@
     "deathsCumulativeTotalPer100000Population": "15.624",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-13.5833, -172.3333]
   },
   {
     "whoRegion": "Western Pacific",
@@ -2861,7 +3047,8 @@
     "deathsCumulativeTotalPer100000Population": "28.719",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [9, 168]
   },
   {
     "whoRegion": "Americas",
@@ -2876,7 +3063,8 @@
     "deathsCumulativeTotalPer100000Population": "3.698",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [13, -85]
   },
   {
     "whoRegion": "Americas",
@@ -2891,7 +3079,8 @@
     "deathsCumulativeTotalPer100000Population": "102.791",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [15.4167, -61.3333]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -2906,7 +3095,8 @@
     "deathsCumulativeTotalPer100000Population": "19.13",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [11.5, 43]
   },
   {
     "whoRegion": "Africa",
@@ -2921,7 +3111,8 @@
     "deathsCumulativeTotalPer100000Population": "2.34",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [7, 21]
   },
   {
     "whoRegion": "Western Pacific",
@@ -2936,7 +3127,8 @@
     "deathsCumulativeTotalPer100000Population": "71.234",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [15.2, 145.75]
   },
   {
     "whoRegion": "Africa",
@@ -2951,7 +3143,8 @@
     "deathsCumulativeTotalPer100000Population": "15.393",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [13.4667, -16.5667]
   },
   {
     "whoRegion": "Americas",
@@ -2981,7 +3174,8 @@
     "deathsCumulativeTotalPer100000Population": "4.558",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-16, 167]
   },
   {
     "whoRegion": "Europe",
@@ -2996,7 +3190,8 @@
     "deathsCumulativeTotalPer100000Population": "36.99",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [72, -40]
   },
   {
     "whoRegion": "Eastern Mediterranean",
@@ -3011,7 +3206,8 @@
     "deathsCumulativeTotalPer100000Population": "7.239",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [15, 48]
   },
   {
     "whoRegion": "Americas",
@@ -3041,7 +3237,8 @@
     "deathsCumulativeTotalPer100000Population": "2.904",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [15, 39]
   },
   {
     "whoRegion": "Americas",
@@ -3071,7 +3268,8 @@
     "deathsCumulativeTotalPer100000Population": "111.772",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [13.25, -61.2]
   },
   {
     "whoRegion": "Africa",
@@ -3086,7 +3284,8 @@
     "deathsCumulativeTotalPer100000Population": "8.994",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [12, -15]
   },
   {
     "whoRegion": "Africa",
@@ -3101,7 +3300,8 @@
     "deathsCumulativeTotalPer100000Population": "1.301",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [16, 8]
   },
   {
     "whoRegion": "Africa",
@@ -3116,7 +3316,8 @@
     "deathsCumulativeTotalPer100000Population": "18.399",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-12.1667, 44.25]
   },
   {
     "whoRegion": "Americas",
@@ -3131,7 +3332,8 @@
     "deathsCumulativeTotalPer100000Population": "149.088",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [17.05, -61.8]
   },
   {
     "whoRegion": "Western Pacific",
@@ -3146,7 +3348,8 @@
     "deathsCumulativeTotalPer100000Population": "61.598",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-14.3333, -170]
   },
   {
     "whoRegion": "Africa",
@@ -3161,7 +3364,8 @@
     "deathsCumulativeTotalPer100000Population": "5.813",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [6.5, -9.5]
   },
   {
     "whoRegion": "Africa",
@@ -3176,7 +3380,8 @@
     "deathsCumulativeTotalPer100000Population": "1.567",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [8.5, -11.5]
   },
   {
     "whoRegion": "Africa",
@@ -3191,7 +3396,8 @@
     "deathsCumulativeTotalPer100000Population": "1.181",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [15, 19]
   },
   {
     "whoRegion": "Americas",
@@ -3206,7 +3412,8 @@
     "deathsCumulativeTotalPer100000Population": "211.661",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [18.5, -64.5]
   },
   {
     "whoRegion": "Western Pacific",
@@ -3221,7 +3428,8 @@
     "deathsCumulativeTotalPer100000Population": "11.387",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-21.2333, -159.7667]
   },
   {
     "whoRegion": "Americas",
@@ -3236,7 +3444,8 @@
     "deathsCumulativeTotalPer100000Population": "86.479",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [17.3333, -62.75]
   },
   {
     "whoRegion": "Africa",
@@ -3251,7 +3460,8 @@
     "deathsCumulativeTotalPer100000Population": "36.503",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [1, 7]
   },
   {
     "whoRegion": "Americas",
@@ -3266,7 +3476,8 @@
     "deathsCumulativeTotalPer100000Population": "98.146",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [21.75, -71.5833]
   },
   {
     "whoRegion": "Western Pacific",
@@ -3281,7 +3492,8 @@
     "deathsCumulativeTotalPer100000Population": "49.746",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [7.5, 134.5]
   },
   {
     "whoRegion": "Americas",
@@ -3311,7 +3523,8 @@
     "deathsCumulativeTotalPer100000Population": "9.23",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-0.5333, 166.9167]
   },
   {
     "whoRegion": "Western Pacific",
@@ -3326,7 +3539,8 @@
     "deathsCumulativeTotalPer100000Population": "20.092",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [1.4167, 173]
   },
   {
     "whoRegion": "Americas",
@@ -3341,7 +3555,8 @@
     "deathsCumulativeTotalPer100000Population": "79.989",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [18.25, -63.1667]
   },
   {
     "whoRegion": "Western Pacific",
@@ -3356,7 +3571,8 @@
     "deathsCumulativeTotalPer100000Population": "71.136",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-13.3, -176.2]
   },
   {
     "whoRegion": "Americas",
@@ -3371,7 +3587,8 @@
     "deathsCumulativeTotalPer100000Population": "34.513",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [46.8333, -56.3333]
   },
   {
     "whoRegion": "Western Pacific",
@@ -3386,7 +3603,8 @@
     "deathsCumulativeTotalPer100000Population": "8.48",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-8, 178]
   },
   {
     "whoRegion": "Africa",
@@ -3401,7 +3619,8 @@
     "deathsCumulativeTotalPer100000Population": "0",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-15.9333, -5.7]
   },
   {
     "whoRegion": "Americas",
@@ -3416,7 +3635,8 @@
     "deathsCumulativeTotalPer100000Population": "0",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-51.75, -59]
   },
   {
     "whoRegion": "Americas",
@@ -3431,7 +3651,8 @@
     "deathsCumulativeTotalPer100000Population": "160.032",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [16.75, -62.2]
   },
   {
     "whoRegion": "Americas",
@@ -3476,7 +3697,8 @@
     "deathsCumulativeTotalPer100000Population": "0",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-19.0333, -169.8667]
   },
   {
     "whoRegion": "Other",
@@ -3506,7 +3728,8 @@
     "deathsCumulativeTotalPer100000Population": "0",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [41.9, 12.45]
   },
   {
     "whoRegion": "Western Pacific",
@@ -3521,7 +3744,8 @@
     "deathsCumulativeTotalPer100000Population": "0",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-9, -172]
   },
   {
     "whoRegion": "Western Pacific",
@@ -3536,7 +3760,8 @@
     "deathsCumulativeTotalPer100000Population": "0",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [-24.7, -127.4]
   },
   {
     "whoRegion": "South-East Asia",
@@ -3551,7 +3776,8 @@
     "deathsCumulativeTotalPer100000Population": "0",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [40, 127]
   },
   {
     "whoRegion": "Europe",
@@ -3566,6 +3792,7 @@
     "deathsCumulativeTotalPer100000Population": "0",
     "deathsNewlyReportedInLast7Days": "0",
     "deathsNewlyReportedInLast7DaysPer100000Population": "0",
-    "deathsNewlyReportedInLast24Hours": "0"
+    "deathsNewlyReportedInLast24Hours": "0",
+    "latlng": [40, 60]
   }
 ]

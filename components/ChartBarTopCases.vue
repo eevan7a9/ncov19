@@ -21,26 +21,18 @@ onMounted(() => {
             label: country.countryCode,
             data: [Number(country.casesCumulativeTotal)],
             backgroundColor: shadeColor(
-            Number(country?.casesCumulativeTotal),
-            Number(highestDeaths))
+                Number(country?.casesCumulativeTotal),
+                Number(highestDeaths))
         }
     ))
 })
 </script>
 
 <template>
-    <div class="bg-custom-bar w-full pt-6">
+    <div class="bg-custom-bar w-full pt-6 bg-white bg-opacity-70">
         <utils-charts-bar-chart :bar-data="{ labels, datasets }" :title-size="20" :title="'Top Coutries by Case'"
             :scale-tick-callback="scaleTickCallback" v-if="datasets.length" />
     </div>
 </template>
 
-<style lang="scss" scoped>
-.bg-custom-bar {
-    background-color: rgba(255, 255, 255, 0.13);
-    transition: background-color 300ms linear;
-    &:hover {
-        background-color: rgba(255, 255, 255, 0.527);
-    }
-}
-</style>
+<style lang="scss" scoped></style>

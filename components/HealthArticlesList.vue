@@ -1,36 +1,37 @@
 <script lang="ts" setup>
 import { storeToRefs } from 'pinia';
 
-const router = useRouter()
-const mediaStore = useMediaStore()
-const { articlesHealthList } = storeToRefs(mediaStore)
+const router = useRouter();
+const mediaStore = useMediaStore();
+const { articlesHealthList } = storeToRefs(mediaStore);
+const runtime = useRuntimeConfig();
 onMounted(() => {
     nextTick(async () => {
         if (!articlesHealthList.value.length) {
-            const { data: dataHealth } = await useLazyFetch<{ Result: ArticlesRes }>('/myhealthfinder/api/v3/itemlist.json?Type=topic', {
-                baseURL: 'https://health.gov',
-                key: 'health-gov',
+            const dataHealth = await $fetch<{ Result: ArticlesRes }>('/myhealthfinder/api/v3/itemlist.json?Type=topic', {
+                baseURL: runtime.public.NUXT_API_HEALTH_GOV_URL,
+                // key: 'health-gov',
                 keepalive: true
-            })
-            if (dataHealth.value?.Result) {
-                mediaStore.setArticlesHealth(dataHealth.value?.Result?.Items.Item)
+            });
+            if (dataHealth?.Result) {
+                mediaStore.setArticlesHealth(dataHealth?.Result?.Items.Item?.slice(0,30));
             }
         }
-    })
-})
+    });
+});
 
 function goToHealth(id:string) {
-    router.push('/media/health/'+id)
+    router.push('/media/health/'+id);
 }
 </script>
 
 <template>
     <div class="bg-white rounded-lg">
         <div class="bg-gray-200 p-6 rounded-t-lg">
-            <h4 class="text-2xl">Health and Wellness Topics</h4>
+            <h4 class="text-[18px] lg:text-[20px] xltext-[24px]">Health and Wellness Topics</h4>
             <div class="text-lg mb-2 mt-3 text-gray-700">
-                Additional info from
-                <a href="https://health.gov/">health.gov </a>
+                credit and link to 
+                <a href="odphp.health.gov/myhealthfinder">odphp.health.gov/myhealthfinder</a>
             </div>
         </div>
 

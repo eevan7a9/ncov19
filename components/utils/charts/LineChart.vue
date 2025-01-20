@@ -46,5 +46,5 @@ onMounted(async () => {
 </script>
 
 <template>
-    <canvas id="acquisitions" class="h-full w-full" ref="acquisitions"></canvas>
+    <canvas id="acquisitions" class="h-full w-full bg-white px-3 py-6 rounded-lg" ref="acquisitions"></canvas>
 </template>
